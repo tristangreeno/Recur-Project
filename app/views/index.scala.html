@@ -1,0 +1,14 @@
+@import models.User
+@(title: String, maybeUser: Option[User])
+
+@main(title, maybeUser) {
+    @if(maybeUser.isDefined) {
+        @defining(maybeUser.get) { user =>
+            <p>Hello @user.name</p>
+            <img src="@user.avatarUrl"/>
+        }
+    }
+
+    <p>This content is only visible to authenticated users.</p>
+    <p><a href="@controllers.routes.AuthController.logOut()">Log out</a></p>
+}
