@@ -3,9 +3,11 @@ package repos
 import models._
 import javax.inject.Singleton
 import javax.inject.Inject
+
 import play.api.db.slick._
 import play.api.libs.concurrent.Execution.Implicits.defaultContext
 import slick.driver.JdbcProfile
+
 import scala.concurrent._
 
 
@@ -20,8 +22,8 @@ trait SubscriptionsComponent {
 
   class Subscriptions(tag: Tag) extends Table[Subscription](tag, "SUBSCRIPTIONS") {
     def id = column[Long]("ID", O.PrimaryKey, O.AutoInc)
-    def date = column[String]("DATE")
-    def cost = column[Double]("COST")
+    def date = column[java.sql.Date]("DATE")
+    def cost = column[Long]("COST")
     def name = column[String]("NAME")
     def frequency = column[Int]("FREQUENCY")
     def userId = column[String]("USER_ID")
@@ -40,7 +42,7 @@ class SubscriptionsRepo @Inject()(protected val dbConfigProvider: DatabaseConfig
 
   val subscriptions = TableQuery[Subscriptions]
 
-  def options(): Future[Seq[(String, String)]] = {
+  /*def options(): Future[Seq[(String, String)]] = {
     val query = ( for {
      subscription <- subscriptions
     } yield (subscription.id, subscription.date)).sortBy(_._2)
@@ -48,7 +50,7 @@ class SubscriptionsRepo @Inject()(protected val dbConfigProvider: DatabaseConfig
     db.run(query.result).map(rows => rows.map {
         case (id, name) => (id.toString, name)
     })
-  }
+  }*/
 
   def insert(subscription: Subscription): Future[Unit] = { db.run(subscriptions += subscription).map(_ => ()) }
 }

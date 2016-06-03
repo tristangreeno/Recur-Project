@@ -10,7 +10,7 @@ import play.api.libs.functional.syntax._
   * Defines what goes into a Subscription, and holds the data.
   */
 
-case class Subscription(id: Option[Long], date: String, cost: Double, name: String, frequency: Int,
+case class Subscription(id: Option[Long], date: java.sql.Date, cost: Long, name: String, frequency: Int,
                         userId: String, category: String)
 
 /*
