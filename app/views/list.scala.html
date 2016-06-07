@@ -1,4 +1,3 @@
-
 @(currentPage: Page[(Subscription)], currentOrderBy: Int, currentFilter: String)(implicit flash: play.api.mvc.Flash, messages: Messages)
 
 @link(newPage: Int, newOrderBy: Option[Int] = None) = @{
@@ -8,7 +7,9 @@
 }
 
 @header(orderBy: Int, title: String) = {
-    <th class="col@orderBy header @if(scala.math.abs(currentOrderBy) == orderBy) @{if(currentOrderBy < 0) "headerSortDown" else "headerSortUp"}">
+    <th class="col@orderBy header @if(scala.math.abs(currentOrderBy) == orderBy) @{
+        if(currentOrderBy < 0) "headerSortDown" else "headerSortUp"
+    }">
         <a href="@link(0, Some(orderBy))">@title</a>
     </th>
 }

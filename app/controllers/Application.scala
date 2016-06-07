@@ -25,11 +25,11 @@ class Application @Inject()(actionBuilder: ActionBuilders, authSupport: AuthSupp
   val subscriptionForm = Form(
     mapping(
       "id" -> longNumber,
-      "date" -> sqlDate("mm-dd-yyyy"),
+      "date" -> sqlDate("YYYY-MM-DD"),
       "cost" -> longNumber,
       "name" -> nonEmptyText,
       "frequency" -> number(0),
-      "userId" -> optional(longNumber))(Subscription.apply)(Subscription.unapply))
+      "userId" -> optional(text))(Subscription.apply)(Subscription.unapply))
 
   def list(page: Int, orderBy: Int, filter: String) = Action.async { implicit request =>
     val subscriptions = subscriptionsRepo.list(page = page, orderBy = orderBy, filter = "%" + filter + "%")
@@ -43,7 +43,7 @@ class Application @Inject()(actionBuilder: ActionBuilders, authSupport: AuthSupp
 
   def create = actionBuilder.SubjectPresentAction().defaultHandler() { authRequest =>
     authSupport.currentUser(authRequest).map(maybeUser =>
-    Ok(views.html.createForm(subscriptionForm)))
+      Ok(views.html.createForm(subscriptionForm)))
   }
 
   def edit(id: Long) = Action.async { implicit rs =>
@@ -60,14 +60,12 @@ class Application @Inject()(actionBuilder: ActionBuilders, authSupport: AuthSupp
     }
   }
 
-  def update(id: Long) =  Action { implicit request =>
+  def update(id: Long) = Action { implicit request =>
     subscriptionForm.bindFromRequest.fold(
       formWithErrors => BadRequest(views.html.editForm(id, formWithErrors)),
       subscription => {
-        for {
-          _ <- subscriptionsRepo.update(id, subscription)
-        } yield Home.flashing("success" -> "Subscription updated")
-        Ok
+        subscriptionsRepo.update(id, subscription)
+        Home.flashing("success" -> "Subscription updated")
       }
     )
   }
@@ -76,18 +74,15 @@ class Application @Inject()(actionBuilder: ActionBuilders, authSupport: AuthSupp
     subscriptionForm.bindFromRequest.fold(
       formWithErrors => BadRequest(views.html.createForm(formWithErrors)),
       subscription => {
-        for {
-          _ <- subscriptionsRepo.insert(subscription)
-        } yield Home.flashing("success" -> s"Subscription ${subscription.name} has been added.")
-      Ok }
+        subscriptionsRepo.insert _
+        Home.flashing("success" -> s"Subscription ${subscription.name} has been added.")
+      }
     )
   }
 
   def delete(id: Long) = Action { implicit request =>
-    for {
-      _ <- subscriptionsRepo.delete(id)
-    } yield Home.flashing("success" -> "Subscription successfully deleted")
-    Ok
+    subscriptionsRepo.delete(id)
+    Home.flashing("success" -> "Subscription successfully deleted")
   }
 
 }

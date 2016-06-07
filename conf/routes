@@ -3,25 +3,25 @@
 # ~~~~
 
 # Home Page
-GET            /                               controllers.Application.index
+GET         /                                controllers.Application.index
 
-GET            /subscriptions                  controllers.Application.list(p:Int ?= 0, s:Int ?= 2, f ?= "")
+GET         /subscriptions                   controllers.Application.list(p:Int ?= 0, s:Int ?= 2, f ?= "")
 
 # Add subsciption
-GET            /subscriptions/new              controllers.Application.create
-POST           /subscriptions                  controllers.Application.save
+GET         /subscriptions/new               controllers.Application.create
+POST        /subscriptions                   controllers.Application.save
 
 # Edit an existing subscription
-GET            /subscriptions/:id              controllers.Application.edit(id:Long)
-POST           /subscriptions/:id              controllers.Application.update(id:Long)
+GET         /subscriptions/:id               controllers.Application.edit(id:Long)
+POST        /subscriptions/:id               controllers.Application.update(id:Long)
 
 # Delete a subscription
-POST           /subscriptions/:id/delete       controllers.Application.delete(id:Long)
+POST        /subscriptions/:id/delete        controllers.Application.delete(id:Long)
 
 # Login Page
-GET            /login                          controllers.AuthController.logIn()
-GET            /callback                       controllers.AuthController.callback(code: Option[String])
-GET            /logout                         controllers.AuthController.logOut()
+GET         /login                           controllers.AuthController.logIn()
+GET         /callback                        controllers.AuthController.callback(code: Option[String])
+GET         /logout                          controllers.AuthController.logOut()
 
 # Map static resources from the /public folder to the /assets URL path
-GET            /assets/*file                   controllers.Assets.versioned(path="/public", file: Asset)
+GET         /assets/*file                    controllers.Assets.versioned(path="/public", file: Asset)

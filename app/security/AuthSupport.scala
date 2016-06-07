@@ -3,13 +3,13 @@ package security
 import javax.inject.{Inject, Singleton}
 
 import be.objectify.deadbolt.scala.AuthenticatedRequest
-import models.{AuthUser}
-import play.api.http.{HeaderNames, MimeTypes}
-import play.api.mvc.Session
+import models.User
 import play.api.Configuration
 import play.api.cache.CacheApi
+import play.api.http.{HeaderNames, MimeTypes}
 import play.api.libs.json.{JsValue, Json}
 import play.api.libs.ws.WSClient
+import play.api.mvc.Session
 
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
@@ -24,11 +24,6 @@ class AuthSupport @Inject()(cache: CacheApi,
                             config: Configuration,
                             ws: WSClient) {
 
-  private object SessionKeys {
-    val IdToken: String = "idToken"
-    val AccessToken: String = "accessToken"
-  }
-
   private val clientId: String = config.getString(Auth0ConfigKeys.ClientId).getOrElse("TVs7gIdAHazkonw9oBkCjqcBMctQnWOZ")
   private val clientSecret: String = config.getString(Auth0ConfigKeys.ClientSecret).getOrElse("h0Yztq5o-2bYoK2LTEB1uwGO9xNQbJ4jXVxQK-lARbOZUUeqqI9mM6sDTtZQjKHx")
   private val domain: String = config.getString(Auth0ConfigKeys.Domain).getOrElse("tgreeno.auth0.com")
@@ -41,12 +36,12 @@ class AuthSupport @Inject()(cache: CacheApi,
     * @param request the HTTP request
     * @return a future for an option of the user
     */
-  def currentUser[A](request: AuthenticatedRequest[A]): Future[Option[AuthUser]] = {
+  def currentUser[A](request: AuthenticatedRequest[A]): Future[Option[User]] = {
     val maybeIdToken: Option[String] = request.session.get(SessionKeys.IdToken)
     maybeIdToken match {
       case Some(idToken) =>
-        val maybeLocalUser: Option[AuthUser] = request.subject.map(subject => subject.asInstanceOf[AuthUser]).orElse {
-          val maybeCached: Option[AuthUser] = cache.get(cacheKey(idToken))
+        val maybeLocalUser: Option[User] = request.subject.map(subject => subject.asInstanceOf[User]).orElse {
+          val maybeCached: Option[User] = cache.get(cacheKey(idToken))
           maybeCached match {
             case Some(user) => maybeCached
             case None => Option.empty
@@ -69,6 +64,37 @@ class AuthSupport @Inject()(cache: CacheApi,
     * @return the standardised cache key
     */
   def cacheKey(id: String): String = "user.cache." + id
+
+  /**
+    * Get the user's attributes from Auth0.
+    *
+    * @param accessToken the user's access token
+    * @return a future containing the user's attributes in JSON
+    */
+  def getUser(accessToken: String): Future[JsValue] = {
+    val userResponse = ws.url(s"https://$domain/userinfo")
+      .withQueryString("access_token" -> accessToken)
+      .get()
+
+    userResponse.flatMap(response => Future.successful(response.json))
+  }
+
+  /**
+    * Create a User instance from the attributes provided by Auth0.  The
+    * resulting user is cached for future use.
+    *
+    * @param idToken  the token identifying the user
+    * @param userJson the user's attributes in JSON form
+    */
+  def bindAndCache(idToken: String,
+                   userJson: JsValue): User = {
+    val user: User = User(userId = (userJson \ "user_id").get.as[String],
+      name = (userJson \ "name").get.as[String],
+      avatarUrl = (userJson \ "picture").get.as[String])
+    cache.set(cacheKey(idToken),
+      user)
+    user
+  }
 
   /**
     * Using the authentication code from Auth0, get the user's token
@@ -97,41 +123,10 @@ class AuthSupport @Inject()(cache: CacheApi,
   }
 
   /**
-    * Get the user's attributes from Auth0.
-    *
-    * @param accessToken the user's access token
-    * @return a future containing the user's attributes in JSON
-    */
-  def getUser(accessToken: String): Future[JsValue] = {
-    val userResponse = ws.url(s"https://$domain/userinfo")
-      .withQueryString("access_token" -> accessToken)
-      .get()
-
-    userResponse.flatMap(response => Future.successful(response.json))
-  }
-
-  /**
-    * Create a User instance from the attributes provided by Auth0.  The
-    * resulting user is cached for future use.
-    *
-    * @param idToken the token identifying the user
-    * @param userJson the user's attributes in JSON form
-    */
-  def bindAndCache(idToken: String,
-                   userJson: JsValue): AuthUser = {
-    val user: AuthUser = AuthUser(userId = (userJson \ "user_id").get.as[String],
-      name = (userJson \ "name").get.as[String],
-      avatarUrl = (userJson \ "picture").get.as[String])
-    cache.set(cacheKey(idToken),
-      user)
-    user
-  }
-
-  /**
     * Add authentication info to the session, maintaining existing data.
     *
-    * @param session the existing session
-    * @param idToken the JWT
+    * @param session     the existing session
+    * @param idToken     the JWT
     * @param accessToken the user's token
     * @return a session combining existing data and the authentication info
     */
@@ -151,5 +146,10 @@ class AuthSupport @Inject()(cache: CacheApi,
   def cleanUp(session: Session): Session = {
     cache.remove(cacheKey(session("idToken")))
     new Session(session.data -- Seq("idToken", "accessToken"))
+  }
+
+  private object SessionKeys {
+    val IdToken: String = "idToken"
+    val AccessToken: String = "accessToken"
   }
 }
