@@ -4,7 +4,7 @@ import javax.inject.{Inject, Singleton}
 
 import be.objectify.deadbolt.scala.models.Subject
 import be.objectify.deadbolt.scala.{AuthenticatedRequest, DeadboltHandler, DynamicResourceHandler}
-import models.User
+import models.AuthUser
 import views.html.security.{denied, login}
 import play.api.Configuration
 import play.api.mvc.{Request, Result, Results}
@@ -20,9 +20,9 @@ import scala.concurrent.Future
 class MyDeadboltHandler @Inject() (config: Configuration,
                                    authSupport: AuthSupport) extends DeadboltHandler {
 
-  private val clientId: String = config.getString(Auth0ConfigKeys.ClientId).getOrElse("configure me properly")
-  private val domain: String = config.getString(Auth0ConfigKeys.Domain).getOrElse("configure me properly")
-  private val redirectUri: String = config.getString(Auth0ConfigKeys.RedirectURI).getOrElse("configure me properly")
+  private val clientId: String = config.getString(Auth0ConfigKeys.ClientId).getOrElse("TVs7gIdAHazkonw9oBkCjqcBMctQnWOZ")
+  private val domain: String = config.getString(Auth0ConfigKeys.Domain).getOrElse("tgreeno.auth0.com")
+  private val redirectUri: String = config.getString(Auth0ConfigKeys.RedirectURI).getOrElse("http://localhost:9000/callback")
 
   override def beforeAuthCheck[A](request: Request[A]): Future[Option[Result]] = Future {None}
 
@@ -44,7 +44,7 @@ class MyDeadboltHandler @Inject() (config: Configuration,
     */
   override def onAuthFailure[A](request: AuthenticatedRequest[A]): Future[Result] = {
     def toContent(maybeSubject: Option[Subject]): (Boolean, HtmlFormat.Appendable) =
-      maybeSubject.map(subject => subject.asInstanceOf[User])
+      maybeSubject.map(subject => subject.asInstanceOf[AuthUser])
         .map(user => (true, denied(Some(user))))
         .getOrElse {(false, login(clientId, domain, redirectUri))}
 

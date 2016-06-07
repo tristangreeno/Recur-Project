@@ -7,10 +7,9 @@ lazy val `playproject` = (project in file(".")).enablePlugins(PlayScala)
 scalaVersion := "2.11.8"
 
 libraryDependencies ++= Seq(
-  "org.postgresql" % "postgresql" % "9.4-1206-jdbc4",
-  cache , ws   , specs2 % Test,
-  "com.typesafe.play" %% "play-slick" % "2.0.2",
-  "com.typesafe.play" %% "play-slick-evolutions" % "2.0.2",
+  "org.postgresql" % "postgresql" % "9.4.1208.jre7",
+  jdbc, cache, ws, specs2 % Test,
+  "com.typesafe.play" %% "play-slick" % "2.0.0",
   "be.objectify" %% "deadbolt-scala" % "2.5.0"
 )
 
