@@ -30,7 +30,7 @@ class SubscriptionsRepo @Inject()(protected val dbConfigProvider: DatabaseConfig
     def frequency = column[Int]("frequency")
     def userId = column[Option[Long]]("user_id")
 
-    def * = (id, date, cost, name, frequency, userId) <>
+    def * = (id.?, date, cost, name, frequency, userId) <>
       (Subscription.tupled, Subscription.unapply)
   }
 
@@ -68,7 +68,7 @@ class SubscriptionsRepo @Inject()(protected val dbConfigProvider: DatabaseConfig
     db.run(subscriptions.filter(_.id === id).result.headOption)
 
   def update(id: Long, subscription: Subscription): Future[Unit] = {
-    val subscriptionToUpdate: Subscription = subscription.copy(id)
+    val subscriptionToUpdate: Subscription = subscription.copy(Some(id))
     db.run(subscriptions.filter(_.id === id).update(subscriptionToUpdate)).map(_ => ())
   }
 

@@ -7,7 +7,7 @@ package models
   * Defines what goes into a Subscription, and holds the data.
   */
 
-case class Subscription(id: Long, date: java.sql.Date, cost: Long, name: String, frequency: Int,
-                        userId: Option[Long])
+case class Subscription(id: Option[Long] = None, date: java.sql.Date, cost: Long, name: String, frequency: Int,
+                        userId: Option[Long] = None)
 
 

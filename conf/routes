@@ -4,6 +4,7 @@
 
 # Home Page
 GET         /                                controllers.Application.index
+#POST        /                                controllers.Application.createNewUser(userId: String, name: String, avatarUrl: String)
 
 GET         /subscriptions                   controllers.Application.list(p:Int ?= 0, s:Int ?= 2, f ?= "")
 

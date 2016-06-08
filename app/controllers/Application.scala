@@ -20,12 +20,12 @@ import scala.concurrent.ExecutionContext.Implicits.global
 class Application @Inject()(actionBuilder: ActionBuilders, authSupport: AuthSupport, usersRepo: UsersRepo, subscriptionsRepo: SubscriptionsRepo,
                             val messagesApi: MessagesApi) extends Controller with I18nSupport {
 
-  val Home = Redirect(routes.Application.index())
+  val Home = Redirect(routes.Application.list())
 
   val subscriptionForm = Form(
     mapping(
-      "id" -> longNumber,
-      "date" -> sqlDate("mm-dd-yyyy"),
+      "id" -> optional(longNumber),
+      "date" -> sqlDate("yyyy-MM-dd"),
       "cost" -> longNumber,
       "name" -> nonEmptyText,
       "frequency" -> number(0),
@@ -64,10 +64,8 @@ class Application @Inject()(actionBuilder: ActionBuilders, authSupport: AuthSupp
     subscriptionForm.bindFromRequest.fold(
       formWithErrors => BadRequest(views.html.editForm(id, formWithErrors)),
       subscription => {
-        for {
-          _ <- subscriptionsRepo.update(id, subscription)
-        } yield Home.flashing("success" -> "Subscription updated")
-        Ok
+          subscriptionsRepo.update(id, subscription)
+          Home.flashing("success" -> "Subscription updated")
       }
     )
   }
@@ -76,18 +74,27 @@ class Application @Inject()(actionBuilder: ActionBuilders, authSupport: AuthSupp
     subscriptionForm.bindFromRequest.fold(
       formWithErrors => BadRequest(views.html.createForm(formWithErrors)),
       subscription => {
-        for {
-          _ <- subscriptionsRepo.insert(subscription)
-        } yield Home.flashing("success" -> s"Subscription ${subscription.name} has been added.")
-        Ok }
+        subscriptionsRepo.insert(subscription)
+        Home.flashing("success" -> s"Subscription ${subscription.name} has been added.")
+      }
     )
   }
 
   def delete(id: Long) = Action { implicit request =>
-    for {
-      _ <- subscriptionsRepo.delete(id)
-    } yield Home.flashing("success" -> "Subscription successfully deleted")
-    Ok
+    subscriptionsRepo.delete(id)
+    Home.flashing("success" -> "Subscription successfully deleted")
   }
+
+  /*
+  def createNewUser(userId: String, name: String, avatarUrl: String) = Action {
+    implicit request =>
+
+    if(usersRepo.findUserExistence(userId)) {
+      usersRepo.insert(User.apply(null, userId, name, avatarUrl))
+      Home.flashing("success" -> "User added")
+    }
+
+    else { Home }
+  }*/
 
 }

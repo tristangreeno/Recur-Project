@@ -45,7 +45,7 @@
         @subscriptions.map {
             case (subscription) => {
                 <tr>
-                    <td><a href="@routes.Application.edit(subscription.id)">@subscription.name</a></td>
+                    <td><a href="@routes.Application.edit(subscription.id.get)">@subscription.name</a></td>
                     <td>
                     @subscription.date
                     </td>

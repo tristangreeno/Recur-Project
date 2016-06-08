@@ -41,4 +41,12 @@ class UsersRepo @Inject()(protected val dbConfigProvider: DatabaseConfigProvider
 
   def insert(user: User): Future[Unit] = db.run(users += user).map(_ => ())
 
+  /*
+  // experimental code to see if I can find a user, so that I'm not adding a user twice. Not functional.
+  def findUserExistence(userId: String): Boolean = {
+
+    val doesUserExist = for { user <- users if user.userId === userId } yield true
+
+    doesUserExist.size.## != 0.##
+  } */
 }
