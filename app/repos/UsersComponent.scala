@@ -1,6 +1,6 @@
 package repos
 
-import models.User
+import models._
 
 import javax.inject._
 import scala.concurrent.Future
@@ -13,28 +13,40 @@ import slick.driver.JdbcProfile
 trait UsersComponent {
   self: HasDatabaseConfigProvider[JdbcProfile] => import driver.api._
 
-  class Users (tag: Tag) extends Table[User](tag, "USERS"){
-    def id = column[String]("ID", O.PrimaryKey)
-    def name = column[String]("NAME")
-    def avatarUrl = column[String]("AVATAR_URL")
+  class UsersTable(tag: Tag) extends Table[User](tag, "users"){
+    def id = column[Long]("id", O.PrimaryKey, O.AutoInc)
+    def userId = column[String]("auth0_user_id")
+    def name = column[String]("name")
+    def avatarUrl = column[String]("avatar_url")
 
-    def * = (id, name, avatarUrl) <> (User.tupled, User.unapply)
+    def * = (id.?, userId, name, avatarUrl) <> (User.tupled, User.unapply)
   }
 }
 
 @Singleton()
-class UsersRepo @Inject()(protected val dbConfigProver: DatabaseConfigProvider) extends UsersComponent
-   {
+class UsersRepo @Inject()(protected val dbConfigProvider: DatabaseConfigProvider) extends UsersComponent
+  with HasDatabaseConfigProvider[JdbcProfile] {
 
-  self: HasDatabaseConfigProvider[JdbcProfile] => import driver.api._
+  import driver.api._
 
-  val users = TableQuery[Users]
+  val users = TableQuery[UsersTable]
 
-  def options(): Future[Seq[(String, String, String)]] = {
+  def options(): Future[Seq[(Long, String, String, String)]] = {
     val query = for {
       user <- users
-    } yield (user.id, user.name, user.avatarUrl)
+    } yield (user.id, user.userId, user.name, user.avatarUrl)
 
-    db.run(query.result).map(rows => rows.map { case (id, name, avatarUrl) => (id, name, avatarUrl)})
+    db.run(query.result).map(rows => rows.map { case (id, userId, name, avatarUrl) => (id, userId, name, avatarUrl) })
   }
+
+  def insert(user: User): Future[Unit] = db.run(users += user).map(_ => ())
+
+  /*
+  // experimental code to see if I can find a user, so that I'm not adding a user twice. Not functional.
+  def findUserExistence(userId: String): Boolean = {
+
+    val doesUserExist = for { user <- users if user.userId === userId } yield true
+
+    doesUserExist.size.## != 0.##
+  } */
 }

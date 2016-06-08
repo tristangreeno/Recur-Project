@@ -21,9 +21,9 @@ class AuthController @Inject()(cache: CacheApi,
                                config: Configuration,
                                authSupport: AuthSupport) extends Controller {
 
-  private val clientId: String = config.getString(Auth0ConfigKeys.ClientId).getOrElse("configure me properly")
-  private val domain: String = config.getString(Auth0ConfigKeys.Domain).getOrElse("configure me properly")
-  private val redirectUri: String = config.getString(Auth0ConfigKeys.RedirectURI).getOrElse("configure me properly")
+  private val clientId: String = config.getString(Auth0ConfigKeys.ClientId).getOrElse("TVs7gIdAHazkonw9oBkCjqcBMctQnWOZ")
+  private val domain: String = config.getString(Auth0ConfigKeys.Domain).getOrElse("tgreeno.auth0.com")
+  private val redirectUri: String = config.getString(Auth0ConfigKeys.RedirectURI).getOrElse("http://localhost:9000/callback")
 
   // callback route
   def callback(codeOpt: Option[String] = None) = Action.async { request =>

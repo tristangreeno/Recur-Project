@@ -1,0 +1,24 @@
+@(subscriptionForm: Form[Subscription])(implicit messages: Messages)
+
+@import helper._
+
+@noUser {
+
+    <h1> Add a subscription </h1>
+
+    @form(routes.Application.save()) {
+        <fieldset>
+
+            @inputDate(subscriptionForm("date"), '_label -> "Date of renewal")
+            @inputText(subscriptionForm("cost"), '_label -> "Cost of renewal")
+            @inputText(subscriptionForm("name"), '_label -> "Name of subscription")
+            @inputText(subscriptionForm("frequency"), '_label -> "Frequency of renewal")
+
+        </fieldset>
+
+        <div class="actions">
+            <input type="submit" value="Create this subscription" class="btn primary"/> or
+            <a href="@routes.Application.list()" class="btn">Cancel</a>
+        </div>
+    }
+}

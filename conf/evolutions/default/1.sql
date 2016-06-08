@@ -3,13 +3,13 @@
 -- !Ups
 
 CREATE TABLE subscriptions (
-  id SERIAL PRIMARY KEY,
-  message varchar(255) NOT NULL
+  id      SERIAL PRIMARY KEY,
+  message VARCHAR(255) NOT NULL
 );
 
-INSERT INTO subscriptions (message) Values('Hi!');
-INSERT INTO subscriptions (message) Values('What''s up?');
-INSERT INTO subscriptions (message) Values('Am I alive now?');
+INSERT INTO subscriptions (message) VALUES ('Hi!');
+INSERT INTO subscriptions (message) VALUES ('What''s up?');
+INSERT INTO subscriptions (message) VALUES ('Am I alive now?');
 
 -- !Downs
 
