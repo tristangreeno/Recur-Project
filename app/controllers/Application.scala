@@ -22,6 +22,8 @@ class Application @Inject()(actionBuilder: ActionBuilders, authSupport: AuthSupp
 
   val Home = Redirect(routes.Application.list())
 
+  var currentUser: Option[User] = None
+
   val subscriptionForm = Form(
     mapping(
       "id" -> optional(longNumber),
@@ -37,13 +39,14 @@ class Application @Inject()(actionBuilder: ActionBuilders, authSupport: AuthSupp
   }
 
   def index = actionBuilder.SubjectPresentAction().defaultHandler() { authRequest =>
-    authSupport.currentUser(authRequest).map(maybeUser =>
-      Ok(views.html.index("Recur", maybeUser, usersRepo)))
+    authSupport.currentUser(authRequest).map(maybeUser => {
+      usersRepo.insert(User.apply(null, maybeUser.get.userId, maybeUser.get.name, maybeUser.get.avatarUrl)).map(u => currentUser = u)
+      Ok(views.html.index("Recur", currentUser))
+    })
   }
 
-  def create = actionBuilder.SubjectPresentAction().defaultHandler() { authRequest =>
-    authSupport.currentUser(authRequest).map(maybeUser =>
-      Ok(views.html.createForm(subscriptionForm)))
+  def create = Action { implicit request =>
+      Ok(views.html.createForm(subscriptionForm, currentUser, currentUser.get.id.get))
   }
 
   def edit(id: Long) = Action.async { implicit rs =>
@@ -72,7 +75,7 @@ class Application @Inject()(actionBuilder: ActionBuilders, authSupport: AuthSupp
 
   def save = Action { implicit request =>
     subscriptionForm.bindFromRequest.fold(
-      formWithErrors => BadRequest(views.html.createForm(formWithErrors)),
+      formWithErrors => BadRequest(views.html.createForm(formWithErrors, currentUser, currentUser.get.id.get)),
       subscription => {
         subscriptionsRepo.insert(subscription)
         Home.flashing("success" -> s"Subscription ${subscription.name} has been added.")

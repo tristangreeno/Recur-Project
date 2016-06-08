@@ -1,0 +1,13 @@
+@import models.AuthUser
+@(title: String, maybeUser: Option[AuthUser])(content: Html)
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>@title</title>
+  </head>
+  <body>
+  @content
+  </body>
+</html>

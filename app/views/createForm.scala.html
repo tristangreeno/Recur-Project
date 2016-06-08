@@ -1,8 +1,9 @@
-@(subscriptionForm: Form[Subscription])(implicit messages: Messages)
-
 @import helper._
+@import models.User
 
-@noUser {
+@(subscriptionForm: Form[Subscription], maybeUser: Option[User], userId: Long)(implicit messages: Messages)
+
+@main("Add New Subscription", maybeUser) {
 
     <h1> Add a subscription </h1>
 
@@ -13,8 +14,11 @@
             @inputText(subscriptionForm("cost"), '_label -> "Cost of renewal")
             @inputText(subscriptionForm("name"), '_label -> "Name of subscription")
             @inputText(subscriptionForm("frequency"), '_label -> "Frequency of renewal")
+            <input type="hidden" name="userId" value="@userId" />
 
         </fieldset>
+
+
 
         <div class="actions">
             <input type="submit" value="Create this subscription" class="btn primary"/> or
