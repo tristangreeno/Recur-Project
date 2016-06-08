@@ -1,7 +1,7 @@
 @import models.User
 @import repos.UsersRepo
 
-@(title: String, maybeUser: Option[User], usersRepo: UsersRepo)(implicit messages: Messages)
+@(title: String, maybeUser: Option[AuthUser], usersRepo: UsersRepo)(implicit messages: Messages)
 
     @main(title, maybeUser) {
         @if(maybeUser.isDefined) {

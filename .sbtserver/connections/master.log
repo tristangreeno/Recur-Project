@@ -1,7 +1,28 @@
-New log file opened at Tue Jun 07 17:30:33 CDT 2016 by 4080@Tristans-MacBook-Pro.local
-Taking next connection to: 59581
-New client attempting to connect on port: 59582-59581
-  Address = /10.1.10.184:59581
-This client on port 59582 has uuid 416e5f30-6ae6-4178-a55a-37ad3af0023d configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
-Connected Clients: play-fork-run-416e5f30-6ae6-4178-a55a-37ad3af0023d
-Taking next connection to: 59581
+New log file opened at Wed Jun 08 08:41:04 CDT 2016 by 4819@Tristans-MacBook-Pro.local
+Taking next connection to: 60442
+New client attempting to connect on port: 60443-60442
+  Address = /10.1.10.184:60442
+This client on port 60443 has uuid 1fc8c75c-ef46-48bc-927d-8a3ad88731d5 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: play-fork-run-1fc8c75c-ef46-48bc-927d-8a3ad88731d5
+Taking next connection to: 60442
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 60442
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 60442
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 60442
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 60442
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 60442
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 60442
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 60442

@@ -4,7 +4,7 @@ import javax.inject.{Inject, Singleton}
 
 import be.objectify.deadbolt.scala.models.Subject
 import be.objectify.deadbolt.scala.{AuthenticatedRequest, DeadboltHandler, DynamicResourceHandler}
-import models.User
+import models.AuthUser
 import play.api.Configuration
 import play.api.mvc.{Request, Result, Results}
 import play.twirl.api.HtmlFormat
@@ -40,7 +40,7 @@ class MyDeadboltHandler @Inject()(config: Configuration,
     */
   override def onAuthFailure[A](request: AuthenticatedRequest[A]): Future[Result] = {
     def toContent(maybeSubject: Option[Subject]): (Boolean, HtmlFormat.Appendable) =
-      maybeSubject.map(subject => subject.asInstanceOf[User])
+      maybeSubject.map(subject => subject.asInstanceOf[AuthUser])
         .map(user => (true, denied(Some(user))))
         .getOrElse {
           (false, login(clientId, domain, redirectUri))

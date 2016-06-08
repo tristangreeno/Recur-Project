@@ -1,5 +1,5 @@
 @import models.User
-@(maybeUser: Option[User])
+@(maybeUser: Option[AuthUser])
 
 @views.html.main(title = "Access Denied", maybeUser = maybeUser) {
     <div class="row mt">

@@ -3,7 +3,7 @@ package security
 import javax.inject.{Inject, Singleton}
 
 import be.objectify.deadbolt.scala.AuthenticatedRequest
-import models.User
+import models.AuthUser
 import play.api.Configuration
 import play.api.cache.CacheApi
 import play.api.http.{HeaderNames, MimeTypes}
@@ -36,12 +36,12 @@ class AuthSupport @Inject()(cache: CacheApi,
     * @param request the HTTP request
     * @return a future for an option of the user
     */
-  def currentUser[A](request: AuthenticatedRequest[A]): Future[Option[User]] = {
+  def currentUser[A](request: AuthenticatedRequest[A]): Future[Option[AuthUser]] = {
     val maybeIdToken: Option[String] = request.session.get(SessionKeys.IdToken)
     maybeIdToken match {
       case Some(idToken) =>
-        val maybeLocalUser: Option[User] = request.subject.map(subject => subject.asInstanceOf[User]).orElse {
-          val maybeCached: Option[User] = cache.get(cacheKey(idToken))
+        val maybeLocalUser: Option[AuthUser] = request.subject.map(subject => subject.asInstanceOf[AuthUser]).orElse {
+          val maybeCached: Option[AuthUser] = cache.get(cacheKey(idToken))
           maybeCached match {
             case Some(user) => maybeCached
             case None => Option.empty
@@ -87,8 +87,8 @@ class AuthSupport @Inject()(cache: CacheApi,
     * @param userJson the user's attributes in JSON form
     */
   def bindAndCache(idToken: String,
-                   userJson: JsValue): User = {
-    val user: User = User(userId = (userJson \ "user_id").get.as[String],
+                   userJson: JsValue): AuthUser = {
+    val user: AuthUser = AuthUser(userId = (userJson \ "user_id").get.as[String],
       name = (userJson \ "name").get.as[String],
       avatarUrl = (userJson \ "picture").get.as[String])
     cache.set(cacheKey(idToken),

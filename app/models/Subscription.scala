@@ -8,6 +8,6 @@ package models
   */
 
 case class Subscription(id: Long, date: java.sql.Date, cost: Long, name: String, frequency: Int,
-                        userId: Option[String])
+                        userId: Option[Long])
 
 

@@ -1,13 +1,15 @@
 package repos
 
-import javax.inject.{Inject, Singleton}
-
 import models._
+import javax.inject.Singleton
+import javax.inject.Inject
+
 import play.api.db.slick._
 import play.api.libs.concurrent.Execution.Implicits.defaultContext
 import slick.driver.JdbcProfile
 
 import scala.concurrent._
+
 
 
 /**
@@ -20,10 +22,24 @@ class SubscriptionsRepo @Inject()(protected val dbConfigProvider: DatabaseConfig
 
   import driver.api._
 
+  class SubscriptionsTable(tag: Tag) extends Table[Subscription](tag, "subscriptions") {
+    def id = column[Long]("id", O.PrimaryKey, O.AutoInc)
+    def date = column[java.sql.Date]("date")
+    def cost = column[Long]("cost")
+    def name = column[String]("name")
+    def frequency = column[Int]("frequency")
+    def userId = column[Option[Long]]("user_id")
+
+    def * = (id, date, cost, name, frequency, userId) <>
+      (Subscription.tupled, Subscription.unapply)
+  }
+
   val subscriptions = TableQuery[SubscriptionsTable]
   val users = TableQuery[UsersTable]
 
   def count(): Future[Int] = db.run(subscriptions.length.result)
+
+  def count(filter: String): Future[Int] = db.run(subscriptions.filter { subscription => subscription.name.toLowerCase like filter.toLowerCase }.length.result)
 
   def list(page: Int = 0, pageSize: Int = 10, orderBy: Int = 1, filter: String = "%"): Future[Page[(Subscription)]] = {
 
@@ -43,13 +59,9 @@ class SubscriptionsRepo @Inject()(protected val dbConfigProvider: DatabaseConfig
     } yield Page(result, page, offset, totalRows)
   }
 
-  def count(filter: String): Future[Int] = db.run(subscriptions.filter { subscription => subscription.name.toLowerCase like filter.toLowerCase }.length.result)
+  def insert(subscription: Subscription): Future[Unit] = { db.run(subscriptions += subscription).map(_ => ()) }
 
-  def insert(subscription: Subscription): Future[Unit] = {
-    db.run(subscriptions += subscription).map(_ => ())
-  }
-
-  def findByUserId(id: String): Future[Option[Subscription]] =
+  def findByUserId(id: Long): Future[Option[Subscription]] =
     db.run(subscriptions.filter(_.userId === id).result.headOption)
 
   def findById(id: Long): Future[Option[Subscription]] =
@@ -61,16 +73,4 @@ class SubscriptionsRepo @Inject()(protected val dbConfigProvider: DatabaseConfig
   }
 
   def delete(id: Long): Future[Unit] = db.run(subscriptions.filter(_.id === id).delete).map(_ => ())
-
-  class SubscriptionsTable(tag: Tag) extends Table[Subscription](tag, "subscriptions") {
-    val id: Rep[Long] = column[Long]("id", O.PrimaryKey, O.AutoInc)
-    val date: Rep[java.sql.Date] = column[java.sql.Date]("date")
-    val cost: Rep[Long] = column[Long]("cost")
-    val name: Rep[String] = column[String]("name", O.SqlType("VARCHAR(200)"))
-    val frequency: Rep[Int] = column[Int]("frequency")
-    val userId: Rep[Option[String]] = column[Option[String]]("user_id")
-
-    def * = (id, date, cost, name, frequency, userId) <>
-      (Subscription.tupled, Subscription.unapply)
-  }
 }
