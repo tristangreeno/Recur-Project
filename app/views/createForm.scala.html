@@ -1,9 +1,9 @@
 @import helper._
 @import models.User
 
-@(subscriptionForm: Form[Subscription], maybeUser: Option[User], userId: Long)(implicit messages: Messages)
+@(subscriptionForm: Form[Subscription], userId: Long)(implicit messages: Messages)
 
-@main("Add New Subscription", maybeUser) {
+@noUser {
 
     <h1> Add a subscription </h1>
 

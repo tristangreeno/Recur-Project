@@ -1,12 +1,12 @@
-@import models.User
-@* TODO: Change AuthUser into User using apply to pass into main *@
-@(title: String, maybeUser: Option[User])(implicit messages: Messages)
+@import models._
+@import repos.UsersRepo
+
+@(title: String, maybeUser: Option[User], usersRepo: UsersRepo)(implicit messages: Messages)
 
     @main(title, maybeUser) {
         @if(maybeUser.isDefined) {
             @defining(maybeUser.get) { user =>
                 @* (controllers.routes.Application.createNewUser(user.userId, user.name, user.avatarUrl)) *@
-
                 <p>Hello @user.name</p>
                 <img src="@user.avatarUrl"/>
             }
