@@ -15,7 +15,7 @@
 }
 
 @noUser {
-    <h1>@Messages("subscriptions.list.title", currentPage.total)</h1>
+    <h1>@Messages("Welcome", currentPage.total)</h1>
 
     @flash.get("success").map { message =>
         <div class="alert-message warning">
@@ -38,6 +38,7 @@
                 @header(3, "Cost of renewal")
                 @header(4, "Date of renewal")
                 @header(5, "Frequency")
+                @header(6, "Category")
             </tr>
         </thead>
         <tbody>
@@ -54,6 +55,9 @@
                     </td>
                     <td>
                     @subscription.frequency
+                    </td>
+                    <td>
+                    @subscription.category
                     </td>
                 </tr>
             }

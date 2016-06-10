@@ -6,7 +6,6 @@
     @main(title, maybeUser) {
         @if(maybeUser.isDefined) {
             @defining(maybeUser.get) { user =>
-                @* (controllers.routes.Application.createNewUser(user.userId, user.name, user.avatarUrl)) *@
                 <p>Hello @user.name</p>
                 <img src="@user.avatarUrl"/>
             }

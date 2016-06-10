@@ -28,9 +28,10 @@ class SubscriptionsRepo @Inject()(protected val dbConfigProvider: DatabaseConfig
     def cost = column[Long]("cost")
     def name = column[String]("name")
     def frequency = column[Int]("frequency")
+    def category = column[String]("category")
     def userId = column[Option[Long]]("user_id")
 
-    def * = (id.?, date, cost, name, frequency, userId) <>
+    def * = (id.?, date, cost, name, frequency, category, userId) <>
       (Subscription.tupled, Subscription.unapply)
   }
 

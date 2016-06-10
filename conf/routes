@@ -10,7 +10,10 @@ GET         /subscriptions                   controllers.Application.list(p:Int 
 
 # Add subsciption
 GET         /subscriptions/new               controllers.Application.create
-POST        /subscriptions                   controllers.Application.save
+POST        /subscriptions/save/:id          controllers.Application.save(id:String)
+
+# Check if user exists in database
+# POST        /check-user                      controllers.Application.getCurrentUser(id:String)
 
 # Edit an existing subscription
 GET         /subscriptions/:id               controllers.Application.edit(id:Long)
