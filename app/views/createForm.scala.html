@@ -1,20 +1,34 @@
 @import helper._
-@import models.User
+@import models._
 
-@(subscriptionForm: Form[Subscription], userId: Long)(implicit messages: Messages)
+@(subscriptionForm: Form[Subscription], user: User)(implicit messages: Messages)
 
 @noUser {
 
     <h1> Add a subscription </h1>
 
-    @form(routes.Application.save()) {
+    @form(routes.Application.save(user.userId)) {
         <fieldset>
 
             @inputDate(subscriptionForm("date"), '_label -> "Date of renewal")
             @inputText(subscriptionForm("cost"), '_label -> "Cost of renewal")
             @inputText(subscriptionForm("name"), '_label -> "Name of subscription")
             @inputText(subscriptionForm("frequency"), '_label -> "Frequency of renewal")
-            <input type="hidden" name="userId" value="@userId" />
+
+            @select(
+                subscriptionForm("category"),
+                Seq(
+                    "entertainment" -> "Entertainment",
+                    "education" -> "Education",
+                    "business" -> "Business",
+                    "health" -> "Health"
+                ),
+                '_label -> "Category",
+                '_default -> "-- Choose a category --",
+                '_showConstraints -> false
+            )
+
+            <input type="hidden" name="userId" value="@user.id" />
 
         </fieldset>
 
