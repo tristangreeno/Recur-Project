@@ -4,6 +4,7 @@ import javax.inject.Inject
 
 import be.objectify.deadbolt.scala.ActionBuilders
 import models._
+import play.api.cache.CacheApi
 import play.api.data.Form
 import play.api.data.Forms._
 import play.api.i18n.{I18nSupport, MessagesApi}
@@ -12,15 +13,24 @@ import repos.{SubscriptionsRepo, UsersRepo}
 import security.AuthSupport
 
 import scala.concurrent.ExecutionContext.Implicits.global
+import scala.concurrent._
+import scala.concurrent.duration._
+
 
 /**
   * @author Steve Chaloner (steve@objectify.be)
   */
 
-class Application @Inject()(actionBuilder: ActionBuilders, authSupport: AuthSupport, usersRepo: UsersRepo, subscriptionsRepo: SubscriptionsRepo,
+class Application @Inject()(cacheApi: CacheApi, actionBuilder: ActionBuilders, authSupport: AuthSupport, usersRepo: UsersRepo, subscriptionsRepo: SubscriptionsRepo,
                             val messagesApi: MessagesApi) extends Controller with I18nSupport {
 
   val Home = Redirect(routes.Application.list())
+
+  def getCurrentUser(id: Long): Option[User] = {
+    Await.result(usersRepo.findById(id), Duration.Inf)
+  }
+
+  val id: Long = 9
 
   val subscriptionForm = Form(
     mapping(
@@ -36,15 +46,15 @@ class Application @Inject()(actionBuilder: ActionBuilders, authSupport: AuthSupp
     subscriptions.map(s => Ok(views.html.list(s, orderBy, filter)))
   }
 
-  def index = actionBuilder.SubjectPresentAction().defaultHandler() { authRequest =>
-    authSupport.currentUser(authRequest).map(maybeUser =>
-      Ok(views.html.index("Recur", maybeUser, usersRepo)))
+  def index = Action { implicit request =>
+    Ok(views.html.index("Recur", getCurrentUser(id), usersRepo))
   }
 
-  def create = actionBuilder.SubjectPresentAction().defaultHandler() { authRequest =>
-    authSupport.currentUser(authRequest).map(maybeUser =>
-      Ok(views.html.createForm(subscriptionForm)))
+  def create = Action { implicit request =>
+
+    Ok(views.html.createForm(subscriptionForm, id))
   }
+
 
   def edit(id: Long) = Action.async { implicit rs =>
     val subscriptionGiven = for {
@@ -61,6 +71,7 @@ class Application @Inject()(actionBuilder: ActionBuilders, authSupport: AuthSupp
   }
 
   def update(id: Long) =  Action { implicit request =>
+
     subscriptionForm.bindFromRequest.fold(
       formWithErrors => BadRequest(views.html.editForm(id, formWithErrors)),
       subscription => {
@@ -71,8 +82,9 @@ class Application @Inject()(actionBuilder: ActionBuilders, authSupport: AuthSupp
   }
 
   def save = Action { implicit request =>
+
     subscriptionForm.bindFromRequest.fold(
-      formWithErrors => BadRequest(views.html.createForm(formWithErrors)),
+      formWithErrors => BadRequest(views.html.createForm(formWithErrors, id)),
       subscription => {
         subscriptionsRepo.insert(subscription)
         Home.flashing("success" -> s"Subscription ${subscription.name} has been added.")

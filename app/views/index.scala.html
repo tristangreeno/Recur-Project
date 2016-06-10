@@ -1,13 +1,12 @@
-@import models.AuthUser
+@import models._
 @import repos.UsersRepo
 
-@(title: String, maybeUser: Option[AuthUser], usersRepo: UsersRepo)(implicit messages: Messages)
+@(title: String, maybeUser: Option[User], usersRepo: UsersRepo)(implicit messages: Messages)
 
     @main(title, maybeUser) {
         @if(maybeUser.isDefined) {
             @defining(maybeUser.get) { user =>
                 @* (controllers.routes.Application.createNewUser(user.userId, user.name, user.avatarUrl)) *@
-                @usersRepo.insert(User.apply(null, user.userId, user.name, user.avatarUrl))
                 <p>Hello @user.name</p>
                 <img src="@user.avatarUrl"/>
             }

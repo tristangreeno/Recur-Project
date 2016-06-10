@@ -34,9 +34,9 @@
     <table class="subscriptions zebra-striped">
         <thead>
             <tr>
-                @header(2, "Date of renewal")
+                @header(2, "Name")
                 @header(3, "Cost of renewal")
-                @header(4, "Name")
+                @header(4, "Date of renewal")
                 @header(5, "Frequency")
             </tr>
         </thead>
@@ -51,9 +51,6 @@
                     </td>
                     <td>
                     @subscription.cost
-                    </td>
-                    <td>
-                    @subscription.name
                     </td>
                     <td>
                     @subscription.frequency
