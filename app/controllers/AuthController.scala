@@ -23,7 +23,7 @@ class AuthController @Inject()(cache: CacheApi,
 
   private val clientId: String = config.getString(Auth0ConfigKeys.ClientId).getOrElse("TVs7gIdAHazkonw9oBkCjqcBMctQnWOZ")
   private val domain: String = config.getString(Auth0ConfigKeys.Domain).getOrElse("tgreeno.auth0.com")
-  private val redirectUri: String = config.getString(Auth0ConfigKeys.RedirectURI).getOrElse("http://localhost:9000/callback")
+  private val redirectUri: String = config.getString(Auth0ConfigKeys.RedirectURI).getOrElse("https://morning-atoll-53317.herokuapp.com/callback")
 
   // callback route
   def callback(codeOpt: Option[String] = None) = Action.async { request =>
