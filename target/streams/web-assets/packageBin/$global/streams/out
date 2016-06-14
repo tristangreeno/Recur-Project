@@ -1,15 +1,1 @@
-[info] Packaging /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/playproject_2.11-1.0-web-assets.jar ...
-[debug] Input file mappings:
-[debug] 	public/stylesheets/main.css
-[debug] 	  /Users/tristangreeno/workspace/PlayProject/public/stylesheets/main.css
-[debug] 	public/javascripts
-[debug] 	  /Users/tristangreeno/workspace/PlayProject/public/javascripts
-[debug] 	public/images
-[debug] 	  /Users/tristangreeno/workspace/PlayProject/public/images
-[debug] 	public/javascripts/jquery-1.9.0.min.js
-[debug] 	  /Users/tristangreeno/workspace/PlayProject/public/javascripts/jquery-1.9.0.min.js
-[debug] 	public/stylesheets
-[debug] 	  /Users/tristangreeno/workspace/PlayProject/public/stylesheets
-[debug] 	public/images/favicon.png
-[debug] 	  /Users/tristangreeno/workspace/PlayProject/public/images/favicon.png
-[info] Done packaging.
+[0m[[0mdebug[0m] [0mJar uptodate: /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/playproject_2.11-1.0-web-assets.jar[0m
