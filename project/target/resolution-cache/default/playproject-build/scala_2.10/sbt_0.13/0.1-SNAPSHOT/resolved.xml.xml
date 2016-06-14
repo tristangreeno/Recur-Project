@@ -4,7 +4,7 @@
 		module="playproject-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20160614131715"
+		publication="20160614140343"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>
