@@ -1,2 +1,2 @@
-web: target/universal/stage/bin/PlayProject -Dhttp.port=${PORT}
-console: web: target/universal/stage/bin/PlayProject -main scala.tools.nsc.MainGenericRunner -usejavacp
+web: target/universal/stage/bin/playproject -Dhttp.port=${PORT}
+console: web: target/universal/stage/bin/playproject -main scala.tools.nsc.MainGenericRunner -usejavacp

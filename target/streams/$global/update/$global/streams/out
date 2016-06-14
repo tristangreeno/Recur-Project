@@ -7,7 +7,7 @@
 [debug] == resolving dependencies for playproject#playproject_2.11;1.0 [compile]
 [debug] == resolving dependencies playproject#playproject_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@14d086f6
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4c202aea
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8
 [debug] 	local: revision in cache: org.scala-lang#scala-library;2.11.8
 [debug] 	found org.scala-lang#scala-library;2.11.8 in sbt-chain
@@ -10371,7 +10371,7 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#control_2.11;0.13.8-M3!control_2.11.jar
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.3.8!akka-actor_2.11.jar
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-testkit_2.11;2.3.8!akka-testkit_2.11.jar
-[debug] :: resolution report :: resolve 1701ms :: artifacts dl 41ms
+[debug] :: resolution report :: resolve 2339ms :: artifacts dl 48ms
 [debug] 	report for playproject#playproject_2.11;1.0 compile produced in /Users/tristangreeno/workspace/PlayProject/target/resolution-cache/reports/playproject-playproject_2.11-compile.xml
 [debug] 	report for playproject#playproject_2.11;1.0 runtime produced in /Users/tristangreeno/workspace/PlayProject/target/resolution-cache/reports/playproject-playproject_2.11-runtime.xml
 [debug] 	report for playproject#playproject_2.11;1.0 test produced in /Users/tristangreeno/workspace/PlayProject/target/resolution-cache/reports/playproject-playproject_2.11-test.xml
@@ -10386,5 +10386,5 @@
 [debug] 	report for playproject#playproject_2.11;1.0 pom produced in /Users/tristangreeno/workspace/PlayProject/target/resolution-cache/reports/playproject-playproject_2.11-pom.xml
 [debug] 	report for playproject#playproject_2.11;1.0 scala-tool produced in /Users/tristangreeno/workspace/PlayProject/target/resolution-cache/reports/playproject-playproject_2.11-scala-tool.xml
 [debug] 	report for playproject#playproject_2.11;1.0 fork-run produced in /Users/tristangreeno/workspace/PlayProject/target/resolution-cache/reports/playproject-playproject_2.11-fork-run.xml
-[debug] 	resolve done (1701ms resolve - 41ms download)
+[debug] 	resolve done (2339ms resolve - 48ms download)
 [info] Done updating.
