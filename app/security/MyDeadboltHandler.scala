@@ -22,7 +22,7 @@ class MyDeadboltHandler @Inject()(config: Configuration,
 
   private val clientId: String = config.getString(Auth0ConfigKeys.ClientId).getOrElse("TVs7gIdAHazkonw9oBkCjqcBMctQnWOZ")
   private val domain: String = config.getString(Auth0ConfigKeys.Domain).getOrElse("tgreeno.auth0.com")
-  private val redirectUri: String = config.getString(Auth0ConfigKeys.RedirectURI).getOrElse("https://morning-atoll-53317.herokuapp.com/callback")
+  private val redirectUri: String = config.getString(Auth0ConfigKeys.RedirectURI).getOrElse("https://glacial-brook-71360.herokuapp.com/callback")
 
   override def beforeAuthCheck[A](request: Request[A]): Future[Option[Result]] = Future {
     None
