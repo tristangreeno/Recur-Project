@@ -1,0 +1,42 @@
+@import helper._
+@import models._
+
+@(subscriptionForm: Form[Subscription], user: User)(implicit messages: Messages)
+
+@noUser {
+
+    <h1> Add a subscription </h1>
+
+    @form(routes.Application.save(user.userId)) {
+        <fieldset>
+
+            @inputDate(subscriptionForm("date"), '_label -> "Date of renewal")
+            @inputText(subscriptionForm("cost"), '_label -> "Cost of renewal")
+            @inputText(subscriptionForm("name"), '_label -> "Name of subscription")
+            @inputText(subscriptionForm("frequency"), '_label -> "Frequency of renewal")
+
+            @select(
+                subscriptionForm("category"),
+                Seq(
+                    "entertainment" -> "Entertainment",
+                    "education" -> "Education",
+                    "business" -> "Business",
+                    "health" -> "Health"
+                ),
+                '_label -> "Category",
+                '_default -> "-- Choose a category --",
+                '_showConstraints -> false
+            )
+
+            <input type="hidden" name="userId" value="@user.id" />
+
+        </fieldset>
+
+
+
+        <div class="actions">
+            <input type="submit" value="Create this subscription" class="btn primary"/> or
+            <a href="@routes.Application.list()" class="btn">Cancel</a>
+        </div>
+    }
+}

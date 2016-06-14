@@ -1,0 +1,15 @@
+@import models._
+@import repos.UsersRepo
+
+@(title: String, maybeUser: Option[User], usersRepo: UsersRepo)(implicit messages: Messages)
+
+    @main(title, maybeUser) {
+        @if(maybeUser.isDefined) {
+            @defining(maybeUser.get) { user =>
+                <p>Hello @user.name</p>
+                <img src="@user.avatarUrl"/>
+            }
+
+            <p><a href="@controllers.routes.AuthController.logOut()">Log out</a></p>
+        }
+    }

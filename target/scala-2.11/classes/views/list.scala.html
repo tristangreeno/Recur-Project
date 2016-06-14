@@ -1,0 +1,95 @@
+@(impendingSubscriptionsList: SubscriptionList[Subscription], allSubscriptionsList: SubscriptionList[Subscription])(implicit flash: play.api.mvc.Flash = play.api.mvc.Flash.emptyCookie, messages: Messages)
+
+@header(title: String) = {
+        <b>@title</b>
+}
+
+@noUser {
+    <h1>@Messages("Recur - Subscriptions Database")</h1>
+
+    @flash.get("success").map { message =>
+        <div class="alert-message warning">
+            <strong>Done!</strong> @message
+        </div>
+    }
+
+    <div id="actions">
+
+        <a class="btn success" id="add" href="@routes.Application.create()">Add a new subscription</a>
+
+    </div>
+
+    @Option(impendingSubscriptionsList.items).filterNot(_.isEmpty).map { subscriptions =>
+        <div>
+            <h3>Impending Subscriptions</h3>
+            <table>
+                <thead>
+                    <tr>
+                        @header("Name")
+                        @header("Cost of renewal")
+                        @header("Date of renewal")
+                        @header("Frequency")
+                        @header("Category")
+                    </tr>
+                </thead>
+                <tbody>
+                @subscriptions.map {
+                    case (subscription) => {
+                        <tr>
+                            <td><a href="@routes.Application.edit(subscription.id.get)">@subscription.name</a></td>
+                            <td> @subscription.date</td>
+                            <td> @subscription.cost</td>
+                            <td> @subscription.frequency</td>
+                            <td> @subscription.category</td>
+                            }
+                }
+                        </tr>
+                </tbody>
+            </table>
+        </div>
+    }
+
+    @Option(allSubscriptionsList.items).filterNot(_.isEmpty).map { subscriptions =>
+    <div> <!-- for scroll bar -->
+        <h3>All Subscriptions</h3>
+     <table>
+        <thead>
+            <tr>
+                @header("Name")
+                @header("Cost of renewal")
+                @header("Date of renewal")
+                @header("Frequency")
+                @header("Category")
+            </tr>
+        </thead>
+        <tbody>
+
+        @subscriptions.map {
+            case (subscription) => {
+                <tr>
+                    <td><a href="@routes.Application.edit(subscription.id.get)">@subscription.name</a></td>
+                    <td> @subscription.date</td>
+                    <td> @subscription.cost</td>
+                    <td> @subscription.frequency</td>
+                    <td> @subscription.category</td>
+                </tr>
+            }
+        }
+
+        </tbody>
+     </table>
+    </div>
+
+
+    }.getOrElse {
+
+        <div class="well">
+            <em>Nothing to display</em>
+        </div>
+
+    }
+}
+
+
+
+
