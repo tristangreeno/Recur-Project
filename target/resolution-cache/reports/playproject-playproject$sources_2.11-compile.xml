@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="compile"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, fork-run"
-		date="20160614131228"/>
+		date="20160614131725"/>
 	<dependencies>
 		<module organisation="be.objectify" name="deadbolt-scala_2.11">
 			<revision name="2.5.0" status="release" pubdate="20160322023658" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://deadbolt.ws" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="81">

@@ -7,7 +7,7 @@
 [debug] == resolving dependencies for playproject#playproject_2.11;1.0 [compile]
 [debug] == resolving dependencies playproject#playproject_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7c8d2328
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@68756e38
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8
 [debug] 	local: revision in cache: org.scala-lang#scala-library;2.11.8
 [debug] 	found org.scala-lang#scala-library;2.11.8 in sbt-chain
@@ -2733,57 +2733,6 @@
 [debug] == resolving dependencies be.objectify#deadbolt-scala_2.11;2.5.0->com.typesafe.play#play-cache_2.11;2.5.3 [runtime->runtime(*)]
 [debug] == resolving dependencies be.objectify#deadbolt-scala_2.11;2.5.0->com.typesafe.play#play-cache_2.11;2.5.3 [runtime->compile]
 [debug] == resolving dependencies playproject#playproject_2.11;1.0->be.objectify#deadbolt-scala_2.11;2.5.0 [compile->master]
-[debug] == resolving dependencies playproject#playproject_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [runtime->default(compile)]
-[info] Resolving org.scala-lang#scala-compiler;2.11.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@182f3707
-[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.8
-[debug] 	local: revision in cache: org.scala-lang#scala-compiler;2.11.8
-[debug] 	found org.scala-lang#scala-compiler;2.11.8 in sbt-chain
-[debug] == resolving dependencies playproject#playproject_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [runtime->runtime]
-[debug] == resolving dependencies playproject#playproject_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [runtime->compile]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-reflect;2.11.8 [compile->master(compile)]
-[info] Resolving org.scala-lang#scala-reflect;2.11.8 ...
-[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.8
-[debug] 	local: revision in cache: org.scala-lang#scala-reflect;2.11.8
-[debug] 	found org.scala-lang#scala-reflect;2.11.8 in sbt-chain
-[debug] 	[2.11.8] org.scala-lang#scala-reflect;2.11.8
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-reflect;2.11.8 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-reflect;2.11.8 [compile->runtime(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-reflect;2.11.8 [compile->compile]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->compile]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->master(compile)]
-[info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.4 ...
-[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.4
-[debug] 	local: revision in cache: org.scala-lang.modules#scala-xml_2.11;1.0.4
-[debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.4 in sbt-chain
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->runtime(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->compile]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->compile]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->compile]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-reflect;2.11.8 [runtime->compile]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->compile]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile]
-[debug] == resolving dependencies playproject#playproject_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [runtime->master]
 [debug] resolving dependencies for configuration 'test'
 [debug] == resolving dependencies for playproject#playproject_2.11;1.0 [test]
 [debug] == resolving dependencies for playproject#playproject_2.11;1.0 [runtime]
@@ -3892,37 +3841,6 @@
 [debug] == resolving dependencies be.objectify#deadbolt-scala_2.11;2.5.0->com.typesafe.play#play-cache_2.11;2.5.3 [runtime->runtime(*)]
 [debug] == resolving dependencies be.objectify#deadbolt-scala_2.11;2.5.0->com.typesafe.play#play-cache_2.11;2.5.3 [runtime->compile]
 [debug] == resolving dependencies playproject#playproject_2.11;1.0->be.objectify#deadbolt-scala_2.11;2.5.0 [compile->master]
-[debug] == resolving dependencies playproject#playproject_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [runtime->default(compile)]
-[debug] == resolving dependencies playproject#playproject_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [runtime->runtime]
-[debug] == resolving dependencies playproject#playproject_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [runtime->compile]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-reflect;2.11.8 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-reflect;2.11.8 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->compile]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-reflect;2.11.8 [runtime->compile]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->compile]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->compile]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->compile]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile]
-[debug] == resolving dependencies playproject#playproject_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [runtime->master]
 [debug] == resolving dependencies playproject#playproject_2.11;1.0->com.typesafe.play#play-test_2.11;2.5.3 [test->default(compile)]
 [info] Resolving com.typesafe.play#play-test_2.11;2.5.3 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.play#play-test_2.11;2.5.3 {test=[default(compile)]}
@@ -4732,7 +4650,20 @@
 [debug] == resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master(compile)]
 [debug] == resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile(*)]
 [debug] == resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->master(compile)]
+[info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.4 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.4
+[debug] 	local: revision in cache: org.scala-lang.modules#scala-xml_2.11;1.0.4
+[debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.4 in sbt-chain
 [debug] == resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->runtime(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->compile]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->compile]
 [debug] == resolving dependencies org.specs2#specs2-common_2.11;3.6.6->org.scalaz#scalaz-effect_2.11;7.1.4 [compile->master(compile)]
 [info] Resolving org.scalaz#scalaz-effect_2.11;7.1.4 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scalaz#scalaz-effect_2.11;7.1.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -4789,9 +4720,7 @@
 [debug] == resolving dependencies org.scodec#scodec-bits_2.11;1.0.9->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
 [debug] == resolving dependencies org.scodec#scodec-bits_2.11;1.0.9->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
 [debug] == resolving dependencies org.specs2#specs2-common_2.11;3.6.6->org.scala-lang#scala-reflect;2.11.7 [compile->master(compile)]
-[debug] == resolving dependencies org.specs2#specs2-common_2.11;3.6.6->org.scala-lang#scala-reflect;2.11.8 [compile->master(compile)]
 [debug] == resolving dependencies org.specs2#specs2-common_2.11;3.6.6->org.scala-lang#scala-reflect;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies org.specs2#specs2-common_2.11;3.6.6->org.scala-lang#scala-reflect;2.11.8 [compile->compile(*)]
 [debug] == resolving dependencies org.specs2#specs2-common_2.11;3.6.6->org.spire-math#kind-projector_2.11;0.7.1 [compile->master(compile)]
 [info] Resolving org.spire-math#kind-projector_2.11;0.7.1 ...
 [debug] sbt-chain: Checking cache for: dependency: org.spire-math#kind-projector_2.11;0.7.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -4800,17 +4729,28 @@
 [debug] 	found org.spire-math#kind-projector_2.11;0.7.1 in sbt-chain
 [debug] == resolving dependencies org.specs2#specs2-common_2.11;3.6.6->org.spire-math#kind-projector_2.11;0.7.1 [compile->compile(*)]
 [debug] == resolving dependencies org.spire-math#kind-projector_2.11;0.7.1->org.scala-lang#scala-compiler;2.11.7 [compile->master(compile)]
-[debug] == resolving dependencies org.spire-math#kind-projector_2.11;0.7.1->org.scala-lang#scala-compiler;2.11.8 [compile->master(compile)]
+[info] Resolving org.scala-lang#scala-compiler;2.11.7 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.7
+[debug] 	local: revision in cache: org.scala-lang#scala-compiler;2.11.7
+[debug] 	found org.scala-lang#scala-compiler;2.11.7 in sbt-chain
 [debug] == resolving dependencies org.spire-math#kind-projector_2.11;0.7.1->org.scala-lang#scala-compiler;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies org.spire-math#kind-projector_2.11;0.7.1->org.scala-lang#scala-compiler;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile(*)]
 [debug] == resolving dependencies org.spire-math#kind-projector_2.11;0.7.1->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
 [debug] == resolving dependencies org.spire-math#kind-projector_2.11;0.7.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
 [debug] == resolving dependencies org.spire-math#kind-projector_2.11;0.7.1->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
 [debug] == resolving dependencies org.spire-math#kind-projector_2.11;0.7.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
 [debug] == resolving dependencies org.specs2#specs2-core_2.11;3.6.6->org.scala-lang#scala-reflect;2.11.7 [compile->master(compile)]
-[debug] == resolving dependencies org.specs2#specs2-core_2.11;3.6.6->org.scala-lang#scala-reflect;2.11.8 [compile->master(compile)]
 [debug] == resolving dependencies org.specs2#specs2-core_2.11;3.6.6->org.scala-lang#scala-reflect;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies org.specs2#specs2-core_2.11;3.6.6->org.scala-lang#scala-reflect;2.11.8 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.play#play-specs2_2.11;2.5.3->org.specs2#specs2-core_2.11;3.6.6 [compile->runtime(*)]
 [debug] == resolving dependencies com.typesafe.play#play-specs2_2.11;2.5.3->org.specs2#specs2-core_2.11;3.6.6 [compile->compile]
 [debug] == resolving dependencies org.specs2#specs2-core_2.11;3.6.6->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
@@ -4866,19 +4806,25 @@
 [debug] == resolving dependencies org.scodec#scodec-bits_2.11;1.0.9->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scodec#scodec-bits_2.11;1.0.9->org.scala-lang#scala-library;2.11.8 [runtime->compile]
 [debug] == resolving dependencies org.specs2#specs2-common_2.11;3.6.6->org.scala-lang#scala-reflect;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies org.specs2#specs2-common_2.11;3.6.6->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime(*)]
-[debug] == resolving dependencies org.specs2#specs2-common_2.11;3.6.6->org.scala-lang#scala-reflect;2.11.8 [runtime->compile]
+[debug] == resolving dependencies org.specs2#specs2-common_2.11;3.6.6->org.scala-lang#scala-reflect;2.11.7 [runtime->compile]
 [debug] == resolving dependencies org.specs2#specs2-common_2.11;3.6.6->org.spire-math#kind-projector_2.11;0.7.1 [runtime->runtime(*)]
 [debug] == resolving dependencies org.specs2#specs2-common_2.11;3.6.6->org.spire-math#kind-projector_2.11;0.7.1 [runtime->compile]
 [debug] == resolving dependencies org.spire-math#kind-projector_2.11;0.7.1->org.scala-lang#scala-compiler;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies org.spire-math#kind-projector_2.11;0.7.1->org.scala-lang#scala-compiler;2.11.8 [runtime->runtime(*)]
-[debug] == resolving dependencies org.spire-math#kind-projector_2.11;0.7.1->org.scala-lang#scala-compiler;2.11.8 [runtime->compile]
+[debug] == resolving dependencies org.spire-math#kind-projector_2.11;0.7.1->org.scala-lang#scala-compiler;2.11.7 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile]
 [debug] == resolving dependencies org.spire-math#kind-projector_2.11;0.7.1->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
 [debug] == resolving dependencies org.spire-math#kind-projector_2.11;0.7.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
 [debug] == resolving dependencies org.spire-math#kind-projector_2.11;0.7.1->org.scala-lang#scala-library;2.11.8 [runtime->compile]
 [debug] == resolving dependencies org.specs2#specs2-core_2.11;3.6.6->org.scala-lang#scala-reflect;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies org.specs2#specs2-core_2.11;3.6.6->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime(*)]
-[debug] == resolving dependencies org.specs2#specs2-core_2.11;3.6.6->org.scala-lang#scala-reflect;2.11.8 [runtime->compile]
+[debug] == resolving dependencies org.specs2#specs2-core_2.11;3.6.6->org.scala-lang#scala-reflect;2.11.7 [runtime->compile]
 [debug] == resolving dependencies com.typesafe.play#play-specs2_2.11;2.5.3->org.specs2#specs2-junit_2.11;3.6.6 [compile->master(compile)]
 [info] Resolving org.specs2#specs2-junit_2.11;3.6.6 ...
 [debug] sbt-chain: Checking cache for: dependency: org.specs2#specs2-junit_2.11;3.6.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -7185,37 +7131,6 @@
 [debug] == resolving dependencies be.objectify#deadbolt-scala_2.11;2.5.0->com.typesafe.play#play-cache_2.11;2.5.3 [runtime->runtime(*)]
 [debug] == resolving dependencies be.objectify#deadbolt-scala_2.11;2.5.0->com.typesafe.play#play-cache_2.11;2.5.3 [runtime->compile]
 [debug] == resolving dependencies playproject#playproject_2.11;1.0->be.objectify#deadbolt-scala_2.11;2.5.0 [compile->master]
-[debug] == resolving dependencies playproject#playproject_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [runtime->default(compile)]
-[debug] == resolving dependencies playproject#playproject_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [runtime->runtime]
-[debug] == resolving dependencies playproject#playproject_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [runtime->compile]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-reflect;2.11.8 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-reflect;2.11.8 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->compile]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-reflect;2.11.8 [runtime->compile]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->compile]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->compile]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->compile]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile]
-[debug] == resolving dependencies playproject#playproject_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [runtime->master]
 [debug] == resolving dependencies for playproject#playproject_2.11;1.0 [optional]
 [debug] resolving dependencies for configuration 'test-internal'
 [debug] == resolving dependencies for playproject#playproject_2.11;1.0 [test-internal]
@@ -8326,37 +8241,6 @@
 [debug] == resolving dependencies be.objectify#deadbolt-scala_2.11;2.5.0->com.typesafe.play#play-cache_2.11;2.5.3 [runtime->runtime(*)]
 [debug] == resolving dependencies be.objectify#deadbolt-scala_2.11;2.5.0->com.typesafe.play#play-cache_2.11;2.5.3 [runtime->compile]
 [debug] == resolving dependencies playproject#playproject_2.11;1.0->be.objectify#deadbolt-scala_2.11;2.5.0 [compile->master]
-[debug] == resolving dependencies playproject#playproject_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [runtime->default(compile)]
-[debug] == resolving dependencies playproject#playproject_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [runtime->runtime]
-[debug] == resolving dependencies playproject#playproject_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [runtime->compile]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-reflect;2.11.8 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-reflect;2.11.8 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->compile]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-reflect;2.11.8 [runtime->compile]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->compile]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->compile]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->compile]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile]
-[debug] == resolving dependencies playproject#playproject_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [runtime->master]
 [debug] == resolving dependencies playproject#playproject_2.11;1.0->com.typesafe.play#play-test_2.11;2.5.3 [test->default(compile)]
 [debug] == resolving dependencies playproject#playproject_2.11;1.0->com.typesafe.play#play-test_2.11;2.5.3 [test->runtime]
 [debug] == resolving dependencies playproject#playproject_2.11;1.0->com.typesafe.play#play-test_2.11;2.5.3 [test->compile]
@@ -8921,6 +8805,9 @@
 [debug] == resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile(*)]
 [debug] == resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->master(compile)]
 [debug] == resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
 [debug] == resolving dependencies org.specs2#specs2-common_2.11;3.6.6->org.scalaz#scalaz-effect_2.11;7.1.4 [compile->master(compile)]
 [debug] == resolving dependencies org.specs2#specs2-common_2.11;3.6.6->org.scalaz#scalaz-effect_2.11;7.1.4 [compile->compile(*)]
 [debug] == resolving dependencies org.scalaz#scalaz-effect_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
@@ -8955,23 +8842,27 @@
 [debug] == resolving dependencies org.scodec#scodec-bits_2.11;1.0.9->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
 [debug] == resolving dependencies org.scodec#scodec-bits_2.11;1.0.9->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
 [debug] == resolving dependencies org.specs2#specs2-common_2.11;3.6.6->org.scala-lang#scala-reflect;2.11.7 [compile->master(compile)]
-[debug] == resolving dependencies org.specs2#specs2-common_2.11;3.6.6->org.scala-lang#scala-reflect;2.11.8 [compile->master(compile)]
 [debug] == resolving dependencies org.specs2#specs2-common_2.11;3.6.6->org.scala-lang#scala-reflect;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies org.specs2#specs2-common_2.11;3.6.6->org.scala-lang#scala-reflect;2.11.8 [compile->compile(*)]
 [debug] == resolving dependencies org.specs2#specs2-common_2.11;3.6.6->org.spire-math#kind-projector_2.11;0.7.1 [compile->master(compile)]
 [debug] == resolving dependencies org.specs2#specs2-common_2.11;3.6.6->org.spire-math#kind-projector_2.11;0.7.1 [compile->compile(*)]
 [debug] == resolving dependencies org.spire-math#kind-projector_2.11;0.7.1->org.scala-lang#scala-compiler;2.11.7 [compile->master(compile)]
-[debug] == resolving dependencies org.spire-math#kind-projector_2.11;0.7.1->org.scala-lang#scala-compiler;2.11.8 [compile->master(compile)]
 [debug] == resolving dependencies org.spire-math#kind-projector_2.11;0.7.1->org.scala-lang#scala-compiler;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies org.spire-math#kind-projector_2.11;0.7.1->org.scala-lang#scala-compiler;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile(*)]
 [debug] == resolving dependencies org.spire-math#kind-projector_2.11;0.7.1->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
 [debug] == resolving dependencies org.spire-math#kind-projector_2.11;0.7.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
 [debug] == resolving dependencies org.spire-math#kind-projector_2.11;0.7.1->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
 [debug] == resolving dependencies org.spire-math#kind-projector_2.11;0.7.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
 [debug] == resolving dependencies org.specs2#specs2-core_2.11;3.6.6->org.scala-lang#scala-reflect;2.11.7 [compile->master(compile)]
-[debug] == resolving dependencies org.specs2#specs2-core_2.11;3.6.6->org.scala-lang#scala-reflect;2.11.8 [compile->master(compile)]
 [debug] == resolving dependencies org.specs2#specs2-core_2.11;3.6.6->org.scala-lang#scala-reflect;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies org.specs2#specs2-core_2.11;3.6.6->org.scala-lang#scala-reflect;2.11.8 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.play#play-specs2_2.11;2.5.3->org.specs2#specs2-junit_2.11;3.6.6 [compile->master(compile)]
 [debug] == resolving dependencies com.typesafe.play#play-specs2_2.11;2.5.3->org.specs2#specs2-junit_2.11;3.6.6 [compile->compile(*)]
 [debug] == resolving dependencies org.specs2#specs2-junit_2.11;3.6.6->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
@@ -9029,6 +8920,9 @@
 [debug] == resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile]
 [debug] == resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->compile]
 [debug] == resolving dependencies org.specs2#specs2-common_2.11;3.6.6->org.scalaz#scalaz-effect_2.11;7.1.4 [runtime->runtime(*)]
 [debug] == resolving dependencies org.specs2#specs2-common_2.11;3.6.6->org.scalaz#scalaz-effect_2.11;7.1.4 [runtime->compile]
 [debug] == resolving dependencies org.scalaz#scalaz-effect_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
@@ -9060,19 +8954,25 @@
 [debug] == resolving dependencies org.scodec#scodec-bits_2.11;1.0.9->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scodec#scodec-bits_2.11;1.0.9->org.scala-lang#scala-library;2.11.8 [runtime->compile]
 [debug] == resolving dependencies org.specs2#specs2-common_2.11;3.6.6->org.scala-lang#scala-reflect;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies org.specs2#specs2-common_2.11;3.6.6->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime(*)]
-[debug] == resolving dependencies org.specs2#specs2-common_2.11;3.6.6->org.scala-lang#scala-reflect;2.11.8 [runtime->compile]
+[debug] == resolving dependencies org.specs2#specs2-common_2.11;3.6.6->org.scala-lang#scala-reflect;2.11.7 [runtime->compile]
 [debug] == resolving dependencies org.specs2#specs2-common_2.11;3.6.6->org.spire-math#kind-projector_2.11;0.7.1 [runtime->runtime(*)]
 [debug] == resolving dependencies org.specs2#specs2-common_2.11;3.6.6->org.spire-math#kind-projector_2.11;0.7.1 [runtime->compile]
 [debug] == resolving dependencies org.spire-math#kind-projector_2.11;0.7.1->org.scala-lang#scala-compiler;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies org.spire-math#kind-projector_2.11;0.7.1->org.scala-lang#scala-compiler;2.11.8 [runtime->runtime(*)]
-[debug] == resolving dependencies org.spire-math#kind-projector_2.11;0.7.1->org.scala-lang#scala-compiler;2.11.8 [runtime->compile]
+[debug] == resolving dependencies org.spire-math#kind-projector_2.11;0.7.1->org.scala-lang#scala-compiler;2.11.7 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile]
 [debug] == resolving dependencies org.spire-math#kind-projector_2.11;0.7.1->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
 [debug] == resolving dependencies org.spire-math#kind-projector_2.11;0.7.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
 [debug] == resolving dependencies org.spire-math#kind-projector_2.11;0.7.1->org.scala-lang#scala-library;2.11.8 [runtime->compile]
 [debug] == resolving dependencies org.specs2#specs2-core_2.11;3.6.6->org.scala-lang#scala-reflect;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies org.specs2#specs2-core_2.11;3.6.6->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime(*)]
-[debug] == resolving dependencies org.specs2#specs2-core_2.11;3.6.6->org.scala-lang#scala-reflect;2.11.8 [runtime->compile]
+[debug] == resolving dependencies org.specs2#specs2-core_2.11;3.6.6->org.scala-lang#scala-reflect;2.11.7 [runtime->compile]
 [debug] == resolving dependencies com.typesafe.play#play-specs2_2.11;2.5.3->org.specs2#specs2-junit_2.11;3.6.6 [runtime->runtime(*)]
 [debug] == resolving dependencies com.typesafe.play#play-specs2_2.11;2.5.3->org.specs2#specs2-junit_2.11;3.6.6 [runtime->compile]
 [debug] == resolving dependencies org.specs2#specs2-junit_2.11;3.6.6->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
@@ -9818,6 +9718,11 @@
 [debug] resolving dependencies for configuration 'scala-tool'
 [debug] == resolving dependencies for playproject#playproject_2.11;1.0 [scala-tool]
 [debug] == resolving dependencies playproject#playproject_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [scala-tool->default]
+[info] Resolving org.scala-lang#scala-compiler;2.11.8 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.8
+[debug] 	local: revision in cache: org.scala-lang#scala-compiler;2.11.8
+[debug] 	found org.scala-lang#scala-compiler;2.11.8 in sbt-chain
 [debug] == resolving dependencies playproject#playproject_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [scala-tool->runtime]
 [debug] == resolving dependencies playproject#playproject_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [scala-tool->compile]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
@@ -9828,9 +9733,19 @@
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->master]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->optional(default)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-reflect;2.11.8 [compile->master(compile)]
+[info] Resolving org.scala-lang#scala-reflect;2.11.8 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.8
+[debug] 	local: revision in cache: org.scala-lang#scala-reflect;2.11.8
+[debug] 	found org.scala-lang#scala-reflect;2.11.8 in sbt-chain
+[debug] 	[2.11.8] org.scala-lang#scala-reflect;2.11.8
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-reflect;2.11.8 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-reflect;2.11.8 [compile->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-reflect;2.11.8 [compile->compile]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->compile]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->master(compile)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->master(compile)]
@@ -9847,8 +9762,6 @@
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->compile]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-reflect;2.11.8 [runtime->compile]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->compile]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->compile]
 [debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)]
@@ -10363,9 +10276,6 @@
 [debug] 	[NOT REQUIRED] com.typesafe.slick#slick-hikaricp_2.11;3.1.0!slick-hikaricp_2.11.jar(bundle)
 [debug] 	[NOT REQUIRED] com.typesafe#config;1.2.1!config.jar(bundle)
 [debug] 	[NOT REQUIRED] com.zaxxer#HikariCP-java6;2.3.7!HikariCP-java6.jar(bundle)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.8!scala-compiler.jar
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.8!scala-reflect.jar
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-test_2.11;2.5.3!play-test_2.11.jar
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-specs2_2.11;2.5.3!play-specs2_2.11.jar
 [debug] 	[NOT REQUIRED] junit#junit;4.12!junit.jar
@@ -10419,7 +10329,9 @@
 [debug] 	[NOT REQUIRED] org.scalaz#scalaz-concurrent_2.11;7.1.4!scalaz-concurrent_2.11.jar(bundle)
 [debug] 	[NOT REQUIRED] org.scalaz.stream#scalaz-stream_2.11;0.8!scalaz-stream_2.11.jar(bundle)
 [debug] 	[NOT REQUIRED] org.spire-math#kind-projector_2.11;0.7.1!kind-projector_2.11.jar
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)
 [debug] 	[NOT REQUIRED] org.scodec#scodec-bits_2.11;1.0.9!scodec-bits_2.11.jar(bundle)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.7!scala-compiler.jar
 [debug] 	[NOT REQUIRED] org.mockito#mockito-core;1.9.5!mockito-core.jar
 [debug] 	[NOT REQUIRED] org.objenesis#objenesis;1.0!objenesis.jar
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-omnidoc_2.11;2.5.3!play-omnidoc_2.11.jar
@@ -10432,6 +10344,8 @@
 [debug] 	[NOT REQUIRED] org.ow2.asm#asm-tree;4.1!asm-tree.jar
 [debug] 	[NOT REQUIRED] org.ow2.asm#asm-analysis;4.1!asm-analysis.jar
 [debug] 	[NOT REQUIRED] org.ow2.asm#asm-util;4.1!asm-util.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.8!scala-compiler.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.8!scala-reflect.jar
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar
 [debug] 	[NOT REQUIRED] com.typesafe.play#fork-run_2.11;2.5.3!fork-run_2.11.jar
 [debug] 	[NOT REQUIRED] com.typesafe.play#fork-run-protocol_2.11;2.5.3!fork-run-protocol_2.11.jar
@@ -10457,7 +10371,7 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#control_2.11;0.13.8-M3!control_2.11.jar
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.3.8!akka-actor_2.11.jar
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-testkit_2.11;2.3.8!akka-testkit_2.11.jar
-[debug] :: resolution report :: resolve 1785ms :: artifacts dl 42ms
+[debug] :: resolution report :: resolve 1623ms :: artifacts dl 62ms
 [debug] 	report for playproject#playproject_2.11;1.0 compile produced in /Users/tristangreeno/workspace/PlayProject/target/resolution-cache/reports/playproject-playproject_2.11-compile.xml
 [debug] 	report for playproject#playproject_2.11;1.0 runtime produced in /Users/tristangreeno/workspace/PlayProject/target/resolution-cache/reports/playproject-playproject_2.11-runtime.xml
 [debug] 	report for playproject#playproject_2.11;1.0 test produced in /Users/tristangreeno/workspace/PlayProject/target/resolution-cache/reports/playproject-playproject_2.11-test.xml
@@ -10472,5 +10386,5 @@
 [debug] 	report for playproject#playproject_2.11;1.0 pom produced in /Users/tristangreeno/workspace/PlayProject/target/resolution-cache/reports/playproject-playproject_2.11-pom.xml
 [debug] 	report for playproject#playproject_2.11;1.0 scala-tool produced in /Users/tristangreeno/workspace/PlayProject/target/resolution-cache/reports/playproject-playproject_2.11-scala-tool.xml
 [debug] 	report for playproject#playproject_2.11;1.0 fork-run produced in /Users/tristangreeno/workspace/PlayProject/target/resolution-cache/reports/playproject-playproject_2.11-fork-run.xml
-[debug] 	resolve done (1785ms resolve - 42ms download)
+[debug] 	resolve done (1623ms resolve - 62ms download)
 [info] Done updating.
