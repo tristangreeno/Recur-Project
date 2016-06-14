@@ -1,13 +1,9 @@
 package repos
 
-import java.util.Date
+import java.time._
 import javax.inject.{Inject, Singleton}
 
 import models._
-import java.time._
-import java.time.temporal.TemporalField
-
-import be.objectify.deadbolt.scala.composite.Operators.&&
 import play.api.db.slick._
 import play.api.libs.concurrent.Execution.Implicits.defaultContext
 import slick.driver.JdbcProfile
@@ -64,9 +60,8 @@ class SubscriptionsRepo @Inject()(protected val dbConfigProvider: DatabaseConfig
     db.run(subscriptions.filter(_.id === id).update(subscriptionToUpdate)).map(_ => ())
   }
 
-  def delete(id: Long): Future[Boolean] = {
-    val preDeleteSize = subscriptions.size
-    db.run(subscriptions.filter(_.id === id).delete).map(_ => (subscriptions.size - 1) == preDeleteSize)
+  def delete(id: Long): Future[Unit] = {
+    db.run(subscriptions.filter(_.id === id).delete).map(_ => ())
   }
 
   def updateSubsThatHaveRenewed(subscription: Subscription) = {
