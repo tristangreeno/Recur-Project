@@ -4,9 +4,9 @@
     <groupId>playproject</groupId>
     <artifactId>playproject_2.11</artifactId>
     <packaging>jar</packaging>
-    <description>playproject</description>
+    <description>PlayProject</description>
     <version>1.0</version>
-    <name>playproject</name>
+    <name>PlayProject</name>
     <organization>
         <name>playproject</name>
     </organization>

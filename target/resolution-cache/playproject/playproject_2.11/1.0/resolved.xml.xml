@@ -4,10 +4,10 @@
 		module="playproject_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20160614152338"
+		publication="20160614154815"
 	>
 		<description>
-		playproject
+		PlayProject
 		</description>
 	</info>
 	<configurations>
