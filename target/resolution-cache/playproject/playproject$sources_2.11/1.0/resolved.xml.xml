@@ -4,7 +4,7 @@
 		module="playproject$sources_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20160614124727"
+		publication="20160614131725"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
@@ -34,7 +34,7 @@
 		<dependency org="org.apache.commons" name="commons-lang3" rev="3.4" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);docs->default(compile)">
 			<artifact name="commons-lang3" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
-		<dependency org="org.scala-lang.modules" name="scala-xml_2.11" rev="1.0.1" transitive="false" conf="compile->default(compile);compile-internal->default(compile);docs->default(compile)">
+		<dependency org="org.scala-lang.modules" name="scala-xml_2.11" rev="1.0.1" transitive="false" conf="compile->default(compile);runtime->default(compile);compile-internal->default(compile);runtime-internal->default(compile);docs->default(compile)">
 			<artifact name="scala-xml_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
 		<dependency org="com.typesafe.play" name="play-server_2.11" rev="2.5.3" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);docs->default(compile)">
@@ -73,7 +73,7 @@
 		<dependency org="org.joda" name="joda-convert" rev="1.8.1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);docs->default(compile)">
 			<artifact name="joda-convert" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
-		<dependency org="org.scala-lang" name="scala-reflect" rev="2.11.7" transitive="false" conf="compile->default(compile);compile-internal->default(compile);docs->default(compile)" info.apiURL="http://www.scala-lang.org/api/2.11.7/">
+		<dependency org="org.scala-lang" name="scala-reflect" rev="2.11.7" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);docs->default(compile)" info.apiURL="http://www.scala-lang.org/api/2.11.7/">
 			<artifact name="scala-reflect" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
 		<dependency org="com.fasterxml.jackson.core" name="jackson-core" rev="2.7.1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);docs->default(compile)">
@@ -271,15 +271,6 @@
 		<dependency org="be.objectify" name="deadbolt-scala_2.11" rev="2.5.0" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
 			<artifact name="deadbolt-scala_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
-		<dependency org="org.scala-lang" name="scala-compiler" rev="2.11.8" transitive="false" conf="runtime->default(compile);test->default(compile);runtime-internal->default(compile);test-internal->default(compile);scala-tool->default(compile)">
-			<artifact name="scala-compiler" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-		</dependency>
-		<dependency org="org.scala-lang" name="scala-reflect" rev="2.11.8" transitive="false" conf="runtime->default(compile);test->default(compile);runtime-internal->default(compile);test-internal->default(compile);scala-tool->default(compile)" info.apiURL="http://www.scala-lang.org/api/2.11.8/">
-			<artifact name="scala-reflect" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-		</dependency>
-		<dependency org="org.scala-lang.modules" name="scala-xml_2.11" rev="1.0.4" transitive="false" conf="runtime->default(compile);test->default(compile);runtime-internal->default(compile);test-internal->default(compile);scala-tool->default(compile)">
-			<artifact name="scala-xml_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-		</dependency>
 		<dependency org="com.typesafe.play" name="play-test_2.11" rev="2.5.3" transitive="false" conf="test->default(compile);test-internal->default(compile)">
 			<artifact name="play-test_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
@@ -418,6 +409,9 @@
 		<dependency org="org.scalaz" name="scalaz-core_2.11" rev="7.1.4" transitive="false" conf="test->default(compile);test-internal->default(compile)">
 			<artifact name="scalaz-core_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
+		<dependency org="org.scala-lang.modules" name="scala-xml_2.11" rev="1.0.4" transitive="false" conf="test->default(compile);test-internal->default(compile);scala-tool->default(compile)">
+			<artifact name="scala-xml_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
 		<dependency org="org.scalaz" name="scalaz-effect_2.11" rev="7.1.4" transitive="false" conf="test->default(compile);test-internal->default(compile)">
 			<artifact name="scalaz-effect_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
@@ -432,6 +426,9 @@
 		</dependency>
 		<dependency org="org.spire-math" name="kind-projector_2.11" rev="0.7.1" transitive="false" conf="test->default(compile);test-internal->default(compile)">
 			<artifact name="kind-projector_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-lang" name="scala-compiler" rev="2.11.7" transitive="false" conf="test->default(compile);test-internal->default(compile)">
+			<artifact name="scala-compiler" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
 		<dependency org="org.specs2" name="specs2-junit_2.11" rev="3.6.6" transitive="false" conf="test->default(compile);test-internal->default(compile)">
 			<artifact name="specs2-junit_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
@@ -492,6 +489,12 @@
 		</dependency>
 		<dependency org="org.ow2.asm" name="asm-util" rev="4.1" transitive="false" conf="docs->default(compile)">
 			<artifact name="asm-util" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-lang" name="scala-compiler" rev="2.11.8" transitive="false" conf="scala-tool->default(compile)">
+			<artifact name="scala-compiler" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-lang" name="scala-reflect" rev="2.11.8" transitive="false" conf="scala-tool->default(compile)" info.apiURL="http://www.scala-lang.org/api/2.11.8/">
+			<artifact name="scala-reflect" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
 		<dependency org="jline" name="jline" rev="2.12.1" transitive="false" conf="scala-tool->default(compile)">
 			<artifact name="jline" type="src" ext="jar" conf="sources" e:classifier="sources"/>

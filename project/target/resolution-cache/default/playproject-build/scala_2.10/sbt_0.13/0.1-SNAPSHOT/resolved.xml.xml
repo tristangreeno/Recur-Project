@@ -4,7 +4,7 @@
 		module="playproject-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20160614124720"
+		publication="20160614131715"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>
@@ -38,7 +38,6 @@
 		<dependency org="org.scala-sbt" name="sbt" rev="0.13.5" conf="provided->default(compile)"/>
 		<dependency org="com.typesafe.play" name="sbt-fork-run-plugin" rev="2.5.3" conf="compile->default(compile)" e:sbtVersion="0.13" e:scalaVersion="2.10"/>
 		<dependency org="com.typesafe.play" name="sbt-plugin" rev="2.5.3" conf="compile->default(compile)" e:sbtVersion="0.13" e:scalaVersion="2.10"/>
-		<dependency org="com.heroku" name="sbt-heroku" rev="1.0.1" conf="compile->default(compile)" e:sbtVersion="0.13" e:scalaVersion="2.10"/>
 		<dependency org="org.scala-sbt" name="sbt-core-next" rev="0.1.1" conf="compile->default(compile)" e:sbtVersion="0.13" e:scalaVersion="2.10"/>
 	</dependencies>
 </ivy-module>
