@@ -4,13 +4,13 @@
 
 # Home Page
 GET         /                                controllers.Application.index
-#POST        /                                controllers.Application.createNewUser(userId: String, name: String, avatarUrl: String)
 
-GET         /subscriptions                   controllers.Application.list(p:Int ?= 0, s:Int ?= 2, f ?= "")
+# List of subscriptions
+GET         /subscriptions                   controllers.Application.list
 
 # Add subsciption
 GET         /subscriptions/new               controllers.Application.create
-POST        /subscriptions                   controllers.Application.save
+POST        /subscriptions/save/:id          controllers.Application.save(id:String)
 
 # Edit an existing subscription
 GET         /subscriptions/:id               controllers.Application.edit(id:Long)

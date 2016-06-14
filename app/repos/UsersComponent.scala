@@ -39,20 +39,12 @@ class UsersRepo @Inject()(protected val dbConfigProvider: DatabaseConfigProvider
     db.run(query.result).map(rows => rows.map { case (id, userId, name, avatarUrl) => (id, userId, name, avatarUrl) })
   }
 
-  def insert(user: User): Future[Long] = {
+  def insert(user: User) = {
     db.run(users += user).map(_ => ())
-    db.run(users.filter(_.userId === user.userId).result.head).map(u => u.id.get)
   }
 
-  def findById(id: Long): Future[Option[User]] =
-    db.run(users.filter(_.id === id).result.headOption)
+  def findById(id: String) = {
+    Option(db.run(users.filter(_.userId === id).result.headOption))
+  }
 
-  /*
-  // experimental code to see if I can find a user, so that I'm not adding a user twice. Not functional.
-  def findUserExistence(userId: String): Boolean = {
-
-    val doesUserExist = for { user <- users if user.userId === userId } yield true
-
-    doesUserExist.size.## != 0.##
-  } */
 }
