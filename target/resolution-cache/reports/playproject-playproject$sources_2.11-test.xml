@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="test"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, fork-run"
-		date="20160614144729"/>
+		date="20160614151625"/>
 	<dependencies>
 		<module organisation="org.seleniumhq.selenium" name="selenium-leg-rc">
 			<revision name="2.48.2" status="release" pubdate="20151009151141" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="118">

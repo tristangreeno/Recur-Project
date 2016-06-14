@@ -1,4 +1,4 @@
-name := "playproject"
+name := "PlayProject"
 
 version := "1.0"
 
