@@ -1,15 +1,1 @@
-[0m[[0minfo[0m] [0mPackaging /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/playproject_2.11-1.0-web-assets.jar ...[0m
-[0m[[0mdebug[0m] [0mInput file mappings:[0m
-[0m[[0mdebug[0m] [0m	public/stylesheets/main.css[0m
-[0m[[0mdebug[0m] [0m	  /Users/tristangreeno/workspace/PlayProject/public/stylesheets/main.css[0m
-[0m[[0mdebug[0m] [0m	public/javascripts[0m
-[0m[[0mdebug[0m] [0m	  /Users/tristangreeno/workspace/PlayProject/public/javascripts[0m
-[0m[[0mdebug[0m] [0m	public/images[0m
-[0m[[0mdebug[0m] [0m	  /Users/tristangreeno/workspace/PlayProject/public/images[0m
-[0m[[0mdebug[0m] [0m	public/javascripts/jquery-1.9.0.min.js[0m
-[0m[[0mdebug[0m] [0m	  /Users/tristangreeno/workspace/PlayProject/public/javascripts/jquery-1.9.0.min.js[0m
-[0m[[0mdebug[0m] [0m	public/stylesheets[0m
-[0m[[0mdebug[0m] [0m	  /Users/tristangreeno/workspace/PlayProject/public/stylesheets[0m
-[0m[[0mdebug[0m] [0m	public/images/favicon.png[0m
-[0m[[0mdebug[0m] [0m	  /Users/tristangreeno/workspace/PlayProject/public/images/favicon.png[0m
-[0m[[0minfo[0m] [0mDone packaging.[0m
+[debug] Jar uptodate: /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/playproject_2.11-1.0-web-assets.jar

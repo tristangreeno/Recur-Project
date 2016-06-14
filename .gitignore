@@ -13,9 +13,5 @@ dist
 /.settings
 /.sbtserver
 
-    
-*.log
 
-*.log
 
-*.class

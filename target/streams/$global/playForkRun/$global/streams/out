@@ -202,3 +202,8 @@
 [0m[[33mwarn[0m] [0mone warning found[0m
 [0m[[33mwarn[0m] [0mapplication - Logger configuration in conf files is deprecated and has no effect. Use a logback configuration file instead.[0m
 [0m[[0minfo[0m] [0mplay.api.Play - Application started (Dev)[0m
+[0m[[0minfo[0m] [0mJVM exiting, shutting down Play fork run ...[0m
+[0m[[0minfo[0m] [0mStopping Play fork run ...[0m
+[0m[[33mwarn[0m] [0mc.z.h.HikariConfig - using dataSourceClassName and ignoring jdbcUrl[0m
+[0m[[0minfo[0m] [0mPlay fork run already stopped ...[0m
+[0m[[0minfo[0m] [0mForked Play process exited with status: 129[0m
