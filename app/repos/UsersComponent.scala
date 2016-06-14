@@ -47,12 +47,4 @@ class UsersRepo @Inject()(protected val dbConfigProvider: DatabaseConfigProvider
     Option(db.run(users.filter(_.userId === id).result.headOption))
   }
 
-  /*
-  // experimental code to see if I can find a user, so that I'm not adding a user twice. Not functional.
-  def findUserExistence(userId: String): Boolean = {
-
-    val doesUserExist = for { user <- users if user.userId === userId } yield true
-
-    doesUserExist.size.## != 0.##
-  } */
 }

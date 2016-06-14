@@ -1,21 +1,11 @@
-@(currentPage: Page[(Subscription)], currentOrderBy: Int, currentFilter: String)(implicit flash: play.api.mvc.Flash, messages: Messages)
+@(impendingSubscriptionsList: SubscriptionList[Subscription], allSubscriptionsList: SubscriptionList[Subscription])(implicit flash: play.api.mvc.Flash = play.api.mvc.Flash.emptyCookie, messages: Messages)
 
-@link(newPage: Int, newOrderBy: Option[Int] = None) = @{
-    routes.Application.list(newPage, newOrderBy.map { orderBy =>
-        if(orderBy == scala.math.abs(currentOrderBy)) -currentOrderBy else orderBy
-    }.getOrElse(currentOrderBy))
-}
-
-@header(orderBy: Int, title: String) = {
-    <th class="col@orderBy header @if(scala.math.abs(currentOrderBy) == orderBy) @{
-        if(currentOrderBy < 0) "headerSortDown" else "headerSortUp"
-    }">
-        <a href="@link(0, Some(orderBy))">@title</a>
-    </th>
+@header(title: String) = {
+        <b>@title</b>
 }
 
 @noUser {
-    <h1>@Messages("Welcome", currentPage.total)</h1>
+    <h1>@Messages("Recur - Subscriptions Database")</h1>
 
     @flash.get("success").map { message =>
         <div class="alert-message warning">
@@ -29,16 +19,47 @@
 
     </div>
 
-    @Option(currentPage.items).filterNot(_.isEmpty).map { subscriptions =>
+    @Option(impendingSubscriptionsList.items).filterNot(_.isEmpty).map { subscriptions =>
+        <div>
+            <h3>Impending Subscriptions</h3>
+            <table>
+                <thead>
+                    <tr>
+                        @header("Name")
+                        @header("Cost of renewal")
+                        @header("Date of renewal")
+                        @header("Frequency")
+                        @header("Category")
+                    </tr>
+                </thead>
+                <tbody>
+                @subscriptions.map {
+                    case (subscription) => {
+                        <tr>
+                            <td><a href="@routes.Application.edit(subscription.id.get)">@subscription.name</a></td>
+                            <td> @subscription.date</td>
+                            <td> @subscription.cost</td>
+                            <td> @subscription.frequency</td>
+                            <td> @subscription.category</td>
+                            }
+                }
+                        </tr>
+                </tbody>
+            </table>
+        </div>
+    }
 
-    <table class="subscriptions zebra-striped">
+    @Option(allSubscriptionsList.items).filterNot(_.isEmpty).map { subscriptions =>
+    <div> <!-- for scroll bar -->
+        <h3>All Subscriptions</h3>
+     <table>
         <thead>
             <tr>
-                @header(2, "Name")
-                @header(3, "Cost of renewal")
-                @header(4, "Date of renewal")
-                @header(5, "Frequency")
-                @header(6, "Category")
+                @header("Name")
+                @header("Cost of renewal")
+                @header("Date of renewal")
+                @header("Frequency")
+                @header("Category")
             </tr>
         </thead>
         <tbody>
@@ -47,50 +68,18 @@
             case (subscription) => {
                 <tr>
                     <td><a href="@routes.Application.edit(subscription.id.get)">@subscription.name</a></td>
-                    <td>
-                    @subscription.date
-                    </td>
-                    <td>
-                    @subscription.cost
-                    </td>
-                    <td>
-                    @subscription.frequency
-                    </td>
-                    <td>
-                    @subscription.category
-                    </td>
+                    <td> @subscription.date</td>
+                    <td> @subscription.cost</td>
+                    <td> @subscription.frequency</td>
+                    <td> @subscription.category</td>
                 </tr>
             }
         }
 
         </tbody>
-    </table>
-
-    <div id="pagination" class="pagination">
-        <ul>
-            @currentPage.prev.map { page =>
-            <li class="prev">
-                <a href="@link(page)">&larr; Previous</a>
-            </li>
-            }.getOrElse {
-                <li class="prev disabled">
-                    <a>&larr; Previous</a>
-                </li>
-            }
-        <li class="current">
-            <a> @currentPage.total Subscriptions</a>
-        </li>
-            @currentPage.next.map { page =>
-            <li class="next">
-                <a href="@link(page)">Next &rarr;</a>
-            </li>
-            }.getOrElse {
-                <li class="next disabled">
-                    <a>Next &rarr;</a>
-                </li>
-            }
-        </ul>
+     </table>
     </div>
+
 
     }.getOrElse {
 

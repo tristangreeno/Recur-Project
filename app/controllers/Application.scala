@@ -29,7 +29,7 @@ class Application @Inject()(cacheApi: CacheApi, actionBuilder: ActionBuilders, a
   def getCurrentUser(id: String): Option[User] = {
     val user = usersRepo.findById(id)
     if(user.isEmpty) None
-    else Await.result(user.get, Duration.Inf)
+    else Await.result(user.get, 5.seconds)
   }
 
   val subscriptionForm = Form(
@@ -42,9 +42,15 @@ class Application @Inject()(cacheApi: CacheApi, actionBuilder: ActionBuilders, a
       "category" -> text,
       "userId" -> optional(longNumber))(Subscription.apply)(Subscription.unapply))
 
-  def list(page: Int, orderBy: Int, filter: String) = Action.async { implicit request =>
-    val subscriptions = subscriptionsRepo.list(page = page, orderBy = orderBy, filter = "%" + filter + "%")
-    subscriptions.map(s => Ok(views.html.list(s, orderBy, filter)))
+  def list = actionBuilder.SubjectPresentAction().defaultHandler() { authRequest =>
+    authSupport.currentUser(authRequest).map(maybeUser => {
+      val user = getCurrentUser(maybeUser.get.userId)
+      val userId = user.get.id.get
+      val allList = Await.result(subscriptionsRepo.list(userId).map(list => list), 10.seconds)
+      val renewList = Await.result(subscriptionsRepo.listSubsAboutToRenew(userId).map(list => list), 10.seconds)
+
+      Ok(views.html.list(renewList, allList))
+    })
   }
 
   def index = actionBuilder.SubjectPresentAction().defaultHandler() { authRequest =>
@@ -108,20 +114,9 @@ class Application @Inject()(cacheApi: CacheApi, actionBuilder: ActionBuilders, a
   }
 
   def delete(id: Long) = Action { implicit request =>
-    subscriptionsRepo.delete(id)
+    subscriptionsRepo.delete(id).map(_ => ())
+
     Home.flashing("success" -> "Subscription successfully deleted")
   }
-
-  /*
-  def createNewUser(userId: String, name: String, avatarUrl: String) = Action {
-    implicit request =>
-
-    if(usersRepo.findUserExistence(userId)) {
-      usersRepo.insert(User.apply(null, userId, name, avatarUrl))
-      Home.flashing("success" -> "User added")
-    }
-
-    else { Home }
-  }*/
 
 }

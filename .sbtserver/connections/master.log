@@ -1,34 +1,19 @@
-New log file opened at Fri Jun 10 11:55:38 CDT 2016 by 27826@Tristans-MacBook-Pro.local
-Taking next connection to: 52287
-New client attempting to connect on port: 52288-52287
-  Address = /10.1.10.184:52287
-This client on port 52288 has uuid ac0898ec-79cd-46ad-915e-9bc0fc954ef4 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
-Connected Clients: play-fork-run-ac0898ec-79cd-46ad-915e-9bc0fc954ef4
-Taking next connection to: 52287
+New log file opened at Tue Jun 14 09:55:54 CDT 2016 by 32304@Tristans-MacBook-Pro.local
+Taking next connection to: 50823
+New client attempting to connect on port: 50824-50823
+  Address = /10.1.10.184:50823
+This client on port 50824 has uuid f8a1e4c6-5c31-496a-a653-fc57d6ea8a2d configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: play-fork-run-f8a1e4c6-5c31-496a-a653-fc57d6ea8a2d
+Taking next connection to: 50823
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 52287
+Taking next connection to: 50823
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 52287
+Taking next connection to: 50823
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 52287
-New client attempting to connect on port: 52399-52287
-  Address = /10.1.10.184:52287
-Handshake exception on socket: 52399
-sbt.impl.ipc.HandshakeException: Unable to perform handshake
-	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
-	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
-	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
-Caused by: java.io.EOFException
-	at java.io.DataInputStream.readInt(DataInputStream.java:392)
-	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
-	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
-	... 2 more
-Taking next connection to: 52287
-New client attempting to connect on port: 52400-52287
-  Address = /10.1.10.184:52287
-This client on port 52400 has uuid f58341c3-9558-451a-a693-00400afbac40 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
-Connected Clients: play-fork-run-f58341c3-9558-451a-a693-00400afbac40
-Taking next connection to: 52287
+Taking next connection to: 50823
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 50823

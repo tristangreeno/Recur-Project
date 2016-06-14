@@ -1,9 +1,13 @@
 package repos
 
-import models._
-import javax.inject.Singleton
-import javax.inject.Inject
+import java.util.Date
+import javax.inject.{Inject, Singleton}
 
+import models._
+import java.time._
+import java.time.temporal.TemporalField
+
+import be.objectify.deadbolt.scala.composite.Operators.&&
 import play.api.db.slick._
 import play.api.libs.concurrent.Execution.Implicits.defaultContext
 import slick.driver.JdbcProfile
@@ -40,24 +44,11 @@ class SubscriptionsRepo @Inject()(protected val dbConfigProvider: DatabaseConfig
 
   def count(): Future[Int] = db.run(subscriptions.length.result)
 
+
   def count(filter: String): Future[Int] = db.run(subscriptions.filter { subscription => subscription.name.toLowerCase like filter.toLowerCase }.length.result)
 
-  def list(page: Int = 0, pageSize: Int = 10, orderBy: Int = 1, filter: String = "%"): Future[Page[(Subscription)]] = {
-
-    val offset = pageSize * page
-    val query =
-      (for {
-        (subscription, users) <- subscriptions join users on (_.userId === _.id)
-        if subscription.name.toLowerCase like filter.toLowerCase
-      } yield subscription)
-        .drop(offset)
-        .take(pageSize)
-
-    for {
-      totalRows <- count(filter)
-      list = query.result.map { rows => rows.collect { case (subscription) => subscription } }
-      result <- db.run(list)
-    } yield Page(result, page, offset, totalRows)
+  def list(id: Long): Future[SubscriptionList[(Subscription)]] = {
+    db.run(subscriptions.filter(_.userId === id).result).map(f => SubscriptionList(f))
   }
 
   def insert(subscription: Subscription): Future[Unit] = { db.run(subscriptions += subscription).map(_ => ()) }
@@ -73,5 +64,30 @@ class SubscriptionsRepo @Inject()(protected val dbConfigProvider: DatabaseConfig
     db.run(subscriptions.filter(_.id === id).update(subscriptionToUpdate)).map(_ => ())
   }
 
-  def delete(id: Long): Future[Unit] = db.run(subscriptions.filter(_.id === id).delete).map(_ => ())
+  def delete(id: Long): Future[Boolean] = {
+    val preDeleteSize = subscriptions.size
+    db.run(subscriptions.filter(_.id === id).delete).map(_ => (subscriptions.size - 1) == preDeleteSize)
+  }
+
+  def updateSubsThatHaveRenewed(subscription: Subscription) = {
+    val subLocalDate = subscription.date.toLocalDate
+    if(subLocalDate.toEpochDay - LocalDate.now().toEpochDay <= 0){
+      update(subscription.id.get, Subscription(subscription.id, java.sql.Date.valueOf(subLocalDate.plusDays(subscription.frequency)),
+        subscription.cost, subscription.name, subscription.frequency, subscription.category, subscription.userId))
+    }
+  }
+
+  def listSubsAboutToRenew(id: Long): Future[SubscriptionList[Subscription]] = {
+    list(id).map(f => f.items.filter(p => {
+      updateSubsThatHaveRenewed(p)
+      isRenewDateSoon(p.date.toLocalDate)
+    })).map(
+      s => SubscriptionList(s)
+    )
+  }
+
+  def isRenewDateSoon(date: LocalDate): Boolean = {
+    val timeDifference: Long = date.toEpochDay - LocalDate.now().toEpochDay
+    timeDifference <= 5
+  }
 }
