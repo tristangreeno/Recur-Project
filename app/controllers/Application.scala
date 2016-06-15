@@ -72,7 +72,7 @@ class Application @Inject()(system: ActorSystem, mailerClient: MailerClient, act
     case class SendMail(user: User, subscriptionList: SubscriptionList[Subscription])
   }
 
-  class MailActor extends Actor {
+  class MailActor @Inject() extends Actor {
   import MailActor._
 
     def receive = {
