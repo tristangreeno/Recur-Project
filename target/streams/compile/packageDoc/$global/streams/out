@@ -208,6 +208,8 @@
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/api/lib/package_big.png
 [debug] 	views/html/security/denied_Scope0$.html
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/api/views/html/security/denied_Scope0$.html
+[debug] 	controllers/Application$MailToSend.html
+[debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/api/controllers/Application$MailToSend.html
 [debug] 	lib/modernizr.custom.js
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/api/lib/modernizr.custom.js
 [debug] 	views/html/noUser$.html

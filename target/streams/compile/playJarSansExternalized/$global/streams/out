@@ -138,6 +138,8 @@
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/views/html/list_Scope0$list.class
 [debug] 	models/AuthUser.class
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/models/AuthUser.class
+[debug] 	controllers/Application$MailToSend.class
+[debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/controllers/Application$MailToSend.class
 [debug] 	models/Subscription.class
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/models/Subscription.class
 [debug] 	security/MyDeadboltHandler$$anonfun$getDynamicResourceHandler$1.class
@@ -376,6 +378,8 @@
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/views/html/list.class
 [debug] 	views/html/list_Scope0$list$$anonfun$apply$3$$anonfun$apply$4.class
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/views/html/list_Scope0$list$$anonfun$apply$3$$anonfun$apply$4.class
+[debug] 	controllers/Application$MailToSend$.class
+[debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/controllers/Application$MailToSend$.class
 [debug] 	router/Routes$$anonfun$router$Routes$$controllers_AuthController_logOut9_invoker$1.class
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/router/Routes$$anonfun$router$Routes$$controllers_AuthController_logOut9_invoker$1.class
 [debug] 	views/authUser.scala.html
