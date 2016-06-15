@@ -27,7 +27,7 @@ class AuthSupport @Inject()(cache: CacheApi,
   private val clientId: String = config.getString(Auth0ConfigKeys.ClientId).getOrElse("TVs7gIdAHazkonw9oBkCjqcBMctQnWOZ")
   private val clientSecret: String = config.getString(Auth0ConfigKeys.ClientSecret).getOrElse("h0Yztq5o-2bYoK2LTEB1uwGO9xNQbJ4jXVxQK-lARbOZUUeqqI9mM6sDTtZQjKHx")
   private val domain: String = config.getString(Auth0ConfigKeys.Domain).getOrElse("tgreeno.auth0.com")
-  private val redirectUri: String = config.getString(Auth0ConfigKeys.RedirectURI).getOrElse("https://glacial-brook-71360.herokuapp.com/callback")
+  private val redirectUri: String = config.getString(Auth0ConfigKeys.RedirectURI).getOrElse("http://localhost:9000/callback")
 
   /**
     * Get the current user by checking, in order, the request, the cache and the

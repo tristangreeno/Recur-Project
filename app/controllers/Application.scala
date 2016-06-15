@@ -54,7 +54,9 @@ class Application @Inject()(mailerClient: MailerClient, actionBuilder: ActionBui
       <html lang="en">
       <body>
         <b> The following subscriptions will be renewing soon</b>
-        ${subscriptionList.items.map(s => s.name)}
+        ${subscriptionList.items.map(s => s.name).toList.mkString("/")}
+
+        <a href="https://glacial-brook-71360.herokuapp.com/subscriptions">Subscriptions List</a>
       </body>
       </html>""")
     )

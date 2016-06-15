@@ -494,6 +494,8 @@
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/modules
 [debug] 	router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$10.class
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$10.class
+[debug] 	META-INF/resources/webjars/playproject/1.0/images/Recurlogo 300x300b.png
+[debug] 	  /Users/tristangreeno/workspace/PlayProject/public/images/Recurlogo 300x300b.png
 [debug] 	router/RoutesPrefix$$anonfun$1.class
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/router/RoutesPrefix$$anonfun$1.class
 [debug] 	controllers/Application$$anonfun$index$1.class
@@ -532,6 +534,8 @@
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/views/html/authUser_Scope0$authUser_Scope1$authUser$$anonfun$f$1$$anonfun$apply$1.class
 [debug] 	controllers/Application$$anonfun$edit$1$$anonfun$6.class
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/controllers/Application$$anonfun$edit$1$$anonfun$6.class
+[debug] 	META-INF/resources/webjars/playproject/1.0/images/Recur300x300a.png
+[debug] 	  /Users/tristangreeno/workspace/PlayProject/public/images/Recur300x300a.png
 [debug] 	views/html/editForm.class
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/views/html/editForm.class
 [info] Done packaging.

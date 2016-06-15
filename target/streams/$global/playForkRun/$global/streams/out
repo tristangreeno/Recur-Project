@@ -201,8 +201,46 @@
 [info] 
 [info] 32m(Server started, use Ctrl+D to stop and go back to the console...)0m
 [info] 
+[info] play.api.Play - Application started (Dev)
+[error] application - 
+[info] 
+[info] ! @70dih2i6d - Internal server error, for (GET) [/] ->
+[info]  
+[info] play.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[RuntimeException: Driver org.postgresql.Driver claims to not accept JDBC URL jdbc:postgres://localhost:5432/postgres]]
+[info] 	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:280)
+[info] 	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:206)
+[info] 	at play.api.GlobalSettings$class.onError(GlobalSettings.scala:160)
+[info] 	at play.api.DefaultGlobal$.onError(GlobalSettings.scala:188)
+[info] 	at play.api.http.GlobalSettingsHttpErrorHandler.onServerError(HttpErrorHandler.scala:98)
+[info] 	at play.core.server.netty.PlayRequestHandler$$anonfun$2$$anonfun$apply$1.applyOrElse(PlayRequestHandler.scala:100)
+[info] 	at play.core.server.netty.PlayRequestHandler$$anonfun$2$$anonfun$apply$1.applyOrElse(PlayRequestHandler.scala:99)
+[info] 	at scala.concurrent.Future$$anonfun$recoverWith$1.apply(Future.scala:346)
+[info] 	at scala.concurrent.Future$$anonfun$recoverWith$1.apply(Future.scala:345)
+[info] 	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32)
+[info] Caused by: java.lang.RuntimeException: Driver org.postgresql.Driver claims to not accept JDBC URL jdbc:postgres://localhost:5432/postgres
+[info] 	at com.zaxxer.hikari.util.DriverDataSource.<init>(DriverDataSource.java:84)
+[info] 	at com.zaxxer.hikari.pool.PoolBase.initializeDataSource(PoolBase.java:296)
+[info] 	at com.zaxxer.hikari.pool.PoolBase.<init>(PoolBase.java:84)
+[info] 	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:102)
+[info] 	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:71)
+[info] 	at slick.jdbc.hikaricp.HikariCPJdbcDataSource$.forConfig(HikariCPJdbcDataSource.scala:58)
+[info] 	at slick.jdbc.hikaricp.HikariCPJdbcDataSource$.forConfig(HikariCPJdbcDataSource.scala:16)
+[info] 	at slick.jdbc.JdbcDataSource$.forConfig(JdbcDataSource.scala:41)
+[info] 	at slick.jdbc.JdbcBackend$DatabaseFactoryDef$class.forConfig(JdbcBackend.scala:268)
+[info] 	at slick.jdbc.JdbcBackend$$anon$3.forConfig(JdbcBackend.scala:33)
 [info] Stopping Play fork run ...
-[info] p.c.s.NettyServer - Stopping server...
+[warn] p.a.d.s.DefaultSlickApi - Error occurred while closing database default.
+[info] java.lang.RuntimeException: Driver org.postgresql.Driver claims to not accept JDBC URL jdbc:postgres://localhost:5432/postgres
+[info] 	at com.zaxxer.hikari.util.DriverDataSource.<init>(DriverDataSource.java:84)
+[info] 	at com.zaxxer.hikari.pool.PoolBase.initializeDataSource(PoolBase.java:296)
+[info] 	at com.zaxxer.hikari.pool.PoolBase.<init>(PoolBase.java:84)
+[info] 	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:102)
+[info] 	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:71)
+[info] 	at slick.jdbc.hikaricp.HikariCPJdbcDataSource$.forConfig(HikariCPJdbcDataSource.scala:58)
+[info] 	at slick.jdbc.hikaricp.HikariCPJdbcDataSource$.forConfig(HikariCPJdbcDataSource.scala:16)
+[info] 	at slick.jdbc.JdbcDataSource$.forConfig(JdbcDataSource.scala:41)
+[info] 	at slick.jdbc.JdbcBackend$DatabaseFactoryDef$class.forConfig(JdbcBackend.scala:268)
+[info] 	at slick.jdbc.JdbcBackend$$anon$3.forConfig(JdbcBackend.scala:33)
 [info] JVM exiting, shutting down Play fork run ...
 [info] Play fork run already stopped ...
 [info] Forked Play process exited with status: 0
