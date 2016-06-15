@@ -90,6 +90,8 @@
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/views/html
 [debug] 	controllers/Application$$anonfun$create$1.class
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/controllers/Application$$anonfun$create$1.class
+[debug] 	repos/SubscriptionsRepo$$anonfun$list$3.class
+[debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/repos/SubscriptionsRepo$$anonfun$list$3.class
 [debug] 	views/html/createForm_Scope0$createForm_Scope1$createForm$$anonfun$f$1$$anonfun$apply$2.class
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/views/html/createForm_Scope0$createForm_Scope1$createForm$$anonfun$f$1$$anonfun$apply$2.class
 [debug] 	views/html/security/denied_Scope0$denied_Scope1$denied$$anonfun$f$1.class
@@ -98,6 +100,8 @@
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/repos/UsersRepo$$anonfun$options$1.class
 [debug] 	controllers/Application$$anonfun$edit$1$$anonfun$5.class
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/controllers/Application$$anonfun$edit$1$$anonfun$5.class
+[debug] 	controllers/Application$$anonfun$list$1$$anonfun$apply$1$$anonfun$5.class
+[debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/controllers/Application$$anonfun$list$1$$anonfun$apply$1$$anonfun$5.class
 [debug] 	security/AuthSupport$$anonfun$getToken$1$$anonfun$apply$1.class
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/security/AuthSupport$$anonfun$getToken$1$$anonfun$apply$1.class
 [debug] 	security/AuthSupport$$anonfun$6.class
@@ -144,6 +148,8 @@
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/repos/UsersRepo$$anonfun$2.class
 [debug] 	views/html/security/denied_Scope0$denied_Scope1$denied.class
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/views/html/security/denied_Scope0$denied_Scope1$denied.class
+[debug] 	controllers/Application$MailActor$SendMail.class
+[debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/controllers/Application$MailActor$SendMail.class
 [debug] 	views/html/authUser.class
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/views/html/authUser.class
 [debug] 	router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$10$$anonfun$apply$10.class
@@ -310,6 +316,8 @@
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/repos/UsersRepo.class
 [debug] 	views/html/index_Scope0$index_Scope1$index.class
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/views/html/index_Scope0$index_Scope1$index.class
+[debug] 	repos/SubscriptionsRepo$$anonfun$list$5.class
+[debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/repos/SubscriptionsRepo$$anonfun$list$5.class
 [debug] 	controllers/Application$$anonfun$save$1$$anonfun$apply$7.class
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/controllers/Application$$anonfun$save$1$$anonfun$apply$7.class
 [debug] 	controllers/AuthController$$anonfun$callback$1$$anonfun$apply$2.class
@@ -348,6 +356,8 @@
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/views/main.scala.html
 [debug] 	views/html/noUser_Scope0.class
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/views/html/noUser_Scope0.class
+[debug] 	controllers/Application$MailActor$$anonfun$receive$1.class
+[debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/controllers/Application$MailActor$$anonfun$receive$1.class
 [debug] 	META-INF/resources/webjars/playproject/1.0/images
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/public/images
 [debug] 	router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$3.class
@@ -390,6 +400,8 @@
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/repos/SubscriptionsRepo$$anonfun$listSubsAboutToRenew$1.class
 [debug] 	views/list.scala.html
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/views/list.scala.html
+[debug] 	repos/SubscriptionsRepo$$anonfun$list$4.class
+[debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/repos/SubscriptionsRepo$$anonfun$list$4.class
 [debug] 	controllers/Application$$anonfun$create$1$$anonfun$apply$3.class
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/controllers/Application$$anonfun$create$1$$anonfun$apply$3.class
 [debug] 	security/MyDeadboltHandler$$anonfun$security$MyDeadboltHandler$$toContent$1$2.class
@@ -424,6 +436,8 @@
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$6.class
 [debug] 	views/html/createForm_Scope0$.class
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/views/html/createForm_Scope0$.class
+[debug] 	controllers/Application$MailActor$.class
+[debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/controllers/Application$MailActor$.class
 [debug] 	router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$7.class
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$7.class
 [debug] 	controllers/Application$$anonfun$index$1$$anonfun$apply$2.class
@@ -438,6 +452,8 @@
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$9$$anonfun$apply$9.class
 [debug] 	views/html/list_Scope0$list$$anonfun$apply$5.class
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/views/html/list_Scope0$list$$anonfun$apply$5.class
+[debug] 	controllers/Application$MailActor$SendMail$.class
+[debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/controllers/Application$MailActor$SendMail$.class
 [debug] 	models/User.class
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/models/User.class
 [debug] 	controllers/javascript
@@ -488,10 +504,14 @@
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/controllers/Application$$anonfun$index$1.class
 [debug] 	controllers/AuthController$$anonfun$logIn$1$$anonfun$apply$6.class
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/controllers/AuthController$$anonfun$logIn$1$$anonfun$apply$6.class
+[debug] 	controllers/Application$$anonfun$3.class
+[debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/controllers/Application$$anonfun$3.class
 [debug] 	controllers/Application$$anonfun$list$1$$anonfun$apply$1.class
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/controllers/Application$$anonfun$list$1$$anonfun$apply$1.class
 [debug] 	controllers/Application$$anonfun$list$1.class
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/controllers/Application$$anonfun$list$1.class
+[debug] 	controllers/Application$MailActor.class
+[debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/controllers/Application$MailActor.class
 [debug] 	META-INF/resources/webjars/playproject/1.0/images/favicon.png
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/public/images/favicon.png
 [debug] 	repos/SubscriptionsRepo$$anonfun$count$1.class
@@ -516,6 +536,8 @@
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/security/MyDeadboltHandler$$anonfun$onAuthFailure$2.class
 [debug] 	views/html/authUser_Scope0$authUser_Scope1$authUser$$anonfun$f$1$$anonfun$apply$1.class
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/views/html/authUser_Scope0$authUser_Scope1$authUser$$anonfun$f$1$$anonfun$apply$1.class
+[debug] 	controllers/Application$$anonfun$edit$1$$anonfun$6.class
+[debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/controllers/Application$$anonfun$edit$1$$anonfun$6.class
 [debug] 	views/html/editForm.class
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/views/html/editForm.class
 [info] Done packaging.

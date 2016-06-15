@@ -4,7 +4,7 @@
 		module="playproject_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20160614164529"
+		publication="20160615130730"
 	>
 		<description>
 		PlayProject
@@ -49,5 +49,6 @@
 		<dependency org="com.typesafe.play" name="play-specs2_2.11" rev="2.5.3" conf="test->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-slick_2.11" rev="2.0.0" conf="compile->default(compile)"/>
 		<dependency org="be.objectify" name="deadbolt-scala_2.11" rev="2.5.0" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.play" name="play-mailer_2.11" rev="5.0.0-M1" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

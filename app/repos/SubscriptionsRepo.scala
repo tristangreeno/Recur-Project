@@ -44,6 +44,11 @@ class SubscriptionsRepo @Inject()(protected val dbConfigProvider: DatabaseConfig
   def count(filter: String): Future[Int] = db.run(subscriptions.filter { subscription => subscription.name.toLowerCase like filter.toLowerCase }.length.result)
 
   def list(id: Long): Future[SubscriptionList[(Subscription)]] = {
+    // joining subscriptions and users
+    for {
+      (sub, user) <- subscriptions join users on (_.userId === _.id)
+    } yield (sub, user.name)
+
     db.run(subscriptions.filter(_.userId === id).result).map(f => SubscriptionList(f))
   }
 

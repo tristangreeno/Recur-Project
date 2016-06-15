@@ -44,6 +44,8 @@
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/api/lib/ownderbg2.gif
 [debug] 	index/index-m.html
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/api/index/index-m.html
+[debug] 	controllers/Application$MailActor$$SendMail.html
+[debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/api/controllers/Application$MailActor$$SendMail.html
 [debug] 	lib/template.js
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/api/lib/template.js
 [debug] 	lib/selected.png
@@ -114,6 +116,8 @@
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/api/security
 [debug] 	index/index-j.html
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/api/index/index-j.html
+[debug] 	controllers/Application$MailActor.html
+[debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/api/controllers/Application$MailActor.html
 [debug] 	index/index-p.html
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/api/index/index-p.html
 [debug] 	lib/defbg-blue.gif
@@ -198,6 +202,8 @@
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/api/index.js
 [debug] 	views/package.html
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/api/views/package.html
+[debug] 	controllers/Application$MailActor$.html
+[debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/api/controllers/Application$MailActor$.html
 [debug] 	lib/package_big.png
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/api/lib/package_big.png
 [debug] 	views/html/security/denied_Scope0$.html

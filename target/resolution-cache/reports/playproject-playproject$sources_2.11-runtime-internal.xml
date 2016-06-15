@@ -7,8 +7,66 @@
 		revision="1.0"
 		conf="runtime-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, fork-run"
-		date="20160614151625"/>
+		date="20160615115743"/>
 	<dependencies>
+		<module organisation="com.typesafe.play" name="play-mailer_2.11">
+			<revision name="5.0.0-M1" status="release" pubdate="20160318011945" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/play-mailer" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="82">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="2954" time="0" location="/Users/tristangreeno/.ivy2/cache/com.typesafe.play/play-mailer_2.11/ivy-5.0.0-M1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/play/play-mailer_2.11/5.0.0-M1/play-mailer_2.11-5.0.0-M1.pom"/>
+				<caller organisation="playproject" name="playproject$sources_2.11" conf="compile, runtime-internal, runtime, optional" rev="5.0.0-M1" rev-constraint-default="5.0.0-M1" rev-constraint-dynamic="5.0.0-M1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="play-mailer_2.11" type="jar" ext="jar" status="no" details="" size="103741" time="0" location="/Users/tristangreeno/.ivy2/cache/com.typesafe.play/play-mailer_2.11/jars/play-mailer_2.11-5.0.0-M1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/play/play-mailer_2.11/5.0.0-M1/play-mailer_2.11-5.0.0-M1.jar"/>
+					</artifact>
+					<artifact name="play-mailer_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="6755" time="0" location="/Users/tristangreeno/.ivy2/cache/com.typesafe.play/play-mailer_2.11/srcs/play-mailer_2.11-5.0.0-M1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/play/play-mailer_2.11/5.0.0-M1/play-mailer_2.11-5.0.0-M1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-email">
+			<revision name="1.4" status="release" pubdate="20150518144000" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-email/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="83">
+				<metadata-artifact status="no" details="" size="12165" time="0" location="/Users/tristangreeno/.ivy2/cache/org.apache.commons/commons-email/ivy-1.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/commons/commons-email/1.4/commons-email-1.4.pom"/>
+				<caller organisation="playproject" name="playproject$sources_2.11" conf="compile, runtime-internal, runtime, optional" rev="1.4" rev-constraint-default="1.4" rev-constraint-dynamic="1.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="commons-email" type="jar" ext="jar" status="no" details="" size="51239" time="0" location="/Users/tristangreeno/.ivy2/cache/org.apache.commons/commons-email/jars/commons-email-1.4.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/commons/commons-email/1.4/commons-email-1.4.jar"/>
+					</artifact>
+					<artifact name="commons-email" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="57373" time="0" location="/Users/tristangreeno/.ivy2/cache/org.apache.commons/commons-email/srcs/commons-email-1.4-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/commons/commons-email/1.4/commons-email-1.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.activation" name="activation">
+			<revision name="1.1.1" status="release" pubdate="20091023132603" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://java.sun.com/javase/technologies/desktop/javabeans/jaf/index.jsp" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="85">
+				<license name="COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) Version 1.0" url="https://glassfish.dev.java.net/public/CDDLv1.0.html"/>
+				<metadata-artifact status="no" details="" size="2518" time="0" location="/Users/tristangreeno/.ivy2/cache/javax.activation/activation/ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/activation/activation/1.1.1/activation-1.1.1.pom"/>
+				<caller organisation="playproject" name="playproject$sources_2.11" conf="compile, runtime-internal, runtime, optional" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="activation" type="jar" ext="jar" status="no" details="" size="69409" time="0" location="/Users/tristangreeno/.ivy2/cache/javax.activation/activation/jars/activation-1.1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/javax/activation/activation/1.1.1/activation-1.1.1.jar"/>
+					</artifact>
+					<artifact name="activation" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="75650" time="0" location="/Users/tristangreeno/.ivy2/cache/javax.activation/activation/srcs/activation-1.1.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/javax/activation/activation/1.1.1/activation-1.1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.sun.mail" name="javax.mail">
+			<revision name="1.5.2" status="release" pubdate="20140502181500" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="84">
+				<metadata-artifact status="no" details="" size="7216" time="0" location="/Users/tristangreeno/.ivy2/cache/com.sun.mail/javax.mail/ivy-1.5.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/sun/mail/javax.mail/1.5.2/javax.mail-1.5.2.pom"/>
+				<caller organisation="playproject" name="playproject$sources_2.11" conf="compile, runtime-internal, runtime, optional" rev="1.5.2" rev-constraint-default="1.5.2" rev-constraint-dynamic="1.5.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="javax.mail" type="jar" ext="jar" status="no" details="" size="571102" time="0" location="/Users/tristangreeno/.ivy2/cache/com.sun.mail/javax.mail/jars/javax.mail-1.5.2.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/sun/mail/javax.mail/1.5.2/javax.mail-1.5.2.jar"/>
+					</artifact>
+					<artifact name="javax.mail" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="787398" time="0" location="/Users/tristangreeno/.ivy2/cache/com.sun.mail/javax.mail/srcs/javax.mail-1.5.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/sun/mail/javax.mail/1.5.2/javax.mail-1.5.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
 		<module organisation="be.objectify" name="deadbolt-scala_2.11">
 			<revision name="2.5.0" status="release" pubdate="20160322023658" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://deadbolt.ws" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="81">
 				<license name="Apache 2" url="http://opensource.org/licenses/Apache-2.0"/>

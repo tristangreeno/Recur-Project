@@ -89,7 +89,7 @@
         <div id="constructors" class="members">
               <h3>Instance Constructors</h3>
               <ol><li name="controllers.Application#&lt;init&gt;" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
-      <a id="&lt;init&gt;(cacheApi:play.api.cache.CacheApi,actionBuilder:be.objectify.deadbolt.scala.ActionBuilders,authSupport:security.AuthSupport,usersRepo:repos.UsersRepo,subscriptionsRepo:repos.SubscriptionsRepo,messagesApi:play.api.i18n.MessagesApi):controllers.Application"></a>
+      <a id="&lt;init&gt;(system:akka.actor.ActorSystem,mailerClient:play.api.libs.mailer.MailerClient,actionBuilder:be.objectify.deadbolt.scala.ActionBuilders,authSupport:security.AuthSupport,usersRepo:repos.UsersRepo,subscriptionsRepo:repos.SubscriptionsRepo,messagesApi:play.api.i18n.MessagesApi):controllers.Application"></a>
       <a id="&lt;init&gt;:Application"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -97,10 +97,10 @@
         <span class="kind">new</span>
       </span>
       <span class="symbol">
-        <span class="name">Application</span><span class="params">(<span name="cacheApi">cacheApi: <span class="extype" name="play.api.cache.CacheApi">CacheApi</span></span>, <span name="actionBuilder">actionBuilder: <span class="extype" name="be.objectify.deadbolt.scala.ActionBuilders">ActionBuilders</span></span>, <span name="authSupport">authSupport: <a href="../security/AuthSupport.html" class="extype" name="security.AuthSupport">AuthSupport</a></span>, <span name="usersRepo">usersRepo: <a href="../repos/UsersRepo.html" class="extype" name="repos.UsersRepo">UsersRepo</a></span>, <span name="subscriptionsRepo">subscriptionsRepo: <a href="../repos/SubscriptionsRepo.html" class="extype" name="repos.SubscriptionsRepo">SubscriptionsRepo</a></span>, <span name="messagesApi">messagesApi: <span class="extype" name="play.api.i18n.MessagesApi">MessagesApi</span></span>)</span>
+        <span class="name">Application</span><span class="params">(<span name="system">system: <span class="extype" name="akka.actor.ActorSystem">ActorSystem</span></span>, <span name="mailerClient">mailerClient: <span class="extype" name="play.api.libs.mailer.MailerClient">MailerClient</span></span>, <span name="actionBuilder">actionBuilder: <span class="extype" name="be.objectify.deadbolt.scala.ActionBuilders">ActionBuilders</span></span>, <span name="authSupport">authSupport: <a href="../security/AuthSupport.html" class="extype" name="security.AuthSupport">AuthSupport</a></span>, <span name="usersRepo">usersRepo: <a href="../repos/UsersRepo.html" class="extype" name="repos.UsersRepo">UsersRepo</a></span>, <span name="subscriptionsRepo">subscriptionsRepo: <a href="../repos/SubscriptionsRepo.html" class="extype" name="repos.SubscriptionsRepo">SubscriptionsRepo</a></span>, <span name="messagesApi">messagesApi: <span class="extype" name="play.api.i18n.MessagesApi">MessagesApi</span></span>)</span>
       </span>
       </h4><span class="permalink">
-      <a href="../index.html#controllers.Application@&lt;init&gt;(cacheApi:play.api.cache.CacheApi,actionBuilder:be.objectify.deadbolt.scala.ActionBuilders,authSupport:security.AuthSupport,usersRepo:repos.UsersRepo,subscriptionsRepo:repos.SubscriptionsRepo,messagesApi:play.api.i18n.MessagesApi):controllers.Application" title="Permalink" target="_top">
+      <a href="../index.html#controllers.Application@&lt;init&gt;(system:akka.actor.ActorSystem,mailerClient:play.api.libs.mailer.MailerClient,actionBuilder:be.objectify.deadbolt.scala.ActionBuilders,authSupport:security.AuthSupport,usersRepo:repos.UsersRepo,subscriptionsRepo:repos.SubscriptionsRepo,messagesApi:play.api.i18n.MessagesApi):controllers.Application" title="Permalink" target="_top">
         <img src="../lib/permalink.png" alt="Permalink" />
       </a>
     </span>
@@ -113,7 +113,24 @@
 
         <div id="types" class="types members">
               <h3>Type Members</h3>
-              <ol><li name="play.api.i18n.I18nSupport.ResultWithLang" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+              <ol><li name="controllers.Application.MailActor" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="MailActorextendsActor"></a>
+      <a id="MailActor:MailActor"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="Application$MailActor.html"><span class="name">MailActor</span></a><span class="result"> extends <span class="extype" name="akka.actor.Actor">Actor</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#controllers.Application@MailActorextendsActor" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="play.api.i18n.I18nSupport.ResultWithLang" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="ResultWithLangextendsAnyRef"></a>
       <a id="ResultWithLang:ResultWithLang"></a>
       <h4 class="signature">
@@ -1769,6 +1786,23 @@
       </a>
     </span>
       <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Status</dd></dl></div>
+    </li><li name="controllers.Application.MailActor" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="MailActor"></a>
+      <a id="MailActor:MailActor"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Application$MailActor$.html"><span class="name">MailActor</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#controllers.Application@MailActor" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
     </li><li name="play.api.mvc.Results#MethodNotAllowed" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="MethodNotAllowed:Results.this.Status"></a>
       <a id="MethodNotAllowed:Status"></a>
@@ -3447,6 +3481,23 @@
       </a>
     </span>
       
+    </li><li name="controllers.Application#mailActor" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="mailActor:akka.actor.ActorRef"></a>
+      <a id="mailActor:ActorRef"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">mailActor</span><span class="result">: <span class="extype" name="akka.actor.ActorRef">ActorRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#controllers.Application@mailActor:akka.actor.ActorRef" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
     </li><li name="controllers.Application#messagesApi" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="messagesApi:play.api.i18n.MessagesApi"></a>
       <a id="messagesApi:MessagesApi"></a>
@@ -3596,6 +3647,23 @@
       </span>
       </h4><span class="permalink">
       <a href="../index.html#controllers.Application@save(id:String):play.api.mvc.Action[play.api.mvc.AnyContent]" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="controllers.Application#sendEmail" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="sendEmail(user:models.User,subscriptionList:models.SubscriptionList[models.Subscription]):String"></a>
+      <a id="sendEmail(User,SubscriptionList[Subscription]):String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">sendEmail</span><span class="params">(<span name="user">user: <a href="../models/User.html" class="extype" name="models.User">User</a></span>, <span name="subscriptionList">subscriptionList: <a href="../models/SubscriptionList.html" class="extype" name="models.SubscriptionList">SubscriptionList</a>[<a href="../models/Subscription.html" class="extype" name="models.Subscription">Subscription</a>]</span>)</span><span class="result">: <span class="extype" name="scala.Predef.String">String</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#controllers.Application@sendEmail(user:models.User,subscriptionList:models.SubscriptionList[models.Subscription]):String" title="Permalink" target="_top">
         <img src="../lib/permalink.png" alt="Permalink" />
       </a>
     </span>

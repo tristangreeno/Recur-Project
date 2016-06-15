@@ -2,12 +2,13 @@ package controllers
 
 import javax.inject.Inject
 
+import akka.actor.{Actor, ActorSystem, Props}
 import be.objectify.deadbolt.scala.ActionBuilders
 import models._
-import play.api.cache.CacheApi
 import play.api.data.Form
 import play.api.data.Forms._
 import play.api.i18n.{I18nSupport, MessagesApi}
+import play.api.libs.mailer._
 import play.api.mvc._
 import repos.{SubscriptionsRepo, UsersRepo}
 import security.AuthSupport
@@ -21,7 +22,7 @@ import scala.concurrent.duration._
   * @author Steve Chaloner (steve@objectify.be)
   */
 
-class Application @Inject()(cacheApi: CacheApi, actionBuilder: ActionBuilders, authSupport: AuthSupport, usersRepo: UsersRepo, subscriptionsRepo: SubscriptionsRepo,
+class Application @Inject()(system: ActorSystem, mailerClient: MailerClient, actionBuilder: ActionBuilders, authSupport: AuthSupport, usersRepo: UsersRepo, subscriptionsRepo: SubscriptionsRepo,
                             val messagesApi: MessagesApi) extends Controller with I18nSupport {
 
   val Home = Redirect(routes.Application.list())
@@ -42,12 +43,54 @@ class Application @Inject()(cacheApi: CacheApi, actionBuilder: ActionBuilders, a
       "category" -> text,
       "userId" -> optional(longNumber))(Subscription.apply)(Subscription.unapply))
 
+  def sendEmail(user: User, subscriptionList: SubscriptionList[Subscription]) = {
+
+    val email = Email(
+      "Reminder: Subscription about to Renew",
+      "Recur FROM <greeno.tristan@gmail.com>",
+      Seq(s"${user.name} TO <${user.name}>"),
+      bodyText = Some(s"Your subscriptions will be renewing soon."),
+      bodyHtml = Some(
+        s"""
+      <html lang="en">
+      <body>
+        <b> The following subscriptions will be renewing soon</b>
+        ${subscriptionList.items.map(s => s.name)}
+      </body>
+      </html>""")
+    )
+
+    mailerClient.send(email)
+  }
+
+
+  object MailActor {
+    def props = Props[MailActor]
+
+    case class SendMail(user: User, subscriptionList: SubscriptionList[Subscription])
+  }
+
+  class MailActor extends Actor {
+  import MailActor._
+
+    def receive = {
+      case SendMail(user: User, subscriptionList: SubscriptionList[Subscription]) =>
+      sender() ! sendEmail(user, subscriptionList)
+    }
+  }
+
+  val mailActor = system.actorOf(MailActor.props, "mailActor")
+
   def list = actionBuilder.SubjectPresentAction().defaultHandler() { authRequest =>
     authSupport.currentUser(authRequest).map(maybeUser => {
       val user = getCurrentUser(maybeUser.get.userId)
       val userId = user.get.id.get
       val allList = Await.result(subscriptionsRepo.list(userId).map(list => list), 10.seconds)
       val renewList = Await.result(subscriptionsRepo.listSubsAboutToRenew(userId).map(list => list), 10.seconds)
+
+      system.scheduler.schedule(
+        5.microseconds, 12.hours, mailActor, (user, renewList)
+      )
 
       Ok(views.html.list(renewList, allList))
     })
