@@ -32,10 +32,12 @@ Seq[Any](format.raw/*2.61*/("""
 <html lang="en">
   <head>
     <title>"""),_display_(/*8.13*/title),format.raw/*8.18*/("""</title>
+    <link rel="stylesheet" href=""""),_display_(/*9.35*/routes/*9.41*/.Assets.versioned("stylesheets/bootstrap.min.css")),format.raw/*9.91*/("""">
+    <script src=""""),_display_(/*10.19*/routes/*10.25*/.Assets.versioned("javascripts/bootstrap.min.js")),format.raw/*10.74*/("""" type="text/javascript"></script>
   </head>
   <body>
-  """),_display_(/*11.4*/content),format.raw/*11.11*/("""
-  """),format.raw/*12.3*/("""</body>
+  """),_display_(/*13.4*/content),format.raw/*13.11*/("""
+  """),format.raw/*14.3*/("""</body>
 </html>"""))
       }
     }
@@ -57,11 +59,11 @@ Seq[Any](format.raw/*2.61*/("""
 object authUser extends authUser_Scope0.authUser_Scope1.authUser
               /*
                   -- GENERATED --
-                  DATE: Wed Jun 08 17:44:40 CDT 2016
+                  DATE: Wed Jun 15 15:27:47 CDT 2016
                   SOURCE: /Users/tristangreeno/workspace/PlayProject/app/views/authUser.scala.html
-                  HASH: 35894f255384f43f4a2ed2da2360d7a4aa4718aa
-                  MATRIX: 609->25|763->84|791->86|872->141|897->146|954->177|982->184|1012->187
-                  LINES: 23->2|28->2|30->4|34->8|34->8|37->11|37->11|38->12
+                  HASH: d2ae96365a4c6f46a2d4093987ce10d8c18c353d
+                  MATRIX: 609->25|763->84|791->86|872->141|897->146|966->189|980->195|1050->245|1098->266|1113->272|1183->321|1266->378|1294->385|1324->388
+                  LINES: 23->2|28->2|30->4|34->8|34->8|35->9|35->9|35->9|36->10|36->10|36->10|39->13|39->13|40->14
                   -- GENERATED --
               */
           

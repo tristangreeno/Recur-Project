@@ -92,6 +92,8 @@
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/controllers/Application$$anonfun$create$1.class
 [debug] 	repos/SubscriptionsRepo$$anonfun$list$3.class
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/repos/SubscriptionsRepo$$anonfun$list$3.class
+[debug] 	META-INF/resources/webjars/playproject/1.0/stylesheets/bootstrap.min.css
+[debug] 	  /Users/tristangreeno/workspace/PlayProject/public/stylesheets/bootstrap.min.css
 [debug] 	views/html/createForm_Scope0$createForm_Scope1$createForm$$anonfun$f$1$$anonfun$apply$2.class
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/views/html/createForm_Scope0$createForm_Scope1$createForm$$anonfun$f$1$$anonfun$apply$2.class
 [debug] 	views/html/security/denied_Scope0$denied_Scope1$denied$$anonfun$f$1.class
@@ -190,6 +192,8 @@
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/controllers/Application$$anonfun$2.class
 [debug] 	router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$4$$anonfun$apply$4.class
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$4$$anonfun$apply$4.class
+[debug] 	META-INF/resources/webjars/playproject/1.0/javascripts/bootstrap.min.js
+[debug] 	  /Users/tristangreeno/workspace/PlayProject/public/javascripts/bootstrap.min.js
 [debug] 	repos/UsersComponent$UsersTable$$anonfun$$times$1.class
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/repos/UsersComponent$UsersTable$$anonfun$$times$1.class
 [debug] 	repos/SubscriptionsRepo$$anonfun$update$1.class
