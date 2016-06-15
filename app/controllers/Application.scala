@@ -13,6 +13,8 @@ import play.api.mvc._
 import repos.{SubscriptionsRepo, UsersRepo}
 import security.AuthSupport
 
+import play.api.libs.concurrent.Execution.Implicits.defaultContext
+
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent._
 import scala.concurrent.duration._
@@ -70,7 +72,7 @@ class Application @Inject()(system: ActorSystem, mailerClient: MailerClient, act
     case class SendMail(user: User, subscriptionList: SubscriptionList[Subscription])
   }
 
-  class MailActor @Inject() extends Actor {
+  class MailActor extends Actor {
   import MailActor._
 
     def receive = {
