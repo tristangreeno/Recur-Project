@@ -4,7 +4,6 @@ import javax.inject.Inject
 
 import akka.actor.{Actor, ActorSystem, Props}
 import be.objectify.deadbolt.scala.ActionBuilders
-import controllers.Application.MailActor.SendMail
 import models._
 import play.api.data.Form
 import play.api.data.Forms._
@@ -23,7 +22,6 @@ import scala.concurrent.duration._
   * @author Steve Chaloner (steve@objectify.be)
   */
 
-@Singleton
 class Application @Inject()(system: ActorSystem, mailerClient: MailerClient, actionBuilder: ActionBuilders, authSupport: AuthSupport, usersRepo: UsersRepo, subscriptionsRepo: SubscriptionsRepo,
                             val messagesApi: MessagesApi) extends Controller with I18nSupport {
 
