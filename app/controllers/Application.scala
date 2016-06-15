@@ -4,6 +4,7 @@ import javax.inject.Inject
 
 import akka.actor.{Actor, ActorSystem, Props}
 import be.objectify.deadbolt.scala.ActionBuilders
+import controllers.Application.MailActor.SendMail
 import models._
 import play.api.data.Form
 import play.api.data.Forms._
@@ -22,6 +23,7 @@ import scala.concurrent.duration._
   * @author Steve Chaloner (steve@objectify.be)
   */
 
+@Singleton
 class Application @Inject()(system: ActorSystem, mailerClient: MailerClient, actionBuilder: ActionBuilders, authSupport: AuthSupport, usersRepo: UsersRepo, subscriptionsRepo: SubscriptionsRepo,
                             val messagesApi: MessagesApi) extends Controller with I18nSupport {
 
@@ -74,12 +76,13 @@ class Application @Inject()(system: ActorSystem, mailerClient: MailerClient, act
   import MailActor._
 
     def receive = {
-      case SendMail(user: User, subscriptionList: SubscriptionList[Subscription]) =>
-      sender() ! sendEmail(user, subscriptionList)
+      case SendMail(user: User, subscriptionList: SubscriptionList[Subscription]) => sender() ! sendEmail(user, subscriptionList)
     }
   }
 
-  val mailActor = system.actorOf(MailActor.props, "mailActor")
+  case class MailToSend(user: User, subscriptionList: SubscriptionList[Subscription])
+
+  val mailActor = system.actorOf(MailActor.props, "mail-actor")
 
   def list = actionBuilder.SubjectPresentAction().defaultHandler() { authRequest =>
     authSupport.currentUser(authRequest).map(maybeUser => {
@@ -89,8 +92,7 @@ class Application @Inject()(system: ActorSystem, mailerClient: MailerClient, act
       val renewList = Await.result(subscriptionsRepo.listSubsAboutToRenew(userId).map(list => list), 10.seconds)
 
       system.scheduler.schedule(
-        5.microseconds, 12.hours, mailActor, (user, renewList)
-      )
+        5.microseconds, 12.hours, mailActor, MailToSend(user.get, renewList))
 
       Ok(views.html.list(renewList, allList))
     })
