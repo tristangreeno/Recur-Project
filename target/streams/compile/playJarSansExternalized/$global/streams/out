@@ -96,8 +96,6 @@
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/views/html/createForm_Scope0$createForm_Scope1$createForm$$anonfun$f$1$$anonfun$apply$2.class
 [debug] 	views/html/security/denied_Scope0$denied_Scope1$denied$$anonfun$f$1.class
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/views/html/security/denied_Scope0$denied_Scope1$denied$$anonfun$f$1.class
-[debug] 	repos/UsersRepo$$anonfun$options$1.class
-[debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/repos/UsersRepo$$anonfun$options$1.class
 [debug] 	controllers/Application$$anonfun$edit$1$$anonfun$5.class
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/controllers/Application$$anonfun$edit$1$$anonfun$5.class
 [debug] 	security/AuthSupport$$anonfun$getToken$1$$anonfun$apply$1.class
@@ -260,8 +258,6 @@
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/views/html/createForm$.class
 [debug] 	views/index.scala.html
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/views/index.scala.html
-[debug] 	repos/UsersRepo$$anonfun$options$1$$anonfun$apply$1.class
-[debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/repos/UsersRepo$$anonfun$options$1$$anonfun$apply$1.class
 [debug] 	controllers/Application$$anonfun$edit$1.class
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/controllers/Application$$anonfun$edit$1.class
 [debug] 	router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$12.class
