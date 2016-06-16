@@ -1,9 +1,4 @@
-<<<<<<< HEAD
 #Server Startup at 2016-06-15T21:42+0000
 #Wed Jun 15 16:42:58 CDT 2016
 server.uri=http\://0.0.0.0\:51949
-=======
-#Server Startup at 2016-06-14T14:55+0000
-#Tue Jun 14 09:55:54 CDT 2016
-server.uri=http\://0.0.0.0\:50823
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+
