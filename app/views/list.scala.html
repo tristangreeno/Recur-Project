@@ -20,7 +20,7 @@
 
     </div>
 
-    @Option(impendingSubscriptionsList.items.par).filterNot(_.isEmpty).map { subscriptions =>
+    @Option(impendingSubscriptionsList.items).filterNot(_.isEmpty).map { subscriptions =>
         <div>
             <h3>Impending Subscriptions</h3>
             <table>
