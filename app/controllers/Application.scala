@@ -46,7 +46,7 @@ class Application @Inject()(mailerClient: MailerClient, actionBuilder: ActionBui
 
     val email = Email(
       "Reminder: Subscription about to Renew",
-      "Recur FROM <greeno.tristan@gmail.com>",
+      "Recur Application <recur.application@gmail.com>",
       Seq(s"${user.name} TO <${user.name}>"),
       bodyText = Some(s"Your subscriptions will be renewing soon."),
       bodyHtml = Some(
