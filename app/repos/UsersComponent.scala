@@ -31,12 +31,12 @@ class UsersRepo @Inject()(protected val dbConfigProvider: DatabaseConfigProvider
 
   val users = TableQuery[UsersTable]
 
-  def options(): Future[Seq[(Long, String, String, String)]] = {
+  def options(): Future[Seq[User]] = {
     val query = for {
       user <- users
-    } yield (user.id, user.userId, user.name, user.avatarUrl)
+    } yield user
 
-    db.run(query.result).map(rows => rows.map { case (id, userId, name, avatarUrl) => (id, userId, name, avatarUrl) })
+    db.run(query.result)
   }
 
   def insert(user: User) = {

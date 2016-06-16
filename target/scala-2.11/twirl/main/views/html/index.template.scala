@@ -30,7 +30,7 @@ Seq[Any](format.raw/*3.71*/("""
     """),_display_(/*5.6*/main(title, maybeUser)/*5.28*/ {_display_(Seq[Any](format.raw/*5.30*/("""
         """),_display_(/*6.10*/if(maybeUser.isDefined)/*6.33*/ {_display_(Seq[Any](format.raw/*6.35*/("""
             """),_display_(/*7.14*/defining(maybeUser.get)/*7.37*/ { user =>_display_(Seq[Any](format.raw/*7.47*/("""
-                """),format.raw/*8.17*/("""<p>Hello """),_display_(/*8.27*/user/*8.31*/.name),format.raw/*8.36*/("""</p>
+                """),format.raw/*8.17*/("""<p>Hello """),_display_(/*8.27*/user/*8.31*/.email),format.raw/*8.36*/("""</p>
                 <img src=""""),_display_(/*9.28*/user/*9.32*/.avatarUrl),format.raw/*9.42*/(""""/>
             """)))}),format.raw/*10.14*/("""
 
