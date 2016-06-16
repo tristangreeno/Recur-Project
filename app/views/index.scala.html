@@ -1,7 +1,6 @@
 @import models._
-@import repos.UsersRepo
 
-@(title: String, maybeUser: Option[User], usersRepo: UsersRepo)(implicit messages: Messages)
+@(title: String, maybeUser: Option[User])(implicit messages: Messages)
 
     @main(title, maybeUser) {
         @if(maybeUser.isDefined) {

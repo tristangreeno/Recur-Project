@@ -42,27 +42,6 @@ class Application @Inject()(mailerClient: MailerClient, actionBuilder: ActionBui
       "category" -> text,
       "userId" -> optional(longNumber))(Subscription.apply)(Subscription.unapply))
 
-  def sendEmail(user: User, subscriptionList: SubscriptionList[Subscription]) = {
-
-    val email = Email(
-      "Reminder: Subscription about to Renew",
-      "Recur Application <recur.application@gmail.com>",
-      Seq(s"${user.name} TO <${user.name}>"),
-      bodyText = Some(s"Your subscriptions will be renewing soon."),
-      bodyHtml = Some(
-        s"""
-      <html lang="en">
-      <body>
-        <b> The following subscriptions will be renewing soon</b>
-        ${subscriptionList.items.map(s => s.name).toList.mkString("/")}
-
-        <a href="https://glacial-brook-71360.herokuapp.com/subscriptions">Subscriptions List</a>
-      </body>
-      </html>""")
-    )
-
-    mailerClient.send(email)
-  }
 
   def list = actionBuilder.SubjectPresentAction().defaultHandler() { authRequest =>
     authSupport.currentUser(authRequest).map(maybeUser => {
@@ -70,8 +49,6 @@ class Application @Inject()(mailerClient: MailerClient, actionBuilder: ActionBui
       val userId = user.get.id.get
       val allList = Await.result(subscriptionsRepo.list(userId).map(list => list), 10.seconds)
       val renewList = Await.result(subscriptionsRepo.listSubsAboutToRenew(userId).map(list => list), 10.seconds)
-
-      sendEmail(user.get, renewList)
 
       Ok(views.html.list(renewList, allList))
     })
@@ -86,7 +63,7 @@ class Application @Inject()(mailerClient: MailerClient, actionBuilder: ActionBui
         user = getCurrentUser(maybeUser.get.userId)
       }
 
-      Ok(views.html.index("Recur", user, usersRepo))
+      Ok(views.html.index("Recur", user))
     })
   }
 

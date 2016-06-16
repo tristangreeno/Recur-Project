@@ -96,6 +96,8 @@
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/api/security/Auth0ConfigKeys$.html
 [debug] 	index/index-e.html
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/api/index/index-e.html
+[debug] 	controllers/EmailController.html
+[debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/api/controllers/EmailController.html
 [debug] 	lib/index.js
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/api/lib/index.js
 [debug] 	index/index-o.html
@@ -246,6 +248,8 @@
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/api/lib/trait_big.png
 [debug] 	repos/SubscriptionsRepo.html
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/api/repos/SubscriptionsRepo.html
+[debug] 	controllers/javascript/ReverseEmailController.html
+[debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/api/controllers/javascript/ReverseEmailController.html
 [debug] 	lib/selected-implicits.png
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/api/lib/selected-implicits.png
 [debug] 	models/User.html
@@ -294,6 +298,8 @@
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/api/views/html/editForm_Scope0$$editForm.html
 [debug] 	lib/diagrams.js
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/api/lib/diagrams.js
+[debug] 	controllers/ReverseEmailController.html
+[debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/api/controllers/ReverseEmailController.html
 [debug] 	models/AuthUser.html
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/api/models/AuthUser.html
 [debug] 	index/index-f.html

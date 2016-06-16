@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/Users/tristangreeno/workspace/PlayProject/conf/routes
-// @DATE:Mon Jun 13 14:29:56 CDT 2016
+// @DATE:Thu Jun 16 09:50:27 CDT 2016
 
 import play.api.routing.JavaScriptReverseRoute
 import play.api.mvc.{ QueryStringBindable, PathBindable, Call, JavascriptLiteral }
@@ -14,7 +14,7 @@ import _root_.controllers.Assets.Asset
 package controllers.javascript {
   import ReverseRouteContext.empty
 
-  // @LINE:28
+  // @LINE:31
   class ReverseAssets(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -22,7 +22,7 @@ package controllers.javascript {
     }
 
   
-    // @LINE:28
+    // @LINE:31
     def versioned: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Assets.versioned",
       """
@@ -34,7 +34,27 @@ package controllers.javascript {
   
   }
 
-  // @LINE:23
+  // @LINE:12
+  class ReverseEmailController(_prefix: => String) {
+
+    def _defaultPrefix: String = {
+      if (_prefix.endsWith("/")) "" else "/"
+    }
+
+  
+    // @LINE:12
+    def sendEmail: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.EmailController.sendEmail",
+      """
+        function() {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "subscriptions/email"})
+        }
+      """
+    )
+  
+  }
+
+  // @LINE:26
   class ReverseAuthController(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -42,7 +62,7 @@ package controllers.javascript {
     }
 
   
-    // @LINE:23
+    // @LINE:26
     def logIn: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.AuthController.logIn",
       """
@@ -52,7 +72,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:24
+    // @LINE:27
     def callback: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.AuthController.callback",
       """
@@ -62,7 +82,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:25
+    // @LINE:28
     def logOut: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.AuthController.logOut",
       """
@@ -82,7 +102,7 @@ package controllers.javascript {
     }
 
   
-    // @LINE:20
+    // @LINE:23
     def delete: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Application.delete",
       """
@@ -92,7 +112,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:12
+    // @LINE:15
     def create: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Application.create",
       """
@@ -102,7 +122,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:16
+    // @LINE:19
     def edit: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Application.edit",
       """
@@ -112,7 +132,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:17
+    // @LINE:20
     def update: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Application.update",
       """
@@ -122,7 +142,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:13
+    // @LINE:16
     def save: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Application.save",
       """

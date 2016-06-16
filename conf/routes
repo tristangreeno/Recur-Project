@@ -8,6 +8,9 @@ GET         /                                controllers.Application.index
 # List of subscriptions
 GET         /subscriptions                   controllers.Application.list
 
+# Route to start program that sends emails
+GET         /subscriptions/email             controllers.EmailController.sendEmail
+
 # Add subsciption
 GET         /subscriptions/new               controllers.Application.create
 POST        /subscriptions/save/:id          controllers.Application.save(id:String)
