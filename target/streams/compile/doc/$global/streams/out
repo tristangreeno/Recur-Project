@@ -39,6 +39,6 @@
 [debug] 	/Users/tristangreeno/workspace/PlayProject/target/scala-2.11/twirl/main/views/html/noUser.template.scala
 [debug] 	/Users/tristangreeno/workspace/PlayProject/target/scala-2.11/twirl/main/views/html/security/denied.template.scala
 [debug] 	/Users/tristangreeno/workspace/PlayProject/target/scala-2.11/twirl/main/views/html/security/login.template.scala
-[warn] there were four feature warnings; re-run with -feature for details
+[warn] there were three feature warnings; re-run with -feature for details
 [warn] one warning found
 [info] Main Scala API documentation successful.

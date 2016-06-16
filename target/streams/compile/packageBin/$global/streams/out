@@ -510,8 +510,6 @@
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/router/Routes$$anonfun$router$Routes$$controllers_Application_create3_invoker$1.class
 [debug] 	modules
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/modules
-[debug] 	controllers/EmailController$$anonfun$sendEmail$1$$anonfun$apply$1$$anonfun$3.class
-[debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/controllers/EmailController$$anonfun$sendEmail$1$$anonfun$apply$1$$anonfun$3.class
 [debug] 	router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$10.class
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$10.class
 [debug] 	META-INF/resources/webjars/playproject/1.0/images/Recurlogo 300x300b.png
