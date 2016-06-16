@@ -44,7 +44,7 @@ class EmailController @Inject()(application: Application, mailerClient: MailerCl
       </html>""")
       )
 
-      if(renewList.items.nonEmpty) { mailerClient.send(email) }
+      mailerClient.send(email)
 
       Ok
     })}
