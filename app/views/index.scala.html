@@ -9,6 +9,10 @@
                 <img src="@user.avatarUrl"/>
             }
 
-            <p><a href="@controllers.routes.AuthController.logOut()">Log out</a></p>
+
+            <p>
+                <a href="@controllers.routes.Application.list()">View Subscriptions</a>
+                <a href="@controllers.routes.AuthController.logOut()">Sign Out</a>
+            </p>
         }
     }
