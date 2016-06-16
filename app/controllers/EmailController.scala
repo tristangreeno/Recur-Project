@@ -2,7 +2,6 @@ package controllers
 
 import javax.inject.Inject
 
-import models._
 import play.api.i18n.{I18nSupport, MessagesApi}
 import play.api.libs.mailer._
 import play.api.mvc._
@@ -13,7 +12,8 @@ import scala.concurrent._
 import scala.concurrent.duration._
 
 /**
-  * Created by tristangreeno on 6/16/16.
+  * Controls the email capability of the Recur application.
+  * Should be called via a curl command using Scheduler or a CronJob.
   */
 class EmailController @Inject()(application: Application, mailerClient: MailerClient, usersRepo: UsersRepo, subscriptionsRepo: SubscriptionsRepo,
                                  val messagesApi: MessagesApi) extends Controller with I18nSupport {
