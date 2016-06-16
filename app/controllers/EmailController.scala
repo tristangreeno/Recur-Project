@@ -17,7 +17,7 @@ import scala.concurrent.duration._
   */
 class EmailController @Inject()(application: Application, mailerClient: MailerClient, usersRepo: UsersRepo, subscriptionsRepo: SubscriptionsRepo,
                                  val messagesApi: MessagesApi) extends Controller with I18nSupport {
-
+  git pull origin master && git push origin master
   def sendEmail = Action { implicit request =>
 
     val users = Await.result(usersRepo.options(), 10.seconds)
