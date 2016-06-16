@@ -7,6 +7,7 @@
 		revision="1.0"
 		conf="compile"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, fork-run"
+<<<<<<< HEAD
 		date="20160615115743"/>
 	<dependencies>
 		<module organisation="com.typesafe.play" name="play-mailer_2.11">
@@ -67,6 +68,10 @@
 				</artifacts>
 			</revision>
 		</module>
+=======
+		date="20160614140353"/>
+	<dependencies>
+>>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
 		<module organisation="be.objectify" name="deadbolt-scala_2.11">
 			<revision name="2.5.0" status="release" pubdate="20160322023658" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://deadbolt.ws" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="81">
 				<license name="Apache 2" url="http://opensource.org/licenses/Apache-2.0"/>

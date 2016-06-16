@@ -37,6 +37,7 @@ class UsersRepo @Inject()(protected val dbConfigProvider: DatabaseConfigProvider
     } yield user
 
     db.run(query.result)
+
   }
 
   def insert(user: User) = {

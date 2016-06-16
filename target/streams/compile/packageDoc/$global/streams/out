@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [info] Packaging /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/playproject_2.11-1.0-javadoc.jar ...
 [debug] Input file mappings:
 [debug] 	models/SubscriptionList.html
@@ -345,3 +346,6 @@
 [debug] 	lib/object_diagram.png
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/api/lib/object_diagram.png
 [info] Done packaging.
+=======
+[debug] Jar uptodate: /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/playproject_2.11-1.0-javadoc.jar
+>>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e

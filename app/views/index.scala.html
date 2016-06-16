@@ -1,10 +1,13 @@
 @import models._
 
+
 @(title: String, maybeUser: Option[User])(implicit messages: Messages)
+
 
     @main(title, maybeUser) {
         @if(maybeUser.isDefined) {
             @defining(maybeUser.get) { user =>
+
                 <p>Hello @user.email</p>
                 <img src="@user.avatarUrl"/>
             }
@@ -14,5 +17,6 @@
                 <a href="@controllers.routes.Application.list()">View Subscriptions</a>
                 <a href="@controllers.routes.AuthController.logOut()">Sign Out</a>
             </p>
+
         }
     }

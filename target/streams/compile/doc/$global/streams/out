@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [info] Main Scala API documentation to /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/api...
 [debug] Getting compiler-interface from component compiler for Scala 2.11.8
 [debug] Calling Scaladoc with arguments:
@@ -42,3 +43,6 @@
 [warn] there were three feature warnings; re-run with -feature for details
 [warn] one warning found
 [info] Main Scala API documentation successful.
+=======
+[debug] Uptodate: /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/api
+>>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e

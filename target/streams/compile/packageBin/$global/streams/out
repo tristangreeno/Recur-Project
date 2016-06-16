@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [info] Packaging /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/playproject_2.11-1.0.jar ...
 [debug] Input file mappings:
 [debug] 	controllers/AuthController$$anonfun$logIn$1.class
@@ -549,3 +550,6 @@
 [debug] 	views/html/editForm.class
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/views/html/editForm.class
 [info] Done packaging.
+=======
+[debug] Jar uptodate: /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/playproject_2.11-1.0.jar
+>>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e

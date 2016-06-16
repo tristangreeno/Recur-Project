@@ -1,7 +1,11 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/Users/tristangreeno/workspace/PlayProject/conf/routes
+<<<<<<< HEAD
 // @DATE:Thu Jun 16 09:50:27 CDT 2016
+=======
+// @DATE:Mon Jun 13 14:29:56 CDT 2016
+>>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
 
 import play.api.routing.JavaScriptReverseRoute
 import play.api.mvc.{ QueryStringBindable, PathBindable, Call, JavascriptLiteral }
@@ -14,7 +18,11 @@ import _root_.controllers.Assets.Asset
 package controllers.javascript {
   import ReverseRouteContext.empty
 
+<<<<<<< HEAD
   // @LINE:31
+=======
+  // @LINE:28
+>>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
   class ReverseAssets(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -22,7 +30,11 @@ package controllers.javascript {
     }
 
   
+<<<<<<< HEAD
     // @LINE:31
+=======
+    // @LINE:28
+>>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
     def versioned: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Assets.versioned",
       """
@@ -34,6 +46,7 @@ package controllers.javascript {
   
   }
 
+<<<<<<< HEAD
   // @LINE:12
   class ReverseEmailController(_prefix: => String) {
 
@@ -55,6 +68,9 @@ package controllers.javascript {
   }
 
   // @LINE:26
+=======
+  // @LINE:23
+>>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
   class ReverseAuthController(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -62,7 +78,11 @@ package controllers.javascript {
     }
 
   
+<<<<<<< HEAD
     // @LINE:26
+=======
+    // @LINE:23
+>>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
     def logIn: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.AuthController.logIn",
       """
@@ -72,7 +92,11 @@ package controllers.javascript {
       """
     )
   
+<<<<<<< HEAD
     // @LINE:27
+=======
+    // @LINE:24
+>>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
     def callback: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.AuthController.callback",
       """
@@ -82,7 +106,11 @@ package controllers.javascript {
       """
     )
   
+<<<<<<< HEAD
     // @LINE:28
+=======
+    // @LINE:25
+>>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
     def logOut: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.AuthController.logOut",
       """
@@ -102,7 +130,11 @@ package controllers.javascript {
     }
 
   
+<<<<<<< HEAD
     // @LINE:23
+=======
+    // @LINE:20
+>>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
     def delete: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Application.delete",
       """
@@ -112,7 +144,11 @@ package controllers.javascript {
       """
     )
   
+<<<<<<< HEAD
     // @LINE:15
+=======
+    // @LINE:12
+>>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
     def create: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Application.create",
       """
@@ -122,7 +158,11 @@ package controllers.javascript {
       """
     )
   
+<<<<<<< HEAD
     // @LINE:19
+=======
+    // @LINE:16
+>>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
     def edit: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Application.edit",
       """
@@ -132,7 +172,11 @@ package controllers.javascript {
       """
     )
   
+<<<<<<< HEAD
     // @LINE:20
+=======
+    // @LINE:17
+>>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
     def update: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Application.update",
       """
@@ -142,7 +186,11 @@ package controllers.javascript {
       """
     )
   
+<<<<<<< HEAD
     // @LINE:16
+=======
+    // @LINE:13
+>>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
     def save: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Application.save",
       """

@@ -24,6 +24,7 @@ class MyDeadboltHandler @Inject()(config: Configuration,
   private val domain: String = config.getString(Auth0ConfigKeys.Domain).getOrElse("tgreeno.auth0.com")
   private val redirectUri: String = config.getString(Auth0ConfigKeys.RedirectURI).getOrElse("http://localhost:9000/callback")
 
+
   override def beforeAuthCheck[A](request: Request[A]): Future[Option[Result]] = Future {
     None
   }

@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 [error] (compile:playRoutes) @70dnki6on: Compilation error in /Users/tristangreeno/workspace/PlayProject/conf/routes:12
+=======
+[error] (compile:playRoutes) @70b309imk: Compilation error in /Users/tristangreeno/workspace/PlayProject/conf/routes:17
+>>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e

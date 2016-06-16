@@ -29,6 +29,7 @@ class AuthSupport @Inject()(cache: CacheApi,
   private val domain: String = config.getString(Auth0ConfigKeys.Domain).getOrElse("tgreeno.auth0.com")
   private val redirectUri: String = config.getString(Auth0ConfigKeys.RedirectURI).getOrElse("http://localhost:9000/callback")
 
+
   /**
     * Get the current user by checking, in order, the request, the cache and the
     * identity management platform.

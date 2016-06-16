@@ -3,6 +3,14 @@
 [debug] Default repositories:
 [debug] 	Raw(ProjectResolver(inter-project, mapped: ))
 [debug] 	FileRepository(local,FileConfiguration(true,None),Patterns(ivyPatterns=List(${ivy.home}/local/[organisation]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext]), artifactPatterns=List(${ivy.home}/local/[organisation]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext]), isMavenCompatible=false, descriptorOptional=false, skipConsistencyCheck=false))
+<<<<<<< HEAD
 [debug] 	public: http://repo1.maven.org/maven2/
 [debug] 	scalaz-bintray: https://dl.bintray.com/scalaz/releases
 [debug] Using inline dependencies specified in Scala.
+=======
+[debug] 	jcenter: https://jcenter.bintray.com/
+[debug] 	public: http://repo1.maven.org/maven2/
+[debug] 	scalaz-bintray: https://dl.bintray.com/scalaz/releases
+[debug] Using inline dependencies specified in Scala.
+[debug] Using inline dependencies specified in Scala.
+>>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e

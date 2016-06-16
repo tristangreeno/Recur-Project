@@ -1,9 +1,11 @@
 package repos
 
+
 import java.time._
 import javax.inject.{Inject, Singleton}
 
 import models._
+
 import play.api.db.slick._
 import play.api.libs.concurrent.Execution.Implicits.defaultContext
 import slick.driver.JdbcProfile
@@ -44,13 +46,14 @@ class SubscriptionsRepo @Inject()(protected val dbConfigProvider: DatabaseConfig
   def count(filter: String): Future[Int] = db.run(subscriptions.filter { subscription => subscription.name.toLowerCase like filter.toLowerCase }.length.result)
 
   def list(id: Long): Future[SubscriptionList[(Subscription)]] = {
+
     // joining subscriptions and users
     for {
       (sub, user) <- subscriptions join users on (_.userId === _.id)
     } yield (sub, user.name)
-
-    db.run(subscriptions.filter(_.userId === id).result).map(f => SubscriptionList(f))
   }
+
+
 
   def insert(subscription: Subscription): Future[Unit] = { db.run(subscriptions += subscription).map(_ => ()) }
 
@@ -67,6 +70,7 @@ class SubscriptionsRepo @Inject()(protected val dbConfigProvider: DatabaseConfig
 
   def delete(id: Long): Future[Unit] = {
     db.run(subscriptions.filter(_.id === id).delete).map(_ => ())
+
   }
 
   def updateSubsThatHaveRenewed(subscription: Subscription) = {

@@ -2,16 +2,25 @@
 [debug] Initial source changes: 
 [debug] 	removed:Set()
 [debug] 	added: Set()
+<<<<<<< HEAD
 [debug] 	modified: Set(/Users/tristangreeno/workspace/PlayProject/target/scala-2.11/twirl/main/views/html/index.template.scala, /Users/tristangreeno/workspace/PlayProject/app/controllers/EmailController.scala, /Users/tristangreeno/workspace/PlayProject/app/models/User.scala, /Users/tristangreeno/workspace/PlayProject/app/repos/UsersComponent.scala)
 [debug] Removed products: Set()
 [debug] External API changes: API Changes: Set()
 [debug] Modified binary dependencies: Set()
 [debug] Initial directly invalidated sources: Set(/Users/tristangreeno/workspace/PlayProject/target/scala-2.11/twirl/main/views/html/index.template.scala, /Users/tristangreeno/workspace/PlayProject/app/controllers/EmailController.scala, /Users/tristangreeno/workspace/PlayProject/app/models/User.scala, /Users/tristangreeno/workspace/PlayProject/app/repos/UsersComponent.scala)
+=======
+[debug] 	modified: Set()
+[debug] Removed products: Set()
+[debug] External API changes: API Changes: Set()
+[debug] Modified binary dependencies: Set()
+[debug] Initial directly invalidated sources: Set()
+>>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
 [debug] 
 [debug] Sources indirectly invalidated by:
 [debug] 	product: Set()
 [debug] 	binary dep: Set()
 [debug] 	external source: Set()
+<<<<<<< HEAD
 [debug] All initially invalidated sources: Set(/Users/tristangreeno/workspace/PlayProject/target/scala-2.11/twirl/main/views/html/index.template.scala, /Users/tristangreeno/workspace/PlayProject/app/controllers/EmailController.scala, /Users/tristangreeno/workspace/PlayProject/app/models/User.scala, /Users/tristangreeno/workspace/PlayProject/app/repos/UsersComponent.scala)
 [info] Compiling 4 Scala sources to /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes...
 [debug] Getting compiler-interface from component compiler for Scala 2.11.8
@@ -67,3 +76,6 @@
 [debug] Previously invalidated, but (transitively) depend on new invalidations:
 [debug] 	Set()
 [debug] All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+=======
+[debug] All initially invalidated sources: Set()
+>>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
