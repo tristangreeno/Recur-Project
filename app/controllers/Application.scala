@@ -127,7 +127,6 @@ class Application @Inject()(mailerClient: MailerClient, actionBuilder: ActionBui
   def save(id: String) = Action { implicit request =>
     subscriptionForm.bindFromRequest.fold(
       formWithErrors => {
-        println("Error here")
         BadRequest(views.html.createForm(formWithErrors, getCurrentUser(id).get))
       },
       subscription => {
@@ -139,7 +138,6 @@ class Application @Inject()(mailerClient: MailerClient, actionBuilder: ActionBui
 
   def delete(id: Long) = Action { implicit request =>
     subscriptionsRepo.delete(id).map(_ => ())
-
     Home.flashing("success" -> "Subscription successfully deleted")
   }
 
