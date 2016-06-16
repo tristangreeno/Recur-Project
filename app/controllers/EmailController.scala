@@ -46,7 +46,7 @@ class EmailController @Inject()(application: Application, mailerClient: MailerCl
 
       if(renewList.items.nonEmpty) { mailerClient.send(email) }
 
-      Ok(views.html.list(renewList, allList))
+      Ok
     })}
 
 }
