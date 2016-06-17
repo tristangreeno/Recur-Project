@@ -1,11 +1,9 @@
 package repos
 
-
 import java.time._
 import javax.inject.{Inject, Singleton}
 
 import models._
-
 import play.api.db.slick._
 import play.api.libs.concurrent.Execution.Implicits.defaultContext
 import slick.driver.JdbcProfile
@@ -47,13 +45,12 @@ class SubscriptionsRepo @Inject()(protected val dbConfigProvider: DatabaseConfig
 
   def list(id: Long): Future[SubscriptionList[(Subscription)]] = {
 
-    // joining subscriptions and users
     for {
       (sub, user) <- subscriptions join users on (_.userId === _.id)
     } yield (sub, user.name)
+
+    db.run(subscriptions.filter(_.userId === id).result).map(f => SubscriptionList(f))
   }
-
-
 
   def insert(subscription: Subscription): Future[Unit] = { db.run(subscriptions += subscription).map(_ => ()) }
 

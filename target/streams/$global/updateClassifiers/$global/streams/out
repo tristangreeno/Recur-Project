@@ -6,11 +6,7 @@
 [debug] == resolving dependencies for playproject#playproject$sources_2.11;1.0 [compile]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.8 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@723d03b8
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@439ae8d4
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@170fe526
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8
 [debug] 	local: revision in cache: org.scala-lang#scala-library;2.11.8
 [debug] 	found org.scala-lang#scala-library;2.11.8 in sbt-chain
@@ -20,11 +16,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->default(compile)]
 [info] Resolving com.typesafe.play#twirl-api_2.11;1.1.1 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@270454d4
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@51c4cdf2
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@52b4f16d
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#twirl-api_2.11;1.1.1
 [debug] 	local: revision in cache: com.typesafe.play#twirl-api_2.11;1.1.1
 [debug] 	found com.typesafe.play#twirl-api_2.11;1.1.1 in sbt-chain
@@ -33,11 +25,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [compile->default(compile)]
 [info] Resolving org.apache.commons#commons-lang3;3.4 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4e64189d
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@59541037
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@17e435a0
 [debug] sbt-chain: module revision found in cache: org.apache.commons#commons-lang3;3.4
 [debug] 	local: revision in cache: org.apache.commons#commons-lang3;3.4
 [debug] 	found org.apache.commons#commons-lang3;3.4 in sbt-chain
@@ -46,11 +34,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.1 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@269cff57
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@30368de3
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@23edf64d
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.1
 [debug] 	local: revision in cache: org.scala-lang.modules#scala-xml_2.11;1.0.1
 [debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.1 in sbt-chain
@@ -59,11 +43,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-server_2.11;2.5.3 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-server_2.11;2.5.3 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@70f4a303
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@25880468
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@c3d288f
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-server_2.11;2.5.3
 [debug] 	local: revision in cache: com.typesafe.play#play-server_2.11;2.5.3
 [debug] 	found com.typesafe.play#play-server_2.11;2.5.3 in sbt-chain
@@ -72,11 +52,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-server_2.11;2.5.3 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play_2.11;2.5.3 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play_2.11;2.5.3 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4be0c90a
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6f7b5847
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2052672a
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play_2.11;2.5.3
 [debug] 	local: revision in cache: com.typesafe.play#play_2.11;2.5.3
 [debug] 	found com.typesafe.play#play_2.11;2.5.3 in sbt-chain
@@ -85,11 +61,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play_2.11;2.5.3 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#build-link;2.5.3 [compile->default(compile)]
 [info] Resolving com.typesafe.play#build-link;2.5.3 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3c00255
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@62f019c
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@405bfc1b
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#build-link;2.5.3
 [debug] 	local: revision in cache: com.typesafe.play#build-link;2.5.3
 [debug] 	found com.typesafe.play#build-link;2.5.3 in sbt-chain
@@ -98,11 +70,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#build-link;2.5.3 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-exceptions;2.5.3 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-exceptions;2.5.3 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@39c1a061
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@36442a9f
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5727d9e8
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-exceptions;2.5.3
 [debug] 	local: revision in cache: com.typesafe.play#play-exceptions;2.5.3
 [debug] 	found com.typesafe.play#play-exceptions;2.5.3 in sbt-chain
@@ -111,11 +79,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-exceptions;2.5.3 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-iteratees_2.11;2.5.3 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-iteratees_2.11;2.5.3 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1991e1dd
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@75c68f73
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5f8704cf
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-iteratees_2.11;2.5.3
 [debug] 	local: revision in cache: com.typesafe.play#play-iteratees_2.11;2.5.3
 [debug] 	found com.typesafe.play#play-iteratees_2.11;2.5.3 in sbt-chain
@@ -124,11 +88,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-iteratees_2.11;2.5.3 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [compile->default(compile)]
 [info] Resolving org.scala-stm#scala-stm_2.11;0.7 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3a9140d6
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@53559002
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@39d33ea0
 [debug] sbt-chain: module revision found in cache: org.scala-stm#scala-stm_2.11;0.7
 [debug] 	local: revision in cache: org.scala-stm#scala-stm_2.11;0.7
 [debug] 	found org.scala-stm#scala-stm_2.11;0.7 in sbt-chain
@@ -137,11 +97,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe#config;1.3.0 [compile->default(compile)]
 [info] Resolving com.typesafe#config;1.3.0 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7218b60f
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2c799489
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@d09bba
 [debug] sbt-chain: module revision found in cache: com.typesafe#config;1.3.0
 [debug] 	local: revision in cache: com.typesafe#config;1.3.0
 [debug] 	found com.typesafe#config;1.3.0 in sbt-chain
@@ -150,11 +106,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe#config;1.3.0 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-json_2.11;2.5.3 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-json_2.11;2.5.3 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@581c2dee
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6aa99ea
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@113fe44c
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-json_2.11;2.5.3
 [debug] 	local: revision in cache: com.typesafe.play#play-json_2.11;2.5.3
 [debug] 	found com.typesafe.play#play-json_2.11;2.5.3 in sbt-chain
@@ -163,11 +115,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-json_2.11;2.5.3 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.5.3 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-functional_2.11;2.5.3 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@796226dd
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6f18bca6
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2c0db7de
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-functional_2.11;2.5.3
 [debug] 	local: revision in cache: com.typesafe.play#play-functional_2.11;2.5.3
 [debug] 	found com.typesafe.play#play-functional_2.11;2.5.3 in sbt-chain
@@ -176,11 +124,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.5.3 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-datacommons_2.11;2.5.3 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-datacommons_2.11;2.5.3 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@61bae077
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@513cb381
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@f7d66c9
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-datacommons_2.11;2.5.3
 [debug] 	local: revision in cache: com.typesafe.play#play-datacommons_2.11;2.5.3
 [debug] 	found com.typesafe.play#play-datacommons_2.11;2.5.3 in sbt-chain
@@ -189,11 +133,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-datacommons_2.11;2.5.3 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->joda-time#joda-time;2.9.2 [compile->default(compile)]
 [info] Resolving joda-time#joda-time;2.9.2 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@210f72fc
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@38f42000
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@43eab8ca
 [debug] sbt-chain: module revision found in cache: joda-time#joda-time;2.9.2
 [debug] 	local: revision in cache: joda-time#joda-time;2.9.2
 [debug] 	found joda-time#joda-time;2.9.2 in sbt-chain
@@ -202,11 +142,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->joda-time#joda-time;2.9.2 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.joda#joda-convert;1.8.1 [compile->default(compile)]
 [info] Resolving org.joda#joda-convert;1.8.1 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@24a06bf0
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2f3c9cd8
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5101d1b2
 [debug] sbt-chain: module revision found in cache: org.joda#joda-convert;1.8.1
 [debug] 	local: revision in cache: org.joda#joda-convert;1.8.1
 [debug] 	found org.joda#joda-convert;1.8.1 in sbt-chain
@@ -215,11 +151,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.joda#joda-convert;1.8.1 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-reflect;2.11.7 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6c5e4ee7
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@29b7eefd
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@64f67a4f
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.7
 [debug] 	local: revision in cache: org.scala-lang#scala-reflect;2.11.7
 [debug] 	found org.scala-lang#scala-reflect;2.11.7 in sbt-chain
@@ -229,11 +161,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.7.1 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-core;2.7.1 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@147a0664
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@c658595
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4ec8d0b6
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-core;2.7.1
 [debug] 	local: revision in cache: com.fasterxml.jackson.core#jackson-core;2.7.1
 [debug] 	found com.fasterxml.jackson.core#jackson-core;2.7.1 in sbt-chain
@@ -242,11 +170,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.7.1 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-annotations;2.7.1 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-annotations;2.7.1 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7c1e1be6
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@58c5cdac
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@45b99724
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-annotations;2.7.1
 [debug] 	local: revision in cache: com.fasterxml.jackson.core#jackson-annotations;2.7.1
 [debug] 	found com.fasterxml.jackson.core#jackson-annotations;2.7.1 in sbt-chain
@@ -255,11 +179,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-annotations;2.7.1 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-databind;2.7.1 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-databind;2.7.1 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1df12a2d
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4453fc74
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@58fef9a9
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-databind;2.7.1
 [debug] 	local: revision in cache: com.fasterxml.jackson.core#jackson-databind;2.7.1
 [debug] 	found com.fasterxml.jackson.core#jackson-databind;2.7.1 in sbt-chain
@@ -268,11 +188,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-databind;2.7.1 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.7.1 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.7.1 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@613240b1
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@247831eb
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@464255bc
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.7.1
 [debug] 	local: revision in cache: com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.7.1
 [debug] 	found com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.7.1 in sbt-chain
@@ -281,11 +197,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.7.1 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.7.1 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.7.1 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6628df76
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3f43d27c
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@46a17c3d
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.7.1
 [debug] 	local: revision in cache: com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.7.1
 [debug] 	found com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.7.1 in sbt-chain
@@ -294,11 +206,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.7.1 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-netty-utils;2.5.3 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-netty-utils;2.5.3 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2fedbfa8
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3c3e6277
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@179fd1a5
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-netty-utils;2.5.3
 [debug] 	local: revision in cache: com.typesafe.play#play-netty-utils;2.5.3
 [debug] 	found com.typesafe.play#play-netty-utils;2.5.3 in sbt-chain
@@ -307,11 +215,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-netty-utils;2.5.3 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.slf4j#jul-to-slf4j;1.7.16 [compile->default(compile)]
 [info] Resolving org.slf4j#jul-to-slf4j;1.7.16 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@22aab920
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@15c3ddd4
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@559899cd
 [debug] sbt-chain: module revision found in cache: org.slf4j#jul-to-slf4j;1.7.16
 [debug] 	local: revision in cache: org.slf4j#jul-to-slf4j;1.7.16
 [debug] 	found org.slf4j#jul-to-slf4j;1.7.16 in sbt-chain
@@ -320,11 +224,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.slf4j#jul-to-slf4j;1.7.16 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.slf4j#jcl-over-slf4j;1.7.16 [compile->default(compile)]
 [info] Resolving org.slf4j#jcl-over-slf4j;1.7.16 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4b9e2122
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@52f2856
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@20428f05
 [debug] sbt-chain: module revision found in cache: org.slf4j#jcl-over-slf4j;1.7.16
 [debug] 	local: revision in cache: org.slf4j#jcl-over-slf4j;1.7.16
 [debug] 	found org.slf4j#jcl-over-slf4j;1.7.16 in sbt-chain
@@ -333,11 +233,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.slf4j#jcl-over-slf4j;1.7.16 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-streams_2.11;2.5.3 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-streams_2.11;2.5.3 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2100ab43
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3623fd8f
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@76988608
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-streams_2.11;2.5.3
 [debug] 	local: revision in cache: com.typesafe.play#play-streams_2.11;2.5.3
 [debug] 	found com.typesafe.play#play-streams_2.11;2.5.3 in sbt-chain
@@ -346,11 +242,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-streams_2.11;2.5.3 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->default(compile)]
 [info] Resolving org.reactivestreams#reactive-streams;1.0.0 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7fc07cf0
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@54203e20
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@179c965b
 [debug] sbt-chain: module revision found in cache: org.reactivestreams#reactive-streams;1.0.0
 [debug] 	local: revision in cache: org.reactivestreams#reactive-streams;1.0.0
 [debug] 	found org.reactivestreams#reactive-streams;1.0.0 in sbt-chain
@@ -359,11 +251,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-stream_2.11;2.4.4 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@64c54e1
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4f3f48ea
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@354540db
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-stream_2.11;2.4.4
 [debug] 	local: revision in cache: com.typesafe.akka#akka-stream_2.11;2.4.4
 [debug] 	found com.typesafe.akka#akka-stream_2.11;2.4.4 in sbt-chain
@@ -372,11 +260,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-actor_2.11;2.4.4 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@58e3ce75
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1685f7e4
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1cb9f7ad
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.11;2.4.4
 [debug] 	local: revision in cache: com.typesafe.akka#akka-actor_2.11;2.4.4
 [debug] 	found com.typesafe.akka#akka-actor_2.11;2.4.4 in sbt-chain
@@ -385,11 +269,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@79e58e61
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2434fd1a
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@306234bc
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-java8-compat_2.11;0.7.0
 [debug] 	local: revision in cache: org.scala-lang.modules#scala-java8-compat_2.11;0.7.0
 [debug] 	found org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 in sbt-chain
@@ -398,11 +278,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [compile->default(compile)]
 [info] Resolving com.typesafe#ssl-config-akka_2.11;0.2.1 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2229c06a
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@742b65f1
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6c1283b2
 [debug] sbt-chain: module revision found in cache: com.typesafe#ssl-config-akka_2.11;0.2.1
 [debug] 	local: revision in cache: com.typesafe#ssl-config-akka_2.11;0.2.1
 [debug] 	found com.typesafe#ssl-config-akka_2.11;0.2.1 in sbt-chain
@@ -411,11 +287,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [compile->default(compile)]
 [info] Resolving com.typesafe#ssl-config-core_2.11;0.2.1 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@71593b8a
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2947ae69
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@38080bc3
 [debug] sbt-chain: module revision found in cache: com.typesafe#ssl-config-core_2.11;0.2.1
 [debug] 	local: revision in cache: com.typesafe#ssl-config-core_2.11;0.2.1
 [debug] 	found com.typesafe#ssl-config-core_2.11;0.2.1 in sbt-chain
@@ -424,11 +296,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@522d3608
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@10435a2
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1f4b0ed9
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4
 [debug] 	local: revision in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4
 [debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 in sbt-chain
@@ -437,11 +305,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.akka#akka-slf4j_2.11;2.4.4 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-slf4j_2.11;2.4.4 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@dd601ce
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@287b73d9
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@d0c8d6a
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-slf4j_2.11;2.4.4
 [debug] 	local: revision in cache: com.typesafe.akka#akka-slf4j_2.11;2.4.4
 [debug] 	found com.typesafe.akka#akka-slf4j_2.11;2.4.4 in sbt-chain
@@ -450,11 +314,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.akka#akka-slf4j_2.11;2.4.4 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->commons-codec#commons-codec;1.10 [compile->default(compile)]
 [info] Resolving commons-codec#commons-codec;1.10 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@d659e2
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5862fac8
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4c8b448f
 [debug] sbt-chain: module revision found in cache: commons-codec#commons-codec;1.10
 [debug] 	local: revision in cache: commons-codec#commons-codec;1.10
 [debug] 	found commons-codec#commons-codec;1.10 in sbt-chain
@@ -463,11 +323,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->commons-codec#commons-codec;1.10 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->xerces#xercesImpl;2.11.0 [compile->default(compile)]
 [info] Resolving xerces#xercesImpl;2.11.0 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4a283b93
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1ba6f7b3
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@12c61649
 [debug] sbt-chain: module revision found in cache: xerces#xercesImpl;2.11.0
 [debug] 	local: revision in cache: xerces#xercesImpl;2.11.0
 [debug] 	found xerces#xercesImpl;2.11.0 in sbt-chain
@@ -476,11 +332,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->xerces#xercesImpl;2.11.0 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->xml-apis#xml-apis;1.4.01 [compile->default(compile)]
 [info] Resolving xml-apis#xml-apis;1.4.01 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@64536e25
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@23bb70e8
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@356d34b3
 [debug] sbt-chain: module revision found in cache: xml-apis#xml-apis;1.4.01
 [debug] 	local: revision in cache: xml-apis#xml-apis;1.4.01
 [debug] 	found xml-apis#xml-apis;1.4.01 in sbt-chain
@@ -489,11 +341,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->xml-apis#xml-apis;1.4.01 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->javax.transaction#jta;1.1 [compile->default(compile)]
 [info] Resolving javax.transaction#jta;1.1 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@72889995
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@511f3d06
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6b45738b
 [debug] sbt-chain: module revision found in cache: javax.transaction#jta;1.1
 [debug] 	local: revision in cache: javax.transaction#jta;1.1
 [debug] 	found javax.transaction#jta;1.1 in sbt-chain
@@ -502,11 +350,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->javax.transaction#jta;1.1 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.google.inject#guice;4.0 [compile->default(compile)]
 [info] Resolving com.google.inject#guice;4.0 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5f3e03cb
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@36df7fc0
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5fb65b3a
 [debug] sbt-chain: module revision found in cache: com.google.inject#guice;4.0
 [debug] 	local: revision in cache: com.google.inject#guice;4.0
 [debug] 	found com.google.inject#guice;4.0 in sbt-chain
@@ -515,11 +359,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.google.inject#guice;4.0 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->javax.inject#javax.inject;1 [compile->default(compile)]
 [info] Resolving javax.inject#javax.inject;1 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@45713fef
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@22a1dfb4
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@229f7719
 [debug] sbt-chain: module revision found in cache: javax.inject#javax.inject;1
 [debug] 	local: revision in cache: javax.inject#javax.inject;1
 [debug] 	found javax.inject#javax.inject;1 in sbt-chain
@@ -528,11 +368,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->javax.inject#javax.inject;1 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->aopalliance#aopalliance;1.0 [compile->default(compile)]
 [info] Resolving aopalliance#aopalliance;1.0 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1f137358
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4fc74737
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3d70cbd4
 [debug] sbt-chain: module revision found in cache: aopalliance#aopalliance;1.0
 [debug] 	local: revision in cache: aopalliance#aopalliance;1.0
 [debug] 	found aopalliance#aopalliance;1.0 in sbt-chain
@@ -541,11 +377,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->aopalliance#aopalliance;1.0 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.google.inject.extensions#guice-assistedinject;4.0 [compile->default(compile)]
 [info] Resolving com.google.inject.extensions#guice-assistedinject;4.0 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@298557b3
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@41863d96
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@657c9aa4
 [debug] sbt-chain: module revision found in cache: com.google.inject.extensions#guice-assistedinject;4.0
 [debug] 	local: revision in cache: com.google.inject.extensions#guice-assistedinject;4.0
 [debug] 	found com.google.inject.extensions#guice-assistedinject;4.0 in sbt-chain
@@ -554,11 +386,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.google.inject.extensions#guice-assistedinject;4.0 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-netty-server_2.11;2.5.3 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-netty-server_2.11;2.5.3 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@148288ec
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@32e4f7df
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5f75d911
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-netty-server_2.11;2.5.3
 [debug] 	local: revision in cache: com.typesafe.play#play-netty-server_2.11;2.5.3
 [debug] 	found com.typesafe.play#play-netty-server_2.11;2.5.3 in sbt-chain
@@ -567,11 +395,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-netty-server_2.11;2.5.3 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.netty#netty-reactive-streams-http;1.0.5 [compile->default(compile)]
 [info] Resolving com.typesafe.netty#netty-reactive-streams-http;1.0.5 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5c848319
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@20e79572
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4266c1e8
 [debug] sbt-chain: module revision found in cache: com.typesafe.netty#netty-reactive-streams-http;1.0.5
 [debug] 	local: revision in cache: com.typesafe.netty#netty-reactive-streams-http;1.0.5
 [debug] 	found com.typesafe.netty#netty-reactive-streams-http;1.0.5 in sbt-chain
@@ -580,11 +404,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.netty#netty-reactive-streams-http;1.0.5 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.netty#netty-reactive-streams;1.0.5 [compile->default(compile)]
 [info] Resolving com.typesafe.netty#netty-reactive-streams;1.0.5 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6770c667
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@166d310b
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@75baf334
 [debug] sbt-chain: module revision found in cache: com.typesafe.netty#netty-reactive-streams;1.0.5
 [debug] 	local: revision in cache: com.typesafe.netty#netty-reactive-streams;1.0.5
 [debug] 	found com.typesafe.netty#netty-reactive-streams;1.0.5 in sbt-chain
@@ -593,11 +413,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.netty#netty-reactive-streams;1.0.5 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->io.netty#netty-transport-native-epoll;4.0.36.Final [compile->default(compile)]
 [info] Resolving io.netty#netty-transport-native-epoll;4.0.36.Final ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4611544e
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3897957
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@59bd033
 [debug] sbt-chain: module revision found in cache: io.netty#netty-transport-native-epoll;4.0.36.Final
 [debug] 	local: revision in cache: io.netty#netty-transport-native-epoll;4.0.36.Final
 [debug] 	found io.netty#netty-transport-native-epoll;4.0.36.Final in sbt-chain
@@ -606,11 +422,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->io.netty#netty-transport-native-epoll;4.0.36.Final [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->io.netty#netty-common;4.0.36.Final [compile->default(compile)]
 [info] Resolving io.netty#netty-common;4.0.36.Final ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@b096762
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6e2f31df
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3cfabc18
 [debug] sbt-chain: module revision found in cache: io.netty#netty-common;4.0.36.Final
 [debug] 	local: revision in cache: io.netty#netty-common;4.0.36.Final
 [debug] 	found io.netty#netty-common;4.0.36.Final in sbt-chain
@@ -619,11 +431,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->io.netty#netty-common;4.0.36.Final [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->io.netty#netty-buffer;4.0.36.Final [compile->default(compile)]
 [info] Resolving io.netty#netty-buffer;4.0.36.Final ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3e0eb800
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3f16736e
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2e286074
 [debug] sbt-chain: module revision found in cache: io.netty#netty-buffer;4.0.36.Final
 [debug] 	local: revision in cache: io.netty#netty-buffer;4.0.36.Final
 [debug] 	found io.netty#netty-buffer;4.0.36.Final in sbt-chain
@@ -632,11 +440,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->io.netty#netty-buffer;4.0.36.Final [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->io.netty#netty-transport;4.0.36.Final [compile->default(compile)]
 [info] Resolving io.netty#netty-transport;4.0.36.Final ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@68fa931e
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@74235b0e
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3afd306f
 [debug] sbt-chain: module revision found in cache: io.netty#netty-transport;4.0.36.Final
 [debug] 	local: revision in cache: io.netty#netty-transport;4.0.36.Final
 [debug] 	found io.netty#netty-transport;4.0.36.Final in sbt-chain
@@ -645,11 +449,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->io.netty#netty-transport;4.0.36.Final [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-logback_2.11;2.5.3 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-logback_2.11;2.5.3 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4b14ecbd
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@36ac1491
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@e0cc6b3
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-logback_2.11;2.5.3
 [debug] 	local: revision in cache: com.typesafe.play#play-logback_2.11;2.5.3
 [debug] 	found com.typesafe.play#play-logback_2.11;2.5.3 in sbt-chain
@@ -658,11 +458,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-logback_2.11;2.5.3 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->ch.qos.logback#logback-core;1.1.4 [compile->default(compile)]
 [info] Resolving ch.qos.logback#logback-core;1.1.4 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@75f13127
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@73b3bb5f
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@b6885d1
 [debug] sbt-chain: module revision found in cache: ch.qos.logback#logback-core;1.1.4
 [debug] 	local: revision in cache: ch.qos.logback#logback-core;1.1.4
 [debug] 	found ch.qos.logback#logback-core;1.1.4 in sbt-chain
@@ -671,11 +467,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->ch.qos.logback#logback-core;1.1.4 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.4 [compile->default(compile)]
 [info] Resolving ch.qos.logback#logback-classic;1.1.4 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@55f2b774
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@48db06aa
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1c4248f2
 [debug] sbt-chain: module revision found in cache: ch.qos.logback#logback-classic;1.1.4
 [debug] 	local: revision in cache: ch.qos.logback#logback-classic;1.1.4
 [debug] 	found ch.qos.logback#logback-classic;1.1.4 in sbt-chain
@@ -684,11 +476,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.4 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.postgresql#postgresql;9.4.1208.jre7 [compile->default(compile)]
 [info] Resolving org.postgresql#postgresql;9.4.1208.jre7 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5c8e52dc
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@162a6279
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1d5f902e
 [debug] sbt-chain: module revision found in cache: org.postgresql#postgresql;9.4.1208.jre7
 [debug] 	local: revision in cache: org.postgresql#postgresql;9.4.1208.jre7
 [debug] 	found org.postgresql#postgresql;9.4.1208.jre7 in sbt-chain
@@ -697,11 +485,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.postgresql#postgresql;9.4.1208.jre7 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-jdbc_2.11;2.5.3 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-jdbc_2.11;2.5.3 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3368002a
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@63611aaf
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6ba9b97b
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-jdbc_2.11;2.5.3
 [debug] 	local: revision in cache: com.typesafe.play#play-jdbc_2.11;2.5.3
 [debug] 	found com.typesafe.play#play-jdbc_2.11;2.5.3 in sbt-chain
@@ -710,11 +494,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-jdbc_2.11;2.5.3 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-jdbc-api_2.11;2.5.3 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-jdbc-api_2.11;2.5.3 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@294e5800
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@60377fe7
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@42e291c5
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-jdbc-api_2.11;2.5.3
 [debug] 	local: revision in cache: com.typesafe.play#play-jdbc-api_2.11;2.5.3
 [debug] 	found com.typesafe.play#play-jdbc-api_2.11;2.5.3 in sbt-chain
@@ -723,11 +503,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-jdbc-api_2.11;2.5.3 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.jolbox#bonecp;0.8.0.RELEASE [compile->default(compile)]
 [info] Resolving com.jolbox#bonecp;0.8.0.RELEASE ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@631216a4
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1703b3ff
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@77589316
 [debug] sbt-chain: module revision found in cache: com.jolbox#bonecp;0.8.0.RELEASE
 [debug] 	local: revision in cache: com.jolbox#bonecp;0.8.0.RELEASE
 [debug] 	found com.jolbox#bonecp;0.8.0.RELEASE in sbt-chain
@@ -736,11 +512,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.jolbox#bonecp;0.8.0.RELEASE [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.zaxxer#HikariCP;2.4.3 [compile->default(compile)]
 [info] Resolving com.zaxxer#HikariCP;2.4.3 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4b9ae0cf
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@e65565e
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4b27b889
 [debug] sbt-chain: module revision found in cache: com.zaxxer#HikariCP;2.4.3
 [debug] 	local: revision in cache: com.zaxxer#HikariCP;2.4.3
 [debug] 	found com.zaxxer#HikariCP;2.4.3 in sbt-chain
@@ -749,11 +521,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.zaxxer#HikariCP;2.4.3 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.googlecode.usc#jdbcdslog;1.0.6.2 [compile->default(compile)]
 [info] Resolving com.googlecode.usc#jdbcdslog;1.0.6.2 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7bf956f0
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4f28936b
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1b2407ae
 [debug] sbt-chain: module revision found in cache: com.googlecode.usc#jdbcdslog;1.0.6.2
 [debug] 	local: revision in cache: com.googlecode.usc#jdbcdslog;1.0.6.2
 [debug] 	found com.googlecode.usc#jdbcdslog;1.0.6.2 in sbt-chain
@@ -762,11 +530,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.googlecode.usc#jdbcdslog;1.0.6.2 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.h2database#h2;1.4.191 [compile->default(compile)]
 [info] Resolving com.h2database#h2;1.4.191 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@370d5615
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6184759f
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@52e719cc
 [debug] sbt-chain: module revision found in cache: com.h2database#h2;1.4.191
 [debug] 	local: revision in cache: com.h2database#h2;1.4.191
 [debug] 	found com.h2database#h2;1.4.191 in sbt-chain
@@ -775,11 +539,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.h2database#h2;1.4.191 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-cache_2.11;2.5.3 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-cache_2.11;2.5.3 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@612b2156
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6180ec4b
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1631da20
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-cache_2.11;2.5.3
 [debug] 	local: revision in cache: com.typesafe.play#play-cache_2.11;2.5.3
 [debug] 	found com.typesafe.play#play-cache_2.11;2.5.3 in sbt-chain
@@ -788,11 +548,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-cache_2.11;2.5.3 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->net.sf.ehcache#ehcache-core;2.6.11 [compile->default(compile)]
 [info] Resolving net.sf.ehcache#ehcache-core;2.6.11 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@14536ed3
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@69dc47a5
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@24bd1ac6
 [debug] sbt-chain: module revision found in cache: net.sf.ehcache#ehcache-core;2.6.11
 [debug] 	local: revision in cache: net.sf.ehcache#ehcache-core;2.6.11
 [debug] 	found net.sf.ehcache#ehcache-core;2.6.11 in sbt-chain
@@ -801,11 +557,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->net.sf.ehcache#ehcache-core;2.6.11 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-ws_2.11;2.5.3 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-ws_2.11;2.5.3 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7c70f17b
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@54d03d13
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@528392b1
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-ws_2.11;2.5.3
 [debug] 	local: revision in cache: com.typesafe.play#play-ws_2.11;2.5.3
 [debug] 	found com.typesafe.play#play-ws_2.11;2.5.3 in sbt-chain
@@ -814,11 +566,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-ws_2.11;2.5.3 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.google.guava#guava;19.0 [compile->default(compile)]
 [info] Resolving com.google.guava#guava;19.0 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7cc2e9f1
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@68514e17
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@73c2edc8
 [debug] sbt-chain: module revision found in cache: com.google.guava#guava;19.0
 [debug] 	local: revision in cache: com.google.guava#guava;19.0
 [debug] 	found com.google.guava#guava;19.0 in sbt-chain
@@ -827,11 +575,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.google.guava#guava;19.0 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.asynchttpclient#async-http-client;2.0.2 [compile->default(compile)]
 [info] Resolving org.asynchttpclient#async-http-client;2.0.2 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@41852d07
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@33a0cc73
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@fe9c6bc
 [debug] sbt-chain: module revision found in cache: org.asynchttpclient#async-http-client;2.0.2
 [debug] 	local: revision in cache: org.asynchttpclient#async-http-client;2.0.2
 [debug] 	found org.asynchttpclient#async-http-client;2.0.2 in sbt-chain
@@ -840,11 +584,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.asynchttpclient#async-http-client;2.0.2 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->io.netty#netty-codec-http;4.0.36.Final [compile->default(compile)]
 [info] Resolving io.netty#netty-codec-http;4.0.36.Final ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@77cb959b
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@73a51f30
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@798b0ee2
 [debug] sbt-chain: module revision found in cache: io.netty#netty-codec-http;4.0.36.Final
 [debug] 	local: revision in cache: io.netty#netty-codec-http;4.0.36.Final
 [debug] 	found io.netty#netty-codec-http;4.0.36.Final in sbt-chain
@@ -853,11 +593,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->io.netty#netty-codec-http;4.0.36.Final [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->io.netty#netty-codec;4.0.36.Final [compile->default(compile)]
 [info] Resolving io.netty#netty-codec;4.0.36.Final ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@24c7b062
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7217cc72
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5d5c7f04
 [debug] sbt-chain: module revision found in cache: io.netty#netty-codec;4.0.36.Final
 [debug] 	local: revision in cache: io.netty#netty-codec;4.0.36.Final
 [debug] 	found io.netty#netty-codec;4.0.36.Final in sbt-chain
@@ -866,11 +602,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->io.netty#netty-codec;4.0.36.Final [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->io.netty#netty-handler;4.0.36.Final [compile->default(compile)]
 [info] Resolving io.netty#netty-handler;4.0.36.Final ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@18a2fee9
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@22b2b188
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@580e1c80
 [debug] sbt-chain: module revision found in cache: io.netty#netty-handler;4.0.36.Final
 [debug] 	local: revision in cache: io.netty#netty-handler;4.0.36.Final
 [debug] 	found io.netty#netty-handler;4.0.36.Final in sbt-chain
@@ -879,11 +611,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->io.netty#netty-handler;4.0.36.Final [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.asynchttpclient#netty-resolver-dns;2.0.2 [compile->default(compile)]
 [info] Resolving org.asynchttpclient#netty-resolver-dns;2.0.2 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@34810658
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@a727bad
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@40e50646
 [debug] sbt-chain: module revision found in cache: org.asynchttpclient#netty-resolver-dns;2.0.2
 [debug] 	local: revision in cache: org.asynchttpclient#netty-resolver-dns;2.0.2
 [debug] 	found org.asynchttpclient#netty-resolver-dns;2.0.2 in sbt-chain
@@ -892,11 +620,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.asynchttpclient#netty-resolver-dns;2.0.2 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.asynchttpclient#netty-resolver;2.0.2 [compile->default(compile)]
 [info] Resolving org.asynchttpclient#netty-resolver;2.0.2 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5516443c
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@a94413
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7f447e6a
 [debug] sbt-chain: module revision found in cache: org.asynchttpclient#netty-resolver;2.0.2
 [debug] 	local: revision in cache: org.asynchttpclient#netty-resolver;2.0.2
 [debug] 	found org.asynchttpclient#netty-resolver;2.0.2 in sbt-chain
@@ -905,11 +629,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.asynchttpclient#netty-resolver;2.0.2 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.slf4j#slf4j-api;1.7.21 [compile->default(compile)]
 [info] Resolving org.slf4j#slf4j-api;1.7.21 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6b056109
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3e4d654f
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@672b5348
 [debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.21
 [debug] 	local: revision in cache: org.slf4j#slf4j-api;1.7.21
 [debug] 	found org.slf4j#slf4j-api;1.7.21 in sbt-chain
@@ -918,11 +638,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.slf4j#slf4j-api;1.7.21 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.asynchttpclient#netty-codec-dns;2.0.2 [compile->default(compile)]
 [info] Resolving org.asynchttpclient#netty-codec-dns;2.0.2 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@39d44d17
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@33af2c12
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1ab679
 [debug] sbt-chain: module revision found in cache: org.asynchttpclient#netty-codec-dns;2.0.2
 [debug] 	local: revision in cache: org.asynchttpclient#netty-codec-dns;2.0.2
 [debug] 	found org.asynchttpclient#netty-codec-dns;2.0.2 in sbt-chain
@@ -931,11 +647,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.asynchttpclient#netty-codec-dns;2.0.2 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.javassist#javassist;3.20.0-GA [compile->default(compile)]
 [info] Resolving org.javassist#javassist;3.20.0-GA ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@669837e3
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4b727cc0
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@57a2a6b7
 [debug] sbt-chain: module revision found in cache: org.javassist#javassist;3.20.0-GA
 [debug] 	local: revision in cache: org.javassist#javassist;3.20.0-GA
 [debug] 	found org.javassist#javassist;3.20.0-GA in sbt-chain
@@ -944,11 +656,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.javassist#javassist;3.20.0-GA [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->oauth.signpost#signpost-core;1.2.1.2 [compile->default(compile)]
 [info] Resolving oauth.signpost#signpost-core;1.2.1.2 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@46099697
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@11c58e9a
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3aff1bbb
 [debug] sbt-chain: module revision found in cache: oauth.signpost#signpost-core;1.2.1.2
 [debug] 	local: revision in cache: oauth.signpost#signpost-core;1.2.1.2
 [debug] 	found oauth.signpost#signpost-core;1.2.1.2 in sbt-chain
@@ -957,11 +665,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->oauth.signpost#signpost-core;1.2.1.2 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->oauth.signpost#signpost-commonshttp4;1.2.1.2 [compile->default(compile)]
 [info] Resolving oauth.signpost#signpost-commonshttp4;1.2.1.2 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@660dc071
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7fd82e6e
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7a0e2c68
 [debug] sbt-chain: module revision found in cache: oauth.signpost#signpost-commonshttp4;1.2.1.2
 [debug] 	local: revision in cache: oauth.signpost#signpost-commonshttp4;1.2.1.2
 [debug] 	found oauth.signpost#signpost-commonshttp4;1.2.1.2 in sbt-chain
@@ -970,11 +674,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->oauth.signpost#signpost-commonshttp4;1.2.1.2 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.apache.httpcomponents#httpcore;4.0.1 [compile->default(compile)]
 [info] Resolving org.apache.httpcomponents#httpcore;4.0.1 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@249a5bb0
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4b8b803d
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@56a082e7
 [debug] sbt-chain: module revision found in cache: org.apache.httpcomponents#httpcore;4.0.1
 [debug] 	local: revision in cache: org.apache.httpcomponents#httpcore;4.0.1
 [debug] 	found org.apache.httpcomponents#httpcore;4.0.1 in sbt-chain
@@ -983,11 +683,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.apache.httpcomponents#httpcore;4.0.1 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.apache.httpcomponents#httpclient;4.0.1 [compile->default(compile)]
 [info] Resolving org.apache.httpcomponents#httpclient;4.0.1 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6efc9183
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@32255200
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@bc4db4f
 [debug] sbt-chain: module revision found in cache: org.apache.httpcomponents#httpclient;4.0.1
 [debug] 	local: revision in cache: org.apache.httpcomponents#httpclient;4.0.1
 [debug] 	found org.apache.httpcomponents#httpclient;4.0.1 in sbt-chain
@@ -996,11 +692,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.apache.httpcomponents#httpclient;4.0.1 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->commons-logging#commons-logging;1.1.1 [compile->default(compile)]
 [info] Resolving commons-logging#commons-logging;1.1.1 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@421a03d2
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@41ed4e3f
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@d14fb3c
 [debug] sbt-chain: module revision found in cache: commons-logging#commons-logging;1.1.1
 [debug] 	local: revision in cache: commons-logging#commons-logging;1.1.1
 [debug] 	found commons-logging#commons-logging;1.1.1 in sbt-chain
@@ -1009,11 +701,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->commons-logging#commons-logging;1.1.1 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-slick_2.11;2.0.0 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-slick_2.11;2.0.0 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@503b666e
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@68b26c2c
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2c466d41
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-slick_2.11;2.0.0
 [debug] 	local: revision in cache: com.typesafe.play#play-slick_2.11;2.0.0
 [debug] 	found com.typesafe.play#play-slick_2.11;2.0.0 in sbt-chain
@@ -1022,11 +710,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-slick_2.11;2.0.0 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.slick#slick_2.11;3.1.0 [compile->default(compile)]
 [info] Resolving com.typesafe.slick#slick_2.11;3.1.0 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@140ebc02
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4dbbfae3
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@b4e31d
 [debug] sbt-chain: module revision found in cache: com.typesafe.slick#slick_2.11;3.1.0
 [debug] 	local: revision in cache: com.typesafe.slick#slick_2.11;3.1.0
 [debug] 	found com.typesafe.slick#slick_2.11;3.1.0 in sbt-chain
@@ -1035,11 +719,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.slick#slick_2.11;3.1.0 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.slick#slick-hikaricp_2.11;3.1.0 [compile->default(compile)]
 [info] Resolving com.typesafe.slick#slick-hikaricp_2.11;3.1.0 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@40e606f6
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5bc4980f
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@47eab959
 [debug] sbt-chain: module revision found in cache: com.typesafe.slick#slick-hikaricp_2.11;3.1.0
 [debug] 	local: revision in cache: com.typesafe.slick#slick-hikaricp_2.11;3.1.0
 [debug] 	found com.typesafe.slick#slick-hikaricp_2.11;3.1.0 in sbt-chain
@@ -1048,11 +728,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.slick#slick-hikaricp_2.11;3.1.0 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.zaxxer#HikariCP-java6;2.3.7 [compile->default(compile)]
 [info] Resolving com.zaxxer#HikariCP-java6;2.3.7 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7d877fa3
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@76766cf6
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4f59f8fa
 [debug] sbt-chain: module revision found in cache: com.zaxxer#HikariCP-java6;2.3.7
 [debug] 	local: revision in cache: com.zaxxer#HikariCP-java6;2.3.7
 [debug] 	found com.zaxxer#HikariCP-java6;2.3.7 in sbt-chain
@@ -1061,21 +737,16 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.zaxxer#HikariCP-java6;2.3.7 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->be.objectify#deadbolt-scala_2.11;2.5.0 [compile->default(compile)]
 [info] Resolving be.objectify#deadbolt-scala_2.11;2.5.0 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4c75d44f
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5dbaa60c
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@20294266
 [debug] sbt-chain: module revision found in cache: be.objectify#deadbolt-scala_2.11;2.5.0
 [debug] 	local: revision in cache: be.objectify#deadbolt-scala_2.11;2.5.0
 [debug] 	found be.objectify#deadbolt-scala_2.11;2.5.0 in sbt-chain
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->be.objectify#deadbolt-scala_2.11;2.5.0 [compile->runtime]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->be.objectify#deadbolt-scala_2.11;2.5.0 [compile->compile]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->be.objectify#deadbolt-scala_2.11;2.5.0 [compile->master]
-<<<<<<< HEAD
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-mailer_2.11;5.0.0-M1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@be3346f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@14abad66
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-mailer_2.11;5.0.0-M1
 [debug] 	local: revision in cache: com.typesafe.play#play-mailer_2.11;5.0.0-M1
 [debug] 	found com.typesafe.play#play-mailer_2.11;5.0.0-M1 in sbt-chain
@@ -1084,7 +755,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.apache.commons#commons-email;1.4 [compile->default(compile)]
 [info] Resolving org.apache.commons#commons-email;1.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@40555ff1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5ea56162
 [debug] sbt-chain: module revision found in cache: org.apache.commons#commons-email;1.4
 [debug] 	local: revision in cache: org.apache.commons#commons-email;1.4
 [debug] 	found org.apache.commons#commons-email;1.4 in sbt-chain
@@ -1093,7 +764,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.apache.commons#commons-email;1.4 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.sun.mail#javax.mail;1.5.2 [compile->default(compile)]
 [info] Resolving com.sun.mail#javax.mail;1.5.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@719aa505
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5c13828
 [debug] sbt-chain: module revision found in cache: com.sun.mail#javax.mail;1.5.2
 [debug] 	local: revision in cache: com.sun.mail#javax.mail;1.5.2
 [debug] 	found com.sun.mail#javax.mail;1.5.2 in sbt-chain
@@ -1102,15 +773,13 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.sun.mail#javax.mail;1.5.2 [compile->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->javax.activation#activation;1.1.1 [compile->default(compile)]
 [info] Resolving javax.activation#activation;1.1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2c316141
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@60a130cd
 [debug] sbt-chain: module revision found in cache: javax.activation#activation;1.1.1
 [debug] 	local: revision in cache: javax.activation#activation;1.1.1
 [debug] 	found javax.activation#activation;1.1.1 in sbt-chain
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->javax.activation#activation;1.1.1 [compile->runtime]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->javax.activation#activation;1.1.1 [compile->compile]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->javax.activation#activation;1.1.1 [compile->master]
-=======
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
 [debug] resolving dependencies for configuration 'runtime'
 [debug] == resolving dependencies for playproject#playproject$sources_2.11;1.0 [runtime]
 [debug] == resolving dependencies for playproject#playproject$sources_2.11;1.0 [compile]
@@ -1442,7 +1111,6 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->be.objectify#deadbolt-scala_2.11;2.5.0 [compile->runtime]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->be.objectify#deadbolt-scala_2.11;2.5.0 [compile->compile]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->be.objectify#deadbolt-scala_2.11;2.5.0 [compile->master]
-<<<<<<< HEAD
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [compile->default(compile)]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [compile->runtime]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [compile->compile]
@@ -1459,8 +1127,6 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->javax.activation#activation;1.1.1 [compile->runtime]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->javax.activation#activation;1.1.1 [compile->compile]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->javax.activation#activation;1.1.1 [compile->master]
-=======
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->default(compile)]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->compile]
@@ -1789,7 +1455,6 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->be.objectify#deadbolt-scala_2.11;2.5.0 [runtime->runtime]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->be.objectify#deadbolt-scala_2.11;2.5.0 [runtime->compile]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->be.objectify#deadbolt-scala_2.11;2.5.0 [runtime->master]
-<<<<<<< HEAD
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [runtime->default(compile)]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [runtime->runtime]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [runtime->compile]
@@ -1806,8 +1471,6 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->javax.activation#activation;1.1.1 [runtime->runtime]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->javax.activation#activation;1.1.1 [runtime->compile]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->javax.activation#activation;1.1.1 [runtime->master]
-=======
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
 [debug] resolving dependencies for configuration 'test'
 [debug] == resolving dependencies for playproject#playproject$sources_2.11;1.0 [test]
 [debug] == resolving dependencies for playproject#playproject$sources_2.11;1.0 [runtime]
@@ -2128,7 +1791,6 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->be.objectify#deadbolt-scala_2.11;2.5.0 [compile->runtime]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->be.objectify#deadbolt-scala_2.11;2.5.0 [compile->compile]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->be.objectify#deadbolt-scala_2.11;2.5.0 [compile->master]
-<<<<<<< HEAD
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [compile->default(compile)]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [compile->runtime]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [compile->compile]
@@ -2145,8 +1807,6 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->javax.activation#activation;1.1.1 [compile->runtime]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->javax.activation#activation;1.1.1 [compile->compile]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->javax.activation#activation;1.1.1 [compile->master]
-=======
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->default(compile)]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->compile]
@@ -2463,7 +2123,6 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->be.objectify#deadbolt-scala_2.11;2.5.0 [runtime->runtime]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->be.objectify#deadbolt-scala_2.11;2.5.0 [runtime->compile]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->be.objectify#deadbolt-scala_2.11;2.5.0 [runtime->master]
-<<<<<<< HEAD
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [runtime->default(compile)]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [runtime->runtime]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [runtime->compile]
@@ -2480,8 +2139,6 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->javax.activation#activation;1.1.1 [runtime->runtime]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->javax.activation#activation;1.1.1 [runtime->compile]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->javax.activation#activation;1.1.1 [runtime->master]
-=======
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [test->default(compile)]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [test->runtime]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [test->compile]
@@ -2794,7 +2451,6 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->be.objectify#deadbolt-scala_2.11;2.5.0 [test->runtime]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->be.objectify#deadbolt-scala_2.11;2.5.0 [test->compile]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->be.objectify#deadbolt-scala_2.11;2.5.0 [test->master]
-<<<<<<< HEAD
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [test->default(compile)]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [test->runtime]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [test->compile]
@@ -2813,12 +2469,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->javax.activation#activation;1.1.1 [test->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-test_2.11;2.5.3 [test->default(compile)]
 [info] Resolving com.typesafe.play#play-test_2.11;2.5.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@60966957
-=======
-[debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-test_2.11;2.5.3 [test->default(compile)]
-[info] Resolving com.typesafe.play#play-test_2.11;2.5.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@43abc62a
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5a7a4abd
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-test_2.11;2.5.3
 [debug] 	local: revision in cache: com.typesafe.play#play-test_2.11;2.5.3
 [debug] 	found com.typesafe.play#play-test_2.11;2.5.3 in sbt-chain
@@ -2827,11 +2478,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-test_2.11;2.5.3 [test->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->junit#junit;4.12 [test->default(compile)]
 [info] Resolving junit#junit;4.12 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3f51370a
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6467e810
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7cdfd69e
 [debug] sbt-chain: module revision found in cache: junit#junit;4.12
 [debug] 	local: revision in cache: junit#junit;4.12
 [debug] 	found junit#junit;4.12 in sbt-chain
@@ -2840,11 +2487,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->junit#junit;4.12 [test->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.hamcrest#hamcrest-core;1.3 [test->default(compile)]
 [info] Resolving org.hamcrest#hamcrest-core;1.3 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2797a8fb
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2bc54872
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@418f85af
 [debug] sbt-chain: module revision found in cache: org.hamcrest#hamcrest-core;1.3
 [debug] 	local: revision in cache: org.hamcrest#hamcrest-core;1.3
 [debug] 	found org.hamcrest#hamcrest-core;1.3 in sbt-chain
@@ -2853,11 +2496,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.hamcrest#hamcrest-core;1.3 [test->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.novocode#junit-interface;0.11 [test->default(compile)]
 [info] Resolving com.novocode#junit-interface;0.11 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@957e9dd
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@315ca31
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@67b543f2
 [debug] sbt-chain: module revision found in cache: com.novocode#junit-interface;0.11
 [debug] 	local: revision in cache: com.novocode#junit-interface;0.11
 [debug] 	found com.novocode#junit-interface;0.11 in sbt-chain
@@ -2866,11 +2505,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.novocode#junit-interface;0.11 [test->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.scala-sbt#test-interface;1.0 [test->default(compile)]
 [info] Resolving org.scala-sbt#test-interface;1.0 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@a279169
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4dc67e80
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1af1bf6c
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#test-interface;1.0
 [debug] 	local: revision in cache: org.scala-sbt#test-interface;1.0
 [debug] 	found org.scala-sbt#test-interface;1.0 in sbt-chain
@@ -2879,11 +2514,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.scala-sbt#test-interface;1.0 [test->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.google.code.findbugs#jsr305;3.0.1 [test->default(compile)]
 [info] Resolving com.google.code.findbugs#jsr305;3.0.1 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5950de34
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@c190d8
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5adc906f
 [debug] sbt-chain: module revision found in cache: com.google.code.findbugs#jsr305;3.0.1
 [debug] 	local: revision in cache: com.google.code.findbugs#jsr305;3.0.1
 [debug] 	found com.google.code.findbugs#jsr305;3.0.1 in sbt-chain
@@ -2892,11 +2523,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.google.code.findbugs#jsr305;3.0.1 [test->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->net.sourceforge.htmlunit#htmlunit;2.20 [test->default(compile)]
 [info] Resolving net.sourceforge.htmlunit#htmlunit;2.20 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@34879b70
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@d0a0bba
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3da9e34c
 [debug] sbt-chain: module revision found in cache: net.sourceforge.htmlunit#htmlunit;2.20
 [debug] 	local: revision in cache: net.sourceforge.htmlunit#htmlunit;2.20
 [debug] 	found net.sourceforge.htmlunit#htmlunit;2.20 in sbt-chain
@@ -2905,11 +2532,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->net.sourceforge.htmlunit#htmlunit;2.20 [test->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->xalan#xalan;2.7.2 [test->default(compile)]
 [info] Resolving xalan#xalan;2.7.2 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@525b5326
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4e3b42af
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@46237da1
 [debug] sbt-chain: module revision found in cache: xalan#xalan;2.7.2
 [debug] 	local: revision in cache: xalan#xalan;2.7.2
 [debug] 	found xalan#xalan;2.7.2 in sbt-chain
@@ -2918,11 +2541,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->xalan#xalan;2.7.2 [test->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->xalan#serializer;2.7.2 [test->default(compile)]
 [info] Resolving xalan#serializer;2.7.2 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@567cfa23
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@57f1e9bf
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1efe992d
 [debug] sbt-chain: module revision found in cache: xalan#serializer;2.7.2
 [debug] 	local: revision in cache: xalan#serializer;2.7.2
 [debug] 	found xalan#serializer;2.7.2 in sbt-chain
@@ -2931,11 +2550,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->xalan#serializer;2.7.2 [test->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.apache.httpcomponents#httpclient;4.5.2 [test->default(compile)]
 [info] Resolving org.apache.httpcomponents#httpclient;4.5.2 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2c402a44
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4429bd07
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2734ba4b
 [debug] sbt-chain: module revision found in cache: org.apache.httpcomponents#httpclient;4.5.2
 [debug] 	local: revision in cache: org.apache.httpcomponents#httpclient;4.5.2
 [debug] 	found org.apache.httpcomponents#httpclient;4.5.2 in sbt-chain
@@ -2944,11 +2559,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.apache.httpcomponents#httpclient;4.5.2 [test->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.apache.httpcomponents#httpcore;4.4.4 [test->default(compile)]
 [info] Resolving org.apache.httpcomponents#httpcore;4.4.4 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4fbf42a3
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@68f7eb96
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@755ab62f
 [debug] sbt-chain: module revision found in cache: org.apache.httpcomponents#httpcore;4.4.4
 [debug] 	local: revision in cache: org.apache.httpcomponents#httpcore;4.4.4
 [debug] 	found org.apache.httpcomponents#httpcore;4.4.4 in sbt-chain
@@ -2957,11 +2568,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.apache.httpcomponents#httpcore;4.4.4 [test->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->commons-logging#commons-logging;1.2 [test->default(compile)]
 [info] Resolving commons-logging#commons-logging;1.2 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@59744e00
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7f23f29f
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@336a8d3
 [debug] sbt-chain: module revision found in cache: commons-logging#commons-logging;1.2
 [debug] 	local: revision in cache: commons-logging#commons-logging;1.2
 [debug] 	found commons-logging#commons-logging;1.2 in sbt-chain
@@ -2970,11 +2577,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->commons-logging#commons-logging;1.2 [test->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.apache.httpcomponents#httpmime;4.5.2 [test->default(compile)]
 [info] Resolving org.apache.httpcomponents#httpmime;4.5.2 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7dbf61b8
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@46b2be4f
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7f3a2c8a
 [debug] sbt-chain: module revision found in cache: org.apache.httpcomponents#httpmime;4.5.2
 [debug] 	local: revision in cache: org.apache.httpcomponents#httpmime;4.5.2
 [debug] 	found org.apache.httpcomponents#httpmime;4.5.2 in sbt-chain
@@ -2983,11 +2586,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.apache.httpcomponents#httpmime;4.5.2 [test->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->net.sourceforge.htmlunit#htmlunit-core-js;2.17 [test->default(compile)]
 [info] Resolving net.sourceforge.htmlunit#htmlunit-core-js;2.17 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5afae2e4
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7d5104ad
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4b6f2c83
 [debug] sbt-chain: module revision found in cache: net.sourceforge.htmlunit#htmlunit-core-js;2.17
 [debug] 	local: revision in cache: net.sourceforge.htmlunit#htmlunit-core-js;2.17
 [debug] 	found net.sourceforge.htmlunit#htmlunit-core-js;2.17 in sbt-chain
@@ -2996,11 +2595,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->net.sourceforge.htmlunit#htmlunit-core-js;2.17 [test->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->net.sourceforge.nekohtml#nekohtml;1.9.22 [test->default(compile)]
 [info] Resolving net.sourceforge.nekohtml#nekohtml;1.9.22 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6098226c
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2b0b1ff4
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@42101405
 [debug] sbt-chain: module revision found in cache: net.sourceforge.nekohtml#nekohtml;1.9.22
 [debug] 	local: revision in cache: net.sourceforge.nekohtml#nekohtml;1.9.22
 [debug] 	found net.sourceforge.nekohtml#nekohtml;1.9.22 in sbt-chain
@@ -3009,11 +2604,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->net.sourceforge.nekohtml#nekohtml;1.9.22 [test->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->net.sourceforge.cssparser#cssparser;0.9.18 [test->default(compile)]
 [info] Resolving net.sourceforge.cssparser#cssparser;0.9.18 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@37141
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1d8d3a3c
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5f136d63
 [debug] sbt-chain: module revision found in cache: net.sourceforge.cssparser#cssparser;0.9.18
 [debug] 	local: revision in cache: net.sourceforge.cssparser#cssparser;0.9.18
 [debug] 	found net.sourceforge.cssparser#cssparser;0.9.18 in sbt-chain
@@ -3022,11 +2613,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->net.sourceforge.cssparser#cssparser;0.9.18 [test->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.w3c.css#sac;1.3 [test->default(compile)]
 [info] Resolving org.w3c.css#sac;1.3 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2f42d633
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7ac5dc44
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7fbdc9d0
 [debug] sbt-chain: module revision found in cache: org.w3c.css#sac;1.3
 [debug] 	local: revision in cache: org.w3c.css#sac;1.3
 [debug] 	found org.w3c.css#sac;1.3 in sbt-chain
@@ -3035,11 +2622,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.w3c.css#sac;1.3 [test->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->commons-io#commons-io;2.4 [test->default(compile)]
 [info] Resolving commons-io#commons-io;2.4 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@349cd98a
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1d0fcb8f
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@68c23846
 [debug] sbt-chain: module revision found in cache: commons-io#commons-io;2.4
 [debug] 	local: revision in cache: commons-io#commons-io;2.4
 [debug] 	found commons-io#commons-io;2.4 in sbt-chain
@@ -3048,11 +2631,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->commons-io#commons-io;2.4 [test->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.eclipse.jetty.websocket#websocket-client;9.2.15.v20160210 [test->default(compile)]
 [info] Resolving org.eclipse.jetty.websocket#websocket-client;9.2.15.v20160210 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@783e9485
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2fcfa73d
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@34dace98
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty.websocket#websocket-client;9.2.15.v20160210
 [debug] 	local: revision in cache: org.eclipse.jetty.websocket#websocket-client;9.2.15.v20160210
 [debug] 	found org.eclipse.jetty.websocket#websocket-client;9.2.15.v20160210 in sbt-chain
@@ -3061,11 +2640,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.eclipse.jetty.websocket#websocket-client;9.2.15.v20160210 [test->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.eclipse.jetty#jetty-util;9.2.15.v20160210 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-util;9.2.15.v20160210 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3626ed79
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@70ab9420
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4378f78
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-util;9.2.15.v20160210
 [debug] 	local: revision in cache: org.eclipse.jetty#jetty-util;9.2.15.v20160210
 [debug] 	found org.eclipse.jetty#jetty-util;9.2.15.v20160210 in sbt-chain
@@ -3074,11 +2649,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.eclipse.jetty#jetty-util;9.2.15.v20160210 [test->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.eclipse.jetty#jetty-io;9.2.15.v20160210 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-io;9.2.15.v20160210 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@321c815e
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6cc03318
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4f22c166
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-io;9.2.15.v20160210
 [debug] 	local: revision in cache: org.eclipse.jetty#jetty-io;9.2.15.v20160210
 [debug] 	found org.eclipse.jetty#jetty-io;9.2.15.v20160210 in sbt-chain
@@ -3087,11 +2658,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.eclipse.jetty#jetty-io;9.2.15.v20160210 [test->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.eclipse.jetty.websocket#websocket-common;9.2.15.v20160210 [test->default(compile)]
 [info] Resolving org.eclipse.jetty.websocket#websocket-common;9.2.15.v20160210 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@52904fee
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@abb143e
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@16ed5e41
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty.websocket#websocket-common;9.2.15.v20160210
 [debug] 	local: revision in cache: org.eclipse.jetty.websocket#websocket-common;9.2.15.v20160210
 [debug] 	found org.eclipse.jetty.websocket#websocket-common;9.2.15.v20160210 in sbt-chain
@@ -3100,11 +2667,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.eclipse.jetty.websocket#websocket-common;9.2.15.v20160210 [test->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.eclipse.jetty.websocket#websocket-api;9.2.15.v20160210 [test->default(compile)]
 [info] Resolving org.eclipse.jetty.websocket#websocket-api;9.2.15.v20160210 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@eef46
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@79ae9194
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1eff8994
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty.websocket#websocket-api;9.2.15.v20160210
 [debug] 	local: revision in cache: org.eclipse.jetty.websocket#websocket-api;9.2.15.v20160210
 [debug] 	found org.eclipse.jetty.websocket#websocket-api;9.2.15.v20160210 in sbt-chain
@@ -3113,11 +2676,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.eclipse.jetty.websocket#websocket-api;9.2.15.v20160210 [test->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.fluentlenium#fluentlenium-core;0.10.9 [test->default(compile)]
 [info] Resolving org.fluentlenium#fluentlenium-core;0.10.9 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@37bbd360
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6a44ebe8
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5af6b23
 [debug] sbt-chain: module revision found in cache: org.fluentlenium#fluentlenium-core;0.10.9
 [debug] 	local: revision in cache: org.fluentlenium#fluentlenium-core;0.10.9
 [debug] 	found org.fluentlenium#fluentlenium-core;0.10.9 in sbt-chain
@@ -3126,11 +2685,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.fluentlenium#fluentlenium-core;0.10.9 [test->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.seleniumhq.selenium#selenium-chrome-driver;2.48.2 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-chrome-driver;2.48.2 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6548e09e
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@787472ac
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4371f677
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-chrome-driver;2.48.2
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-chrome-driver;2.48.2
 [debug] 	found org.seleniumhq.selenium#selenium-chrome-driver;2.48.2 in sbt-chain
@@ -3139,11 +2694,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.seleniumhq.selenium#selenium-chrome-driver;2.48.2 [test->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.seleniumhq.selenium#selenium-remote-driver;2.48.2 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-remote-driver;2.48.2 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6b6cb499
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7b8b6536
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1968d8ac
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-remote-driver;2.48.2
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-remote-driver;2.48.2
 [debug] 	found org.seleniumhq.selenium#selenium-remote-driver;2.48.2 in sbt-chain
@@ -3152,11 +2703,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.seleniumhq.selenium#selenium-remote-driver;2.48.2 [test->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->cglib#cglib-nodep;2.1_3 [test->default(compile)]
 [info] Resolving cglib#cglib-nodep;2.1_3 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@289bb1ef
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1d38aec5
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@35cc6248
 [debug] sbt-chain: module revision found in cache: cglib#cglib-nodep;2.1_3
 [debug] 	local: revision in cache: cglib#cglib-nodep;2.1_3
 [debug] 	found cglib#cglib-nodep;2.1_3 in sbt-chain
@@ -3165,11 +2712,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->cglib#cglib-nodep;2.1_3 [test->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.google.code.gson#gson;2.3.1 [test->default(compile)]
 [info] Resolving com.google.code.gson#gson;2.3.1 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@34baafbb
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@77b9b0de
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7be8199e
 [debug] sbt-chain: module revision found in cache: com.google.code.gson#gson;2.3.1
 [debug] 	local: revision in cache: com.google.code.gson#gson;2.3.1
 [debug] 	found com.google.code.gson#gson;2.3.1 in sbt-chain
@@ -3178,11 +2721,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.google.code.gson#gson;2.3.1 [test->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.seleniumhq.selenium#selenium-api;2.48.2 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-api;2.48.2 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3d938564
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7845ca1d
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@33bb21a3
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-api;2.48.2
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-api;2.48.2
 [debug] 	found org.seleniumhq.selenium#selenium-api;2.48.2 in sbt-chain
@@ -3191,11 +2730,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.seleniumhq.selenium#selenium-api;2.48.2 [test->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.apache.commons#commons-exec;1.3 [test->default(compile)]
 [info] Resolving org.apache.commons#commons-exec;1.3 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@b73888f
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@43bfde0e
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@36be196a
 [debug] sbt-chain: module revision found in cache: org.apache.commons#commons-exec;1.3
 [debug] 	local: revision in cache: org.apache.commons#commons-exec;1.3
 [debug] 	found org.apache.commons#commons-exec;1.3 in sbt-chain
@@ -3204,11 +2739,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.apache.commons#commons-exec;1.3 [test->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->net.java.dev.jna#jna;4.1.0 [test->default(compile)]
 [info] Resolving net.java.dev.jna#jna;4.1.0 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7e5760f5
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@20651a3
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@50c5fb75
 [debug] sbt-chain: module revision found in cache: net.java.dev.jna#jna;4.1.0
 [debug] 	local: revision in cache: net.java.dev.jna#jna;4.1.0
 [debug] 	found net.java.dev.jna#jna;4.1.0 in sbt-chain
@@ -3217,11 +2748,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->net.java.dev.jna#jna;4.1.0 [test->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->net.java.dev.jna#jna-platform;4.1.0 [test->default(compile)]
 [info] Resolving net.java.dev.jna#jna-platform;4.1.0 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1992d92b
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@14093e41
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@245c96c8
 [debug] sbt-chain: module revision found in cache: net.java.dev.jna#jna-platform;4.1.0
 [debug] 	local: revision in cache: net.java.dev.jna#jna-platform;4.1.0
 [debug] 	found net.java.dev.jna#jna-platform;4.1.0 in sbt-chain
@@ -3230,11 +2757,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->net.java.dev.jna#jna-platform;4.1.0 [test->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.seleniumhq.selenium#selenium-edge-driver;2.48.2 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-edge-driver;2.48.2 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4e869277
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7d4b7799
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6621ea85
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-edge-driver;2.48.2
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-edge-driver;2.48.2
 [debug] 	found org.seleniumhq.selenium#selenium-edge-driver;2.48.2 in sbt-chain
@@ -3243,11 +2766,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.seleniumhq.selenium#selenium-edge-driver;2.48.2 [test->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.seleniumhq.selenium#selenium-htmlunit-driver;2.48.2 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-htmlunit-driver;2.48.2 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@51db6521
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@16ef3814
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@58be7548
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-htmlunit-driver;2.48.2
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-htmlunit-driver;2.48.2
 [debug] 	found org.seleniumhq.selenium#selenium-htmlunit-driver;2.48.2 in sbt-chain
@@ -3256,11 +2775,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.seleniumhq.selenium#selenium-htmlunit-driver;2.48.2 [test->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.seleniumhq.selenium#selenium-support;2.48.2 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-support;2.48.2 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@597d65f8
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5c9310c3
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4e2190d9
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-support;2.48.2
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-support;2.48.2
 [debug] 	found org.seleniumhq.selenium#selenium-support;2.48.2 in sbt-chain
@@ -3269,11 +2784,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.seleniumhq.selenium#selenium-support;2.48.2 [test->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.seleniumhq.selenium#selenium-firefox-driver;2.48.2 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-firefox-driver;2.48.2 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@699e807c
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@45462e15
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5054ca3f
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-firefox-driver;2.48.2
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-firefox-driver;2.48.2
 [debug] 	found org.seleniumhq.selenium#selenium-firefox-driver;2.48.2 in sbt-chain
@@ -3282,11 +2793,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.seleniumhq.selenium#selenium-firefox-driver;2.48.2 [test->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.seleniumhq.selenium#selenium-ie-driver;2.48.2 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-ie-driver;2.48.2 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@179b110d
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@17aff30c
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@9145de2
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-ie-driver;2.48.2
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-ie-driver;2.48.2
 [debug] 	found org.seleniumhq.selenium#selenium-ie-driver;2.48.2 in sbt-chain
@@ -3295,11 +2802,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.seleniumhq.selenium#selenium-ie-driver;2.48.2 [test->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.seleniumhq.selenium#selenium-safari-driver;2.48.2 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-safari-driver;2.48.2 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@588e01d6
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2dbb8bcc
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3b8ac8e3
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-safari-driver;2.48.2
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-safari-driver;2.48.2
 [debug] 	found org.seleniumhq.selenium#selenium-safari-driver;2.48.2 in sbt-chain
@@ -3308,11 +2811,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.seleniumhq.selenium#selenium-safari-driver;2.48.2 [test->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.webbitserver#webbit;0.4.14 [test->default(compile)]
 [info] Resolving org.webbitserver#webbit;0.4.14 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5048242f
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@60368
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@69fcb4f6
 [debug] sbt-chain: module revision found in cache: org.webbitserver#webbit;0.4.14
 [debug] 	local: revision in cache: org.webbitserver#webbit;0.4.14
 [debug] 	found org.webbitserver#webbit;0.4.14 in sbt-chain
@@ -3321,11 +2820,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.webbitserver#webbit;0.4.14 [test->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->io.netty#netty;3.5.2.Final [test->default(compile)]
 [info] Resolving io.netty#netty;3.5.2.Final ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@375295
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6b10c43a
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@170770f6
 [debug] sbt-chain: module revision found in cache: io.netty#netty;3.5.2.Final
 [debug] 	local: revision in cache: io.netty#netty;3.5.2.Final
 [debug] 	found io.netty#netty;3.5.2.Final in sbt-chain
@@ -3334,11 +2829,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->io.netty#netty;3.5.2.Final [test->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.seleniumhq.selenium#selenium-leg-rc;2.48.2 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-leg-rc;2.48.2 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7b27c742
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@592302d7
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@262f2dc3
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-leg-rc;2.48.2
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-leg-rc;2.48.2
 [debug] 	found org.seleniumhq.selenium#selenium-leg-rc;2.48.2 in sbt-chain
@@ -3347,11 +2838,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.seleniumhq.selenium#selenium-leg-rc;2.48.2 [test->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-specs2_2.11;2.5.3 [test->default(compile)]
 [info] Resolving com.typesafe.play#play-specs2_2.11;2.5.3 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@453bdabe
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6626b708
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@630be61c
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-specs2_2.11;2.5.3
 [debug] 	local: revision in cache: com.typesafe.play#play-specs2_2.11;2.5.3
 [debug] 	found com.typesafe.play#play-specs2_2.11;2.5.3 in sbt-chain
@@ -3360,11 +2847,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-specs2_2.11;2.5.3 [test->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.specs2#specs2-core_2.11;3.6.6 [test->default(compile)]
 [info] Resolving org.specs2#specs2-core_2.11;3.6.6 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@45190a41
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@27c40566
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3ba7b537
 [debug] sbt-chain: module revision found in cache: org.specs2#specs2-core_2.11;3.6.6
 [debug] 	local: revision in cache: org.specs2#specs2-core_2.11;3.6.6
 [debug] 	found org.specs2#specs2-core_2.11;3.6.6 in sbt-chain
@@ -3373,11 +2856,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.specs2#specs2-core_2.11;3.6.6 [test->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.specs2#specs2-matcher_2.11;3.6.6 [test->default(compile)]
 [info] Resolving org.specs2#specs2-matcher_2.11;3.6.6 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2d8eb6e9
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6128734b
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@112768dd
 [debug] sbt-chain: module revision found in cache: org.specs2#specs2-matcher_2.11;3.6.6
 [debug] 	local: revision in cache: org.specs2#specs2-matcher_2.11;3.6.6
 [debug] 	found org.specs2#specs2-matcher_2.11;3.6.6 in sbt-chain
@@ -3386,11 +2865,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.specs2#specs2-matcher_2.11;3.6.6 [test->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.specs2#specs2-common_2.11;3.6.6 [test->default(compile)]
 [info] Resolving org.specs2#specs2-common_2.11;3.6.6 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@499f6f0d
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1936785a
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@72cf5a4b
 [debug] sbt-chain: module revision found in cache: org.specs2#specs2-common_2.11;3.6.6
 [debug] 	local: revision in cache: org.specs2#specs2-common_2.11;3.6.6
 [debug] 	found org.specs2#specs2-common_2.11;3.6.6 in sbt-chain
@@ -3399,11 +2874,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.specs2#specs2-common_2.11;3.6.6 [test->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.scalaz#scalaz-core_2.11;7.1.4 [test->default(compile)]
 [info] Resolving org.scalaz#scalaz-core_2.11;7.1.4 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3d0cf7c8
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5b34e36a
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3027b557
 [debug] sbt-chain: module revision found in cache: org.scalaz#scalaz-core_2.11;7.1.4
 [debug] 	local: revision in cache: org.scalaz#scalaz-core_2.11;7.1.4
 [debug] 	found org.scalaz#scalaz-core_2.11;7.1.4 in sbt-chain
@@ -3412,11 +2883,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.scalaz#scalaz-core_2.11;7.1.4 [test->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [test->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.4 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@52fd04c7
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@391b91f
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@46f2b2ca
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.4
 [debug] 	local: revision in cache: org.scala-lang.modules#scala-xml_2.11;1.0.4
 [debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.4 in sbt-chain
@@ -3425,11 +2892,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [test->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.scalaz#scalaz-effect_2.11;7.1.4 [test->default(compile)]
 [info] Resolving org.scalaz#scalaz-effect_2.11;7.1.4 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6a9fe486
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5454d162
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@265d952f
 [debug] sbt-chain: module revision found in cache: org.scalaz#scalaz-effect_2.11;7.1.4
 [debug] 	local: revision in cache: org.scalaz#scalaz-effect_2.11;7.1.4
 [debug] 	found org.scalaz#scalaz-effect_2.11;7.1.4 in sbt-chain
@@ -3438,11 +2901,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.scalaz#scalaz-effect_2.11;7.1.4 [test->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.scalaz#scalaz-concurrent_2.11;7.1.4 [test->default(compile)]
 [info] Resolving org.scalaz#scalaz-concurrent_2.11;7.1.4 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5c6df074
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1d9fcad8
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@208883a5
 [debug] sbt-chain: module revision found in cache: org.scalaz#scalaz-concurrent_2.11;7.1.4
 [debug] 	local: revision in cache: org.scalaz#scalaz-concurrent_2.11;7.1.4
 [debug] 	found org.scalaz#scalaz-concurrent_2.11;7.1.4 in sbt-chain
@@ -3451,11 +2910,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.scalaz#scalaz-concurrent_2.11;7.1.4 [test->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.scalaz.stream#scalaz-stream_2.11;0.8 [test->default(compile)]
 [info] Resolving org.scalaz.stream#scalaz-stream_2.11;0.8 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@54133765
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@56e9469e
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6fab3e73
 [debug] sbt-chain: module revision found in cache: org.scalaz.stream#scalaz-stream_2.11;0.8
 [debug] 	local: revision in cache: org.scalaz.stream#scalaz-stream_2.11;0.8
 [debug] 	found org.scalaz.stream#scalaz-stream_2.11;0.8 in sbt-chain
@@ -3465,11 +2920,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.scalaz.stream#scalaz-stream_2.11;0.8 [test->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.scodec#scodec-bits_2.11;1.0.9 [test->default(compile)]
 [info] Resolving org.scodec#scodec-bits_2.11;1.0.9 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@22a2cb10
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@535954f4
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3216c614
 [debug] sbt-chain: module revision found in cache: org.scodec#scodec-bits_2.11;1.0.9
 [debug] 	local: revision in cache: org.scodec#scodec-bits_2.11;1.0.9
 [debug] 	found org.scodec#scodec-bits_2.11;1.0.9 in sbt-chain
@@ -3479,11 +2930,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.scodec#scodec-bits_2.11;1.0.9 [test->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.spire-math#kind-projector_2.11;0.7.1 [test->default(compile)]
 [info] Resolving org.spire-math#kind-projector_2.11;0.7.1 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5b598865
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2fcbf2e4
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5e665896
 [debug] sbt-chain: module revision found in cache: org.spire-math#kind-projector_2.11;0.7.1
 [debug] 	local: revision in cache: org.spire-math#kind-projector_2.11;0.7.1
 [debug] 	found org.spire-math#kind-projector_2.11;0.7.1 in sbt-chain
@@ -3492,11 +2939,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.spire-math#kind-projector_2.11;0.7.1 [test->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.scala-lang#scala-compiler;2.11.7 [test->default(compile)]
 [info] Resolving org.scala-lang#scala-compiler;2.11.7 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@efa0f98
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@505c805a
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7263c378
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.7
 [debug] 	local: revision in cache: org.scala-lang#scala-compiler;2.11.7
 [debug] 	found org.scala-lang#scala-compiler;2.11.7 in sbt-chain
@@ -3505,11 +2948,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.scala-lang#scala-compiler;2.11.7 [test->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.specs2#specs2-junit_2.11;3.6.6 [test->default(compile)]
 [info] Resolving org.specs2#specs2-junit_2.11;3.6.6 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@22896e57
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@65117200
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7ada6b2b
 [debug] sbt-chain: module revision found in cache: org.specs2#specs2-junit_2.11;3.6.6
 [debug] 	local: revision in cache: org.specs2#specs2-junit_2.11;3.6.6
 [debug] 	found org.specs2#specs2-junit_2.11;3.6.6 in sbt-chain
@@ -3518,11 +2957,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.specs2#specs2-junit_2.11;3.6.6 [test->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.specs2#specs2-mock_2.11;3.6.6 [test->default(compile)]
 [info] Resolving org.specs2#specs2-mock_2.11;3.6.6 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6237b9bd
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6a4fade0
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@433ccd63
 [debug] sbt-chain: module revision found in cache: org.specs2#specs2-mock_2.11;3.6.6
 [debug] 	local: revision in cache: org.specs2#specs2-mock_2.11;3.6.6
 [debug] 	found org.specs2#specs2-mock_2.11;3.6.6 in sbt-chain
@@ -3531,11 +2966,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.specs2#specs2-mock_2.11;3.6.6 [test->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.mockito#mockito-core;1.9.5 [test->default(compile)]
 [info] Resolving org.mockito#mockito-core;1.9.5 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@b7a79f7
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@641e67ab
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3f45f86d
 [debug] sbt-chain: module revision found in cache: org.mockito#mockito-core;1.9.5
 [debug] 	local: revision in cache: org.mockito#mockito-core;1.9.5
 [debug] 	found org.mockito#mockito-core;1.9.5 in sbt-chain
@@ -3544,11 +2975,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.mockito#mockito-core;1.9.5 [test->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.objenesis#objenesis;1.0 [test->default(compile)]
 [info] Resolving org.objenesis#objenesis;1.0 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4d2cd9a3
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1ac7b64e
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@76a0a627
 [debug] sbt-chain: module revision found in cache: org.objenesis#objenesis;1.0
 [debug] 	local: revision in cache: org.objenesis#objenesis;1.0
 [debug] 	found org.objenesis#objenesis;1.0 in sbt-chain
@@ -3890,7 +3317,6 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->be.objectify#deadbolt-scala_2.11;2.5.0 [compile->runtime]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->be.objectify#deadbolt-scala_2.11;2.5.0 [compile->compile]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->be.objectify#deadbolt-scala_2.11;2.5.0 [compile->master]
-<<<<<<< HEAD
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [compile->default(compile)]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [compile->runtime]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [compile->compile]
@@ -3907,8 +3333,6 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->javax.activation#activation;1.1.1 [compile->runtime]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->javax.activation#activation;1.1.1 [compile->compile]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->javax.activation#activation;1.1.1 [compile->master]
-=======
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
 [debug] == resolving dependencies for playproject#playproject$sources_2.11;1.0 [optional]
 [debug] == resolving dependencies for playproject#playproject$sources_2.11;1.0 [provided]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile-internal->default(compile)]
@@ -4239,7 +3663,6 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->be.objectify#deadbolt-scala_2.11;2.5.0 [compile-internal->runtime]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->be.objectify#deadbolt-scala_2.11;2.5.0 [compile-internal->compile]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->be.objectify#deadbolt-scala_2.11;2.5.0 [compile-internal->master]
-<<<<<<< HEAD
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [compile-internal->default(compile)]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [compile-internal->runtime]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [compile-internal->compile]
@@ -4256,8 +3679,6 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->javax.activation#activation;1.1.1 [compile-internal->runtime]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->javax.activation#activation;1.1.1 [compile-internal->compile]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->javax.activation#activation;1.1.1 [compile-internal->master]
-=======
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
 [debug] resolving dependencies for configuration 'runtime-internal'
 [debug] == resolving dependencies for playproject#playproject$sources_2.11;1.0 [runtime-internal]
 [debug] == resolving dependencies for playproject#playproject$sources_2.11;1.0 [runtime]
@@ -4590,7 +4011,6 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->be.objectify#deadbolt-scala_2.11;2.5.0 [compile->runtime]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->be.objectify#deadbolt-scala_2.11;2.5.0 [compile->compile]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->be.objectify#deadbolt-scala_2.11;2.5.0 [compile->master]
-<<<<<<< HEAD
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [compile->default(compile)]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [compile->runtime]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [compile->compile]
@@ -4607,8 +4027,6 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->javax.activation#activation;1.1.1 [compile->runtime]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->javax.activation#activation;1.1.1 [compile->compile]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->javax.activation#activation;1.1.1 [compile->master]
-=======
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->default(compile)]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->compile]
@@ -4937,7 +4355,6 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->be.objectify#deadbolt-scala_2.11;2.5.0 [runtime->runtime]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->be.objectify#deadbolt-scala_2.11;2.5.0 [runtime->compile]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->be.objectify#deadbolt-scala_2.11;2.5.0 [runtime->master]
-<<<<<<< HEAD
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [runtime->default(compile)]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [runtime->runtime]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [runtime->compile]
@@ -4954,8 +4371,6 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->javax.activation#activation;1.1.1 [runtime->runtime]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->javax.activation#activation;1.1.1 [runtime->compile]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->javax.activation#activation;1.1.1 [runtime->master]
-=======
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
 [debug] == resolving dependencies for playproject#playproject$sources_2.11;1.0 [optional]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime-internal->default(compile)]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime-internal->runtime]
@@ -5285,7 +4700,6 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->be.objectify#deadbolt-scala_2.11;2.5.0 [runtime-internal->runtime]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->be.objectify#deadbolt-scala_2.11;2.5.0 [runtime-internal->compile]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->be.objectify#deadbolt-scala_2.11;2.5.0 [runtime-internal->master]
-<<<<<<< HEAD
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [runtime-internal->default(compile)]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [runtime-internal->runtime]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [runtime-internal->compile]
@@ -5302,8 +4716,6 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->javax.activation#activation;1.1.1 [runtime-internal->runtime]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->javax.activation#activation;1.1.1 [runtime-internal->compile]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->javax.activation#activation;1.1.1 [runtime-internal->master]
-=======
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
 [debug] resolving dependencies for configuration 'test-internal'
 [debug] == resolving dependencies for playproject#playproject$sources_2.11;1.0 [test-internal]
 [debug] == resolving dependencies for playproject#playproject$sources_2.11;1.0 [test]
@@ -5641,7 +5053,6 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->be.objectify#deadbolt-scala_2.11;2.5.0 [compile->runtime]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->be.objectify#deadbolt-scala_2.11;2.5.0 [compile->compile]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->be.objectify#deadbolt-scala_2.11;2.5.0 [compile->master]
-<<<<<<< HEAD
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [compile->default(compile)]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [compile->runtime]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [compile->compile]
@@ -5658,8 +5069,6 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->javax.activation#activation;1.1.1 [compile->runtime]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->javax.activation#activation;1.1.1 [compile->compile]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->javax.activation#activation;1.1.1 [compile->master]
-=======
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->default(compile)]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->compile]
@@ -5992,7 +5401,6 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->be.objectify#deadbolt-scala_2.11;2.5.0 [runtime->runtime]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->be.objectify#deadbolt-scala_2.11;2.5.0 [runtime->compile]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->be.objectify#deadbolt-scala_2.11;2.5.0 [runtime->master]
-<<<<<<< HEAD
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [runtime->default(compile)]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [runtime->runtime]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [runtime->compile]
@@ -6009,8 +5417,6 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->javax.activation#activation;1.1.1 [runtime->runtime]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->javax.activation#activation;1.1.1 [runtime->compile]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->javax.activation#activation;1.1.1 [runtime->master]
-=======
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [test->default(compile)]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [test->runtime]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [test->compile]
@@ -6323,7 +5729,6 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->be.objectify#deadbolt-scala_2.11;2.5.0 [test->runtime]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->be.objectify#deadbolt-scala_2.11;2.5.0 [test->compile]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->be.objectify#deadbolt-scala_2.11;2.5.0 [test->master]
-<<<<<<< HEAD
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [test->default(compile)]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [test->runtime]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [test->compile]
@@ -6340,8 +5745,6 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->javax.activation#activation;1.1.1 [test->runtime]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->javax.activation#activation;1.1.1 [test->compile]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->javax.activation#activation;1.1.1 [test->master]
-=======
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-test_2.11;2.5.3 [test->default(compile)]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-test_2.11;2.5.3 [test->runtime]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-test_2.11;2.5.3 [test->compile]
@@ -6884,7 +6287,6 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->be.objectify#deadbolt-scala_2.11;2.5.0 [test-internal->runtime]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->be.objectify#deadbolt-scala_2.11;2.5.0 [test-internal->compile]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->be.objectify#deadbolt-scala_2.11;2.5.0 [test-internal->master]
-<<<<<<< HEAD
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [test-internal->default(compile)]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [test-internal->runtime]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [test-internal->compile]
@@ -6901,8 +6303,6 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->javax.activation#activation;1.1.1 [test-internal->runtime]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->javax.activation#activation;1.1.1 [test-internal->compile]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->javax.activation#activation;1.1.1 [test-internal->master]
-=======
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-test_2.11;2.5.3 [test-internal->default(compile)]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-test_2.11;2.5.3 [test-internal->runtime]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-test_2.11;2.5.3 [test-internal->compile]
@@ -7344,11 +6744,7 @@
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->com.typesafe.play#play-omnidoc_2.11;2.5.3 [docs->master]
 [debug] == resolving dependencies playproject#playproject$sources_2.11;1.0->org.scala-lang#scala-library;2.11.7 [docs->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.7 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3732f0e
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4326f2dc
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@323661b1
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.7
 [debug] 	local: revision in cache: org.scala-lang#scala-library;2.11.7
 [debug] 	found org.scala-lang#scala-library;2.11.7 in sbt-chain
@@ -7900,7 +7296,6 @@
 [debug] 	[NOT REQUIRED] com.zaxxer#HikariCP-java6;2.3.7!HikariCP-java6.jar
 [debug] 	[NOT REQUIRED] be.objectify#deadbolt-scala_2.11;2.5.0!deadbolt-scala_2.11.jar
 [debug] 	[NOT REQUIRED] be.objectify#deadbolt-scala_2.11;2.5.0!deadbolt-scala_2.11.jar(src)
-<<<<<<< HEAD
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-mailer_2.11;5.0.0-M1!play-mailer_2.11.jar
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-mailer_2.11;5.0.0-M1!play-mailer_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.commons#commons-email;1.4!commons-email.jar
@@ -7909,8 +7304,6 @@
 [debug] 	[NOT REQUIRED] com.sun.mail#javax.mail;1.5.2!javax.mail.jar(src)
 [debug] 	[NOT REQUIRED] javax.activation#activation;1.1.1!activation.jar
 [debug] 	[NOT REQUIRED] javax.activation#activation;1.1.1!activation.jar(src)
-=======
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar
 [debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpcore;4.4.4!httpcore.jar
@@ -8069,11 +7462,7 @@
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.3.8!akka-actor_2.11.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe#config;1.2.1!config.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-testkit_2.11;2.3.8!akka-testkit_2.11.jar(src)
-<<<<<<< HEAD
-[debug] :: resolution report :: resolve 3122ms :: artifacts dl 140ms
-=======
-[debug] :: resolution report :: resolve 3173ms :: artifacts dl 117ms
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] :: resolution report :: resolve 2344ms :: artifacts dl 114ms
 [debug] 	report for playproject#playproject$sources_2.11;1.0 compile produced in /Users/tristangreeno/workspace/PlayProject/target/resolution-cache/reports/playproject-playproject$sources_2.11-compile.xml
 [debug] 	report for playproject#playproject$sources_2.11;1.0 runtime produced in /Users/tristangreeno/workspace/PlayProject/target/resolution-cache/reports/playproject-playproject$sources_2.11-runtime.xml
 [debug] 	report for playproject#playproject$sources_2.11;1.0 test produced in /Users/tristangreeno/workspace/PlayProject/target/resolution-cache/reports/playproject-playproject$sources_2.11-test.xml
@@ -8088,8 +7477,4 @@
 [debug] 	report for playproject#playproject$sources_2.11;1.0 pom produced in /Users/tristangreeno/workspace/PlayProject/target/resolution-cache/reports/playproject-playproject$sources_2.11-pom.xml
 [debug] 	report for playproject#playproject$sources_2.11;1.0 scala-tool produced in /Users/tristangreeno/workspace/PlayProject/target/resolution-cache/reports/playproject-playproject$sources_2.11-scala-tool.xml
 [debug] 	report for playproject#playproject$sources_2.11;1.0 fork-run produced in /Users/tristangreeno/workspace/PlayProject/target/resolution-cache/reports/playproject-playproject$sources_2.11-fork-run.xml
-<<<<<<< HEAD
-[debug] 	resolve done (3122ms resolve - 140ms download)
-=======
-[debug] 	resolve done (3173ms resolve - 117ms download)
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] 	resolve done (2344ms resolve - 114ms download)

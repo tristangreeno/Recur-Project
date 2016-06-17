@@ -1,11 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/Users/tristangreeno/workspace/PlayProject/conf/routes
-<<<<<<< HEAD
-// @DATE:Thu Jun 16 09:50:27 CDT 2016
-=======
-// @DATE:Mon Jun 13 14:29:56 CDT 2016
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+// @DATE:Fri Jun 17 13:35:44 CDT 2016
 
 
 package router {

@@ -13,15 +13,6 @@
     <dependencies>
         <dependency>
             <groupId>org.scala-lang</groupId>
-<<<<<<< HEAD
-=======
-            <artifactId>scala-compiler</artifactId>
-            <version>2.11.8</version>
-            <scope>runtime</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.scala-lang</groupId>
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
             <artifactId>scala-library</artifactId>
             <version>2.11.8</version>
         </dependency>
@@ -87,14 +78,11 @@
             <artifactId>deadbolt-scala_2.11</artifactId>
             <version>2.5.0</version>
         </dependency>
-<<<<<<< HEAD
         <dependency>
             <groupId>com.typesafe.play</groupId>
             <artifactId>play-mailer_2.11</artifactId>
             <version>5.0.0-M1</version>
         </dependency>
-=======
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
     </dependencies>
     <repositories>
         <repository>

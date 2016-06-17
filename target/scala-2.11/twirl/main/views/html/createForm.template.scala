@@ -36,11 +36,26 @@ Seq[Any](format.raw/*4.81*/("""
         """),format.raw/*11.9*/("""<fieldset>
 
             """),_display_(/*13.14*/inputDate(subscriptionForm("date"), '_label -> "Date of renewal")),format.raw/*13.79*/("""
-            """),_display_(/*14.14*/inputText(subscriptionForm("cost"), '_label -> "Cost of renewal")),format.raw/*14.79*/("""
-            """),_display_(/*15.14*/inputText(subscriptionForm("name"), '_label -> "Name of subscription")),format.raw/*15.84*/("""
-            """),_display_(/*16.14*/inputText(subscriptionForm("frequency"), '_label -> "Frequency of renewal")),format.raw/*16.89*/("""
+            """),_display_(/*14.14*/inputText(subscriptionForm("cost"), '_label -> "Cost of renewal (Must be an integer!)")),format.raw/*14.101*/("""
+            """),_display_(/*15.14*/inputText(subscriptionForm("name"), '_label -> "Company name")),format.raw/*15.76*/("""
 
-            """),_display_(/*18.14*/select(
+            """),_display_(/*17.14*/select(
+                subscriptionForm("frequency"),
+                Seq(
+                    "7" -> "Every week",
+                    "14" -> "Every two weeks",
+                    "30" -> "Once a month",
+                    "90" -> "Every 3 months",
+                    "180" -> "Every 6 months",
+                    "365" -> "Every year",
+                    "730" -> "Every two years"
+                ),
+                '_label -> "Frequency",
+                '_default -> "-- Choose a frequency --",
+                '_showConstraints -> false
+            )),format.raw/*31.14*/("""
+
+            """),_display_(/*33.14*/select(
                 subscriptionForm("category"),
                 Seq(
                     "entertainment" -> "Entertainment",
@@ -51,9 +66,9 @@ Seq[Any](format.raw/*4.81*/("""
                 '_label -> "Category",
                 '_default -> "-- Choose a category --",
                 '_showConstraints -> false
-            )),format.raw/*29.14*/("""
+            )),format.raw/*44.14*/("""
 
-            """),format.raw/*31.13*/("""<input type="hidden" name="userId" value=""""),_display_(/*31.56*/user/*31.60*/.id),format.raw/*31.63*/("""" />
+            """),format.raw/*46.13*/("""<input type="hidden" name="userId" value=""""),_display_(/*46.56*/user/*46.60*/.id),format.raw/*46.63*/("""" />
 
         </fieldset>
 
@@ -61,9 +76,9 @@ Seq[Any](format.raw/*4.81*/("""
 
         <div class="actions">
             <input type="submit" value="Create this subscription" class="btn primary"/> or
-            <a href=""""),_display_(/*39.23*/routes/*39.29*/.Application.list()),format.raw/*39.48*/("""" class="btn">Cancel</a>
+            <a href=""""),_display_(/*54.23*/routes/*54.29*/.Application.list()),format.raw/*54.48*/("""" class="btn">Cancel</a>
         </div>
-    """)))}),format.raw/*41.6*/("""
+    """)))}),format.raw/*56.6*/("""
 """)))}))
       }
     }
@@ -85,11 +100,11 @@ Seq[Any](format.raw/*4.81*/("""
 object createForm extends createForm_Scope0.createForm_Scope1.createForm
               /*
                   -- GENERATED --
-                  DATE: Fri Jun 10 12:06:01 CDT 2016
+                  DATE: Fri Jun 17 12:18:06 CDT 2016
                   SOURCE: /Users/tristangreeno/workspace/PlayProject/app/views/createForm.scala.html
-                  HASH: f5fdb0a3188d58127b3b1115cc5f74110a5246de
-                  MATRIX: 628->36|802->115|830->118|843->124|882->126|914->132|976->168|1027->210|1067->212|1103->221|1155->246|1241->311|1282->325|1368->390|1409->404|1500->474|1541->488|1637->563|1679->578|2136->1014|2178->1028|2248->1071|2261->1075|2285->1078|2484->1250|2499->1256|2539->1275|2614->1320
-                  LINES: 24->4|29->4|31->6|31->6|31->6|33->8|35->10|35->10|35->10|36->11|38->13|38->13|39->14|39->14|40->15|40->15|41->16|41->16|43->18|54->29|56->31|56->31|56->31|56->31|64->39|64->39|64->39|66->41
+                  HASH: 9811e5cdefacd97700abc47388f06b16dce01a78
+                  MATRIX: 628->36|802->115|830->118|843->124|882->126|914->132|976->168|1027->210|1067->212|1103->221|1155->246|1241->311|1282->325|1391->412|1432->426|1515->488|1557->503|2141->1066|2183->1081|2640->1517|2682->1531|2752->1574|2765->1578|2789->1581|2988->1753|3003->1759|3043->1778|3118->1823
+                  LINES: 24->4|29->4|31->6|31->6|31->6|33->8|35->10|35->10|35->10|36->11|38->13|38->13|39->14|39->14|40->15|40->15|42->17|56->31|58->33|69->44|71->46|71->46|71->46|71->46|79->54|79->54|79->54|81->56
                   -- GENERATED --
               */
           

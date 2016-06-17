@@ -18,7 +18,7 @@ import scala.concurrent.duration._
 
 
 /**
-  * @author Steve Chaloner (steve@objectify.be)
+  * @author Tristan Greeno (tristan@tristangreeno.com)
   */
 
 class Application @Inject()(mailerClient: MailerClient, actionBuilder: ActionBuilders, authSupport: AuthSupport, usersRepo: UsersRepo, subscriptionsRepo: SubscriptionsRepo,
@@ -38,7 +38,7 @@ class Application @Inject()(mailerClient: MailerClient, actionBuilder: ActionBui
       "date" -> sqlDate("yyyy-MM-dd"),
       "cost" -> longNumber,
       "name" -> nonEmptyText,
-      "frequency" -> number(0),
+      "frequency" -> number,
       "category" -> text,
       "userId" -> optional(longNumber))(Subscription.apply)(Subscription.unapply))
 

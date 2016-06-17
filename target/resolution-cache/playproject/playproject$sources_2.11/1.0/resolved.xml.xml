@@ -4,11 +4,7 @@
 		module="playproject$sources_2.11"
 		revision="1.0"
 		status="integration"
-<<<<<<< HEAD
-		publication="20160615115743"
-=======
-		publication="20160614140353"
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+		publication="20160617142849"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
@@ -275,7 +271,6 @@
 		<dependency org="be.objectify" name="deadbolt-scala_2.11" rev="2.5.0" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
 			<artifact name="deadbolt-scala_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
-<<<<<<< HEAD
 		<dependency org="com.typesafe.play" name="play-mailer_2.11" rev="5.0.0-M1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
 			<artifact name="play-mailer_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
@@ -288,8 +283,6 @@
 		<dependency org="javax.activation" name="activation" rev="1.1.1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
 			<artifact name="activation" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
-=======
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
 		<dependency org="com.typesafe.play" name="play-test_2.11" rev="2.5.3" transitive="false" conf="test->default(compile);test-internal->default(compile)">
 			<artifact name="play-test_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>

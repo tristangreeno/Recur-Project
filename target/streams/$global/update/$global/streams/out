@@ -7,11 +7,7 @@
 [debug] == resolving dependencies for playproject#playproject_2.11;1.0 [compile]
 [debug] == resolving dependencies playproject#playproject_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.8 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@649ed1b
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@146cc872
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@33251af5
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8
 [debug] 	local: revision in cache: org.scala-lang#scala-library;2.11.8
 [debug] 	found org.scala-lang#scala-library;2.11.8 in sbt-chain
@@ -1630,7 +1626,6 @@
 [debug] == resolving dependencies be.objectify#deadbolt-scala_2.11;2.5.0->com.typesafe.play#play-cache_2.11;2.5.3 [runtime->runtime(*)]
 [debug] == resolving dependencies be.objectify#deadbolt-scala_2.11;2.5.0->com.typesafe.play#play-cache_2.11;2.5.3 [runtime->compile]
 [debug] == resolving dependencies playproject#playproject_2.11;1.0->be.objectify#deadbolt-scala_2.11;2.5.0 [compile->master]
-<<<<<<< HEAD
 [debug] == resolving dependencies playproject#playproject_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-mailer_2.11;5.0.0-M1 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.play#play-mailer_2.11;5.0.0-M1 {compile=[default(compile)]}
@@ -1681,8 +1676,6 @@
 [debug] == resolving dependencies com.typesafe.play#play-mailer_2.11;5.0.0-M1->org.apache.commons#commons-email;1.4 [runtime->runtime(*)]
 [debug] == resolving dependencies com.typesafe.play#play-mailer_2.11;5.0.0-M1->org.apache.commons#commons-email;1.4 [runtime->compile]
 [debug] == resolving dependencies playproject#playproject_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [compile->master]
-=======
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
 [debug] resolving dependencies for configuration 'runtime'
 [debug] == resolving dependencies for playproject#playproject_2.11;1.0 [runtime]
 [debug] == resolving dependencies for playproject#playproject_2.11;1.0 [compile]
@@ -2790,7 +2783,6 @@
 [debug] == resolving dependencies be.objectify#deadbolt-scala_2.11;2.5.0->com.typesafe.play#play-cache_2.11;2.5.3 [runtime->runtime(*)]
 [debug] == resolving dependencies be.objectify#deadbolt-scala_2.11;2.5.0->com.typesafe.play#play-cache_2.11;2.5.3 [runtime->compile]
 [debug] == resolving dependencies playproject#playproject_2.11;1.0->be.objectify#deadbolt-scala_2.11;2.5.0 [compile->master]
-<<<<<<< HEAD
 [debug] == resolving dependencies playproject#playproject_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [compile->default(compile)]
 [debug] == resolving dependencies playproject#playproject_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [compile->runtime]
 [debug] == resolving dependencies playproject#playproject_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [compile->compile]
@@ -2821,8 +2813,6 @@
 [debug] == resolving dependencies org.apache.commons#commons-email;1.4->javax.activation#activation;1.1.1 [runtime->runtime(*)]
 [debug] == resolving dependencies org.apache.commons#commons-email;1.4->javax.activation#activation;1.1.1 [runtime->compile]
 [debug] == resolving dependencies playproject#playproject_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [compile->master]
-=======
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
 [debug] resolving dependencies for configuration 'test'
 [debug] == resolving dependencies for playproject#playproject_2.11;1.0 [test]
 [debug] == resolving dependencies for playproject#playproject_2.11;1.0 [runtime]
@@ -3931,7 +3921,6 @@
 [debug] == resolving dependencies be.objectify#deadbolt-scala_2.11;2.5.0->com.typesafe.play#play-cache_2.11;2.5.3 [runtime->runtime(*)]
 [debug] == resolving dependencies be.objectify#deadbolt-scala_2.11;2.5.0->com.typesafe.play#play-cache_2.11;2.5.3 [runtime->compile]
 [debug] == resolving dependencies playproject#playproject_2.11;1.0->be.objectify#deadbolt-scala_2.11;2.5.0 [compile->master]
-<<<<<<< HEAD
 [debug] == resolving dependencies playproject#playproject_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [compile->default(compile)]
 [debug] == resolving dependencies playproject#playproject_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [compile->runtime]
 [debug] == resolving dependencies playproject#playproject_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [compile->compile]
@@ -3962,8 +3951,6 @@
 [debug] == resolving dependencies org.apache.commons#commons-email;1.4->javax.activation#activation;1.1.1 [runtime->runtime(*)]
 [debug] == resolving dependencies org.apache.commons#commons-email;1.4->javax.activation#activation;1.1.1 [runtime->compile]
 [debug] == resolving dependencies playproject#playproject_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [compile->master]
-=======
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
 [debug] == resolving dependencies playproject#playproject_2.11;1.0->com.typesafe.play#play-test_2.11;2.5.3 [test->default(compile)]
 [info] Resolving com.typesafe.play#play-test_2.11;2.5.3 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.play#play-test_2.11;2.5.3 {test=[default(compile)]}
@@ -6144,7 +6131,6 @@
 [debug] == resolving dependencies be.objectify#deadbolt-scala_2.11;2.5.0->com.typesafe.play#play-cache_2.11;2.5.3 [runtime->runtime(*)]
 [debug] == resolving dependencies be.objectify#deadbolt-scala_2.11;2.5.0->com.typesafe.play#play-cache_2.11;2.5.3 [runtime->compile]
 [debug] == resolving dependencies playproject#playproject_2.11;1.0->be.objectify#deadbolt-scala_2.11;2.5.0 [compile->master]
-<<<<<<< HEAD
 [debug] == resolving dependencies playproject#playproject_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [compile->default(compile)]
 [debug] == resolving dependencies playproject#playproject_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [compile->runtime]
 [debug] == resolving dependencies playproject#playproject_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [compile->compile]
@@ -6175,8 +6161,6 @@
 [debug] == resolving dependencies org.apache.commons#commons-email;1.4->javax.activation#activation;1.1.1 [runtime->runtime(*)]
 [debug] == resolving dependencies org.apache.commons#commons-email;1.4->javax.activation#activation;1.1.1 [runtime->compile]
 [debug] == resolving dependencies playproject#playproject_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [compile->master]
-=======
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
 [debug] == resolving dependencies for playproject#playproject_2.11;1.0 [optional]
 [debug] == resolving dependencies for playproject#playproject_2.11;1.0 [provided]
 [debug] resolving dependencies for configuration 'runtime-internal'
@@ -7287,7 +7271,6 @@
 [debug] == resolving dependencies be.objectify#deadbolt-scala_2.11;2.5.0->com.typesafe.play#play-cache_2.11;2.5.3 [runtime->runtime(*)]
 [debug] == resolving dependencies be.objectify#deadbolt-scala_2.11;2.5.0->com.typesafe.play#play-cache_2.11;2.5.3 [runtime->compile]
 [debug] == resolving dependencies playproject#playproject_2.11;1.0->be.objectify#deadbolt-scala_2.11;2.5.0 [compile->master]
-<<<<<<< HEAD
 [debug] == resolving dependencies playproject#playproject_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [compile->default(compile)]
 [debug] == resolving dependencies playproject#playproject_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [compile->runtime]
 [debug] == resolving dependencies playproject#playproject_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [compile->compile]
@@ -7318,8 +7301,6 @@
 [debug] == resolving dependencies org.apache.commons#commons-email;1.4->javax.activation#activation;1.1.1 [runtime->runtime(*)]
 [debug] == resolving dependencies org.apache.commons#commons-email;1.4->javax.activation#activation;1.1.1 [runtime->compile]
 [debug] == resolving dependencies playproject#playproject_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [compile->master]
-=======
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
 [debug] == resolving dependencies for playproject#playproject_2.11;1.0 [optional]
 [debug] resolving dependencies for configuration 'test-internal'
 [debug] == resolving dependencies for playproject#playproject_2.11;1.0 [test-internal]
@@ -8430,7 +8411,6 @@
 [debug] == resolving dependencies be.objectify#deadbolt-scala_2.11;2.5.0->com.typesafe.play#play-cache_2.11;2.5.3 [runtime->runtime(*)]
 [debug] == resolving dependencies be.objectify#deadbolt-scala_2.11;2.5.0->com.typesafe.play#play-cache_2.11;2.5.3 [runtime->compile]
 [debug] == resolving dependencies playproject#playproject_2.11;1.0->be.objectify#deadbolt-scala_2.11;2.5.0 [compile->master]
-<<<<<<< HEAD
 [debug] == resolving dependencies playproject#playproject_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [compile->default(compile)]
 [debug] == resolving dependencies playproject#playproject_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [compile->runtime]
 [debug] == resolving dependencies playproject#playproject_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [compile->compile]
@@ -8461,8 +8441,6 @@
 [debug] == resolving dependencies org.apache.commons#commons-email;1.4->javax.activation#activation;1.1.1 [runtime->runtime(*)]
 [debug] == resolving dependencies org.apache.commons#commons-email;1.4->javax.activation#activation;1.1.1 [runtime->compile]
 [debug] == resolving dependencies playproject#playproject_2.11;1.0->com.typesafe.play#play-mailer_2.11;5.0.0-M1 [compile->master]
-=======
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
 [debug] == resolving dependencies playproject#playproject_2.11;1.0->com.typesafe.play#play-test_2.11;2.5.3 [test->default(compile)]
 [debug] == resolving dependencies playproject#playproject_2.11;1.0->com.typesafe.play#play-test_2.11;2.5.3 [test->runtime]
 [debug] == resolving dependencies playproject#playproject_2.11;1.0->com.typesafe.play#play-test_2.11;2.5.3 [test->compile]
@@ -10419,10 +10397,7 @@
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-ws_2.11;2.5.3!play-ws_2.11.jar
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-slick_2.11;2.0.0!play-slick_2.11.jar
 [debug] 	[NOT REQUIRED] be.objectify#deadbolt-scala_2.11;2.5.0!deadbolt-scala_2.11.jar
-<<<<<<< HEAD
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-mailer_2.11;5.0.0-M1!play-mailer_2.11.jar
-=======
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
 [debug] 	[NOT REQUIRED] org.apache.commons#commons-lang3;3.4!commons-lang3.jar
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.1!scala-xml_2.11.jar(bundle)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.7!scala-library.jar
@@ -10502,12 +10477,9 @@
 [debug] 	[NOT REQUIRED] com.typesafe.slick#slick-hikaricp_2.11;3.1.0!slick-hikaricp_2.11.jar(bundle)
 [debug] 	[NOT REQUIRED] com.typesafe#config;1.2.1!config.jar(bundle)
 [debug] 	[NOT REQUIRED] com.zaxxer#HikariCP-java6;2.3.7!HikariCP-java6.jar(bundle)
-<<<<<<< HEAD
 [debug] 	[NOT REQUIRED] org.apache.commons#commons-email;1.4!commons-email.jar
 [debug] 	[NOT REQUIRED] com.sun.mail#javax.mail;1.5.2!javax.mail.jar
 [debug] 	[NOT REQUIRED] javax.activation#activation;1.1.1!activation.jar
-=======
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-test_2.11;2.5.3!play-test_2.11.jar
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-specs2_2.11;2.5.3!play-specs2_2.11.jar
 [debug] 	[NOT REQUIRED] junit#junit;4.12!junit.jar
@@ -10603,11 +10575,7 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#control_2.11;0.13.8-M3!control_2.11.jar
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.3.8!akka-actor_2.11.jar
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-testkit_2.11;2.3.8!akka-testkit_2.11.jar
-<<<<<<< HEAD
-[debug] :: resolution report :: resolve 3816ms :: artifacts dl 143ms
-=======
-[debug] :: resolution report :: resolve 2150ms :: artifacts dl 58ms
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] :: resolution report :: resolve 1988ms :: artifacts dl 50ms
 [debug] 	report for playproject#playproject_2.11;1.0 compile produced in /Users/tristangreeno/workspace/PlayProject/target/resolution-cache/reports/playproject-playproject_2.11-compile.xml
 [debug] 	report for playproject#playproject_2.11;1.0 runtime produced in /Users/tristangreeno/workspace/PlayProject/target/resolution-cache/reports/playproject-playproject_2.11-runtime.xml
 [debug] 	report for playproject#playproject_2.11;1.0 test produced in /Users/tristangreeno/workspace/PlayProject/target/resolution-cache/reports/playproject-playproject_2.11-test.xml
@@ -10622,9 +10590,5 @@
 [debug] 	report for playproject#playproject_2.11;1.0 pom produced in /Users/tristangreeno/workspace/PlayProject/target/resolution-cache/reports/playproject-playproject_2.11-pom.xml
 [debug] 	report for playproject#playproject_2.11;1.0 scala-tool produced in /Users/tristangreeno/workspace/PlayProject/target/resolution-cache/reports/playproject-playproject_2.11-scala-tool.xml
 [debug] 	report for playproject#playproject_2.11;1.0 fork-run produced in /Users/tristangreeno/workspace/PlayProject/target/resolution-cache/reports/playproject-playproject_2.11-fork-run.xml
-<<<<<<< HEAD
-[debug] 	resolve done (3816ms resolve - 143ms download)
-=======
-[debug] 	resolve done (2150ms resolve - 58ms download)
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+[debug] 	resolve done (1988ms resolve - 50ms download)
 [info] Done updating.

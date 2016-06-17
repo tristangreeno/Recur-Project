@@ -10,8 +10,7 @@ case class User(id: Option[Long], userId: String, email: String, avatarUrl: Stri
 
   override def identifier: String = userId
 
-  // Define roles and permissions if time allows
-  override def roles: List[_ <: Role] = List.empty
+  override def permissions: List[Permission] = List.empty
 
-  override def permissions: List[_ <: Permission] = List.empty
+  override def roles: List[Role] = List.empty
 }
