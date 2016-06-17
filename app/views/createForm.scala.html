@@ -13,7 +13,9 @@
             @inputDate(subscriptionForm("date"), '_label -> "Date of renewal")
             @inputText(subscriptionForm("cost"), '_label -> "Cost of renewal (Must be an integer!)")
 
-            <select class="js-data-example-ajax">
+            @inputText(subscriptionForm("name"), '_label -> "Name of the company")
+
+            @* <select class="js-data-example-ajax" name="name" title="Name of Company">
                 <script>
                 $(".js-data-example-ajax").select2({
                 ajax: {
@@ -48,7 +50,7 @@
                 templateSelection: formatRepoSelection // omitted for brevity, see the source of this page
                 });
                 </script>
-            </select>
+            </select> *@
 
             @select(
                 subscriptionForm("frequency"),

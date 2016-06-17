@@ -4,7 +4,7 @@
 		module="playproject$sources_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20160617142849"
+		publication="20160617154253"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
