@@ -11,6 +11,9 @@ GET         /subscriptions                   controllers.Application.list
 # Route to start program that sends emails
 GET         /subscriptions/email             controllers.EmailController.sendEmail
 
+# Route to return JSON of autocomplete API for company logos/information
+POST        /companies                       controllers.WSController.findCompaniesFromInput(input:String)
+
 # Add subsciption
 GET         /subscriptions/new               controllers.Application.create
 POST        /subscriptions/save/:id          controllers.Application.save(id:String)

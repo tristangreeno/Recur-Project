@@ -1,6 +1,7 @@
-<<<<<<< HEAD
 [info] Packaging /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/playproject_2.11-1.0-sources.jar ...
 [debug] Input file mappings:
+[debug] 	controllers/WSController.scala
+[debug] 	  /Users/tristangreeno/workspace/PlayProject/app/controllers/WSController.scala
 [debug] 	controllers/EmailController.scala
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/app/controllers/EmailController.scala
 [debug] 	evolutions/default
@@ -27,6 +28,8 @@
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/app/security/Auth0ConfigKeys.scala
 [debug] 	controllers/AuthController.scala
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/app/controllers/AuthController.scala
+[debug] 	models/Company.scala
+[debug] 	  /Users/tristangreeno/workspace/PlayProject/app/models/Company.scala
 [debug] 	routes
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/conf/routes
 [debug] 	evolutions/default/1.sql
@@ -40,6 +43,3 @@
 [debug] 	security/MyHandlerCache.scala
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/app/security/MyHandlerCache.scala
 [info] Done packaging.
-=======
-[debug] Jar uptodate: /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/playproject_2.11-1.0-sources.jar
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e

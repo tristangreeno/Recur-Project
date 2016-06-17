@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 [info] Main Scala API documentation to /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/api...
 [debug] Getting compiler-interface from component compiler for Scala 2.11.8
 [debug] Calling Scaladoc with arguments:
@@ -15,7 +14,9 @@
 [debug] 	/Users/tristangreeno/workspace/PlayProject/app/controllers/Application.scala
 [debug] 	/Users/tristangreeno/workspace/PlayProject/app/controllers/AuthController.scala
 [debug] 	/Users/tristangreeno/workspace/PlayProject/app/controllers/EmailController.scala
+[debug] 	/Users/tristangreeno/workspace/PlayProject/app/controllers/WSController.scala
 [debug] 	/Users/tristangreeno/workspace/PlayProject/app/models/AuthUser.scala
+[debug] 	/Users/tristangreeno/workspace/PlayProject/app/models/Company.scala
 [debug] 	/Users/tristangreeno/workspace/PlayProject/app/models/Subscription.scala
 [debug] 	/Users/tristangreeno/workspace/PlayProject/app/models/SubscriptionList.scala
 [debug] 	/Users/tristangreeno/workspace/PlayProject/app/models/User.scala
@@ -43,6 +44,3 @@
 [warn] there were three feature warnings; re-run with -feature for details
 [warn] one warning found
 [info] Main Scala API documentation successful.
-=======
-[debug] Uptodate: /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/api
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e

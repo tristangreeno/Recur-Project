@@ -1,11 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/Users/tristangreeno/workspace/PlayProject/conf/routes
-<<<<<<< HEAD
-// @DATE:Thu Jun 16 09:50:27 CDT 2016
-=======
-// @DATE:Mon Jun 13 14:29:56 CDT 2016
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+// @DATE:Fri Jun 17 13:35:44 CDT 2016
 
 import play.api.routing.JavaScriptReverseRoute
 import play.api.mvc.{ QueryStringBindable, PathBindable, Call, JavascriptLiteral }
@@ -18,11 +14,7 @@ import _root_.controllers.Assets.Asset
 package controllers.javascript {
   import ReverseRouteContext.empty
 
-<<<<<<< HEAD
-  // @LINE:31
-=======
-  // @LINE:28
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+  // @LINE:34
   class ReverseAssets(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -30,11 +22,7 @@ package controllers.javascript {
     }
 
   
-<<<<<<< HEAD
-    // @LINE:31
-=======
-    // @LINE:28
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+    // @LINE:34
     def versioned: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Assets.versioned",
       """
@@ -46,76 +34,20 @@ package controllers.javascript {
   
   }
 
-<<<<<<< HEAD
-  // @LINE:12
-  class ReverseEmailController(_prefix: => String) {
+  // @LINE:15
+  class ReverseWSController(_prefix: => String) {
 
     def _defaultPrefix: String = {
       if (_prefix.endsWith("/")) "" else "/"
     }
 
   
-    // @LINE:12
-    def sendEmail: JavaScriptReverseRoute = JavaScriptReverseRoute(
-      "controllers.EmailController.sendEmail",
+    // @LINE:15
+    def findCompaniesFromInput: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.WSController.findCompaniesFromInput",
       """
-        function() {
-          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "subscriptions/email"})
-        }
-      """
-    )
-  
-  }
-
-  // @LINE:26
-=======
-  // @LINE:23
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
-  class ReverseAuthController(_prefix: => String) {
-
-    def _defaultPrefix: String = {
-      if (_prefix.endsWith("/")) "" else "/"
-    }
-
-  
-<<<<<<< HEAD
-    // @LINE:26
-=======
-    // @LINE:23
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
-    def logIn: JavaScriptReverseRoute = JavaScriptReverseRoute(
-      "controllers.AuthController.logIn",
-      """
-        function() {
-          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "login"})
-        }
-      """
-    )
-  
-<<<<<<< HEAD
-    // @LINE:27
-=======
-    // @LINE:24
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
-    def callback: JavaScriptReverseRoute = JavaScriptReverseRoute(
-      "controllers.AuthController.callback",
-      """
-        function(code0) {
-          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "callback" + _qS([(""" + implicitly[QueryStringBindable[Option[String]]].javascriptUnbind + """)("code", code0)])})
-        }
-      """
-    )
-  
-<<<<<<< HEAD
-    // @LINE:28
-=======
-    // @LINE:25
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
-    def logOut: JavaScriptReverseRoute = JavaScriptReverseRoute(
-      "controllers.AuthController.logOut",
-      """
-        function() {
-          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "logout"})
+        function(input0) {
+          return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "companies" + _qS([(""" + implicitly[QueryStringBindable[String]].javascriptUnbind + """)("input", input0)])})
         }
       """
     )
@@ -130,11 +62,7 @@ package controllers.javascript {
     }
 
   
-<<<<<<< HEAD
-    // @LINE:23
-=======
-    // @LINE:20
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+    // @LINE:26
     def delete: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Application.delete",
       """
@@ -144,11 +72,7 @@ package controllers.javascript {
       """
     )
   
-<<<<<<< HEAD
-    // @LINE:15
-=======
-    // @LINE:12
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+    // @LINE:18
     def create: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Application.create",
       """
@@ -158,11 +82,7 @@ package controllers.javascript {
       """
     )
   
-<<<<<<< HEAD
-    // @LINE:19
-=======
-    // @LINE:16
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+    // @LINE:22
     def edit: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Application.edit",
       """
@@ -172,11 +92,7 @@ package controllers.javascript {
       """
     )
   
-<<<<<<< HEAD
-    // @LINE:20
-=======
-    // @LINE:17
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+    // @LINE:23
     def update: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Application.update",
       """
@@ -186,11 +102,7 @@ package controllers.javascript {
       """
     )
   
-<<<<<<< HEAD
-    // @LINE:16
-=======
-    // @LINE:13
->>>>>>> 38ce55e2743188190547cbd4fafdad22ef87281e
+    // @LINE:19
     def save: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Application.save",
       """
@@ -216,6 +128,66 @@ package controllers.javascript {
       """
         function() {
           return _wA({method:"GET", url:"""" + _prefix + """"})
+        }
+      """
+    )
+  
+  }
+
+  // @LINE:12
+  class ReverseEmailController(_prefix: => String) {
+
+    def _defaultPrefix: String = {
+      if (_prefix.endsWith("/")) "" else "/"
+    }
+
+  
+    // @LINE:12
+    def sendEmail: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.EmailController.sendEmail",
+      """
+        function() {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "subscriptions/email"})
+        }
+      """
+    )
+  
+  }
+
+  // @LINE:29
+  class ReverseAuthController(_prefix: => String) {
+
+    def _defaultPrefix: String = {
+      if (_prefix.endsWith("/")) "" else "/"
+    }
+
+  
+    // @LINE:29
+    def logIn: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.AuthController.logIn",
+      """
+        function() {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "login"})
+        }
+      """
+    )
+  
+    // @LINE:30
+    def callback: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.AuthController.callback",
+      """
+        function(code0) {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "callback" + _qS([(""" + implicitly[QueryStringBindable[Option[String]]].javascriptUnbind + """)("code", code0)])})
+        }
+      """
+    )
+  
+    // @LINE:31
+    def logOut: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.AuthController.logOut",
+      """
+        function() {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "logout"})
         }
       """
     )
