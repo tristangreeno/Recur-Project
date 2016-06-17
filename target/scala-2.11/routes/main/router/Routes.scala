@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/Users/tristangreeno/workspace/PlayProject/conf/routes
-// @DATE:Fri Jun 17 13:35:44 CDT 2016
+// @DATE:Fri Jun 17 15:20:00 CDT 2016
 
 package router
 
@@ -57,7 +57,7 @@ class Routes(
     ("""GET""", this.prefix, """controllers.Application.index"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """subscriptions""", """controllers.Application.list"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """subscriptions/email""", """controllers.EmailController.sendEmail"""),
-    ("""POST""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """companies""", """controllers.WSController.findCompaniesFromInput(input:String)"""),
+    ("""POST""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """companies/""" + "$" + """input<[^/]+>""", """controllers.WSController.findCompaniesFromInput(input:String)"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """subscriptions/new""", """controllers.Application.create"""),
     ("""POST""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """subscriptions/save/""" + "$" + """id<[^/]+>""", """controllers.Application.save(id:String)"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """subscriptions/""" + "$" + """id<[^/]+>""", """controllers.Application.edit(id:Long)"""),
@@ -127,7 +127,7 @@ class Routes(
 
   // @LINE:15
   private[this] lazy val controllers_WSController_findCompaniesFromInput3_route = Route("POST",
-    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("companies")))
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("companies/"), DynamicPart("input", """[^/]+""",true)))
   )
   private[this] lazy val controllers_WSController_findCompaniesFromInput3_invoker = createInvoker(
     WSController_0.findCompaniesFromInput(fakeValue[String]),
@@ -138,7 +138,7 @@ class Routes(
       Seq(classOf[String]),
       "POST",
       """ Route to return JSON of autocomplete API for company logos/information""",
-      this.prefix + """companies"""
+      this.prefix + """companies/""" + "$" + """input<[^/]+>"""
     )
   )
 
@@ -318,7 +318,7 @@ class Routes(
   
     // @LINE:15
     case controllers_WSController_findCompaniesFromInput3_route(params) =>
-      call(params.fromQuery[String]("input", None)) { (input) =>
+      call(params.fromPath[String]("input", None)) { (input) =>
         controllers_WSController_findCompaniesFromInput3_invoker.call(WSController_0.findCompaniesFromInput(input))
       }
   
