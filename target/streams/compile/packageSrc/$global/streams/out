@@ -1,1 +1,53 @@
-[debug] Jar uptodate: /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/playproject_2.11-1.0-sources.jar
+[info] Packaging /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/playproject_2.11-1.0-sources.jar ...
+[debug] Input file mappings:
+[debug] 	controllers/WSController.scala
+[debug] 	  /Users/tristangreeno/workspace/PlayProject/app/controllers/WSController.scala
+[debug] 	controllers/EmailController.scala
+[debug] 	  /Users/tristangreeno/workspace/PlayProject/app/controllers/EmailController.scala
+[debug] 	evolutions/default
+[debug] 	  /Users/tristangreeno/workspace/PlayProject/conf/evolutions/default
+[debug] 	security/MyDeadboltHandler.scala
+[debug] 	  /Users/tristangreeno/workspace/PlayProject/app/security/MyDeadboltHandler.scala
+[debug] 	models/AuthUser.scala
+[debug] 	  /Users/tristangreeno/workspace/PlayProject/app/models/AuthUser.scala
+[debug] 	application.conf.dev
+[debug] 	  /Users/tristangreeno/workspace/PlayProject/conf/application.conf.dev
+[debug] 	application.conf
+[debug] 	  /Users/tristangreeno/workspace/PlayProject/conf/application.conf
+[debug] 	models/User.scala
+[debug] 	  /Users/tristangreeno/workspace/PlayProject/app/models/User.scala
+[debug] 	modules/CustomBindings.scala
+[debug] 	  /Users/tristangreeno/workspace/PlayProject/app/modules/CustomBindings.scala
+[debug] 	models/Subscription.scala
+[debug] 	  /Users/tristangreeno/workspace/PlayProject/app/models/Subscription.scala
+[debug] 	repos/SubscriptionsRepo.scala
+[debug] 	  /Users/tristangreeno/workspace/PlayProject/app/repos/SubscriptionsRepo.scala
+[debug] 	security/AuthSupport.scala
+[debug] 	  /Users/tristangreeno/workspace/PlayProject/app/security/AuthSupport.scala
+[debug] 	controllers/Application.scala
+[debug] 	  /Users/tristangreeno/workspace/PlayProject/app/controllers/Application.scala
+[debug] 	security/Auth0ConfigKeys.scala
+[debug] 	  /Users/tristangreeno/workspace/PlayProject/app/security/Auth0ConfigKeys.scala
+[debug] 	controllers/AuthController.scala
+[debug] 	  /Users/tristangreeno/workspace/PlayProject/app/controllers/AuthController.scala
+[debug] 	models/Company.scala
+[debug] 	  /Users/tristangreeno/workspace/PlayProject/app/models/Company.scala
+[debug] 	recur-deploy-prod.sh
+[debug] 	  /Users/tristangreeno/workspace/PlayProject/conf/recur-deploy-prod.sh
+[debug] 	routes
+[debug] 	  /Users/tristangreeno/workspace/PlayProject/conf/routes
+[debug] 	evolutions/default/1.sql
+[debug] 	  /Users/tristangreeno/workspace/PlayProject/conf/evolutions/default/1.sql
+[debug] 	repos/UsersComponent.scala
+[debug] 	  /Users/tristangreeno/workspace/PlayProject/app/repos/UsersComponent.scala
+[debug] 	models/SubscriptionList.scala
+[debug] 	  /Users/tristangreeno/workspace/PlayProject/app/models/SubscriptionList.scala
+[debug] 	recur-deploy-dev.sh
+[debug] 	  /Users/tristangreeno/workspace/PlayProject/conf/recur-deploy-dev.sh
+[debug] 	application.conf.prod
+[debug] 	  /Users/tristangreeno/workspace/PlayProject/conf/application.conf.prod
+[debug] 	evolutions
+[debug] 	  /Users/tristangreeno/workspace/PlayProject/conf/evolutions
+[debug] 	security/MyHandlerCache.scala
+[debug] 	  /Users/tristangreeno/workspace/PlayProject/app/security/MyHandlerCache.scala
+[info] Done packaging.
