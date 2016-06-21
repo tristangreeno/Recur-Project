@@ -57,7 +57,7 @@ Seq[Any](format.raw/*4.81*/("""
             <dl class="form-group">
                 <dt><label for="autocomplete">Subscription's Company Name</label></dt>
 
-                <dd><select name='name' cla id='autocomplete' class="form-control" >
+                <dd><select name='name' id='autocomplete' class="form-control" >
                 </select></dd>
             </dl>
 
@@ -121,10 +121,10 @@ Seq[Any](format.raw/*4.81*/("""
 object createForm extends createForm_Scope0.createForm_Scope1.createForm
               /*
                   -- GENERATED --
-                  DATE: Tue Jun 21 16:05:11 CDT 2016
+                  DATE: Tue Jun 21 17:34:59 CDT 2016
                   SOURCE: /Users/tristangreeno/workspace/PlayProject/app/views/createForm.scala.html
-                  HASH: 99cf7a42b4010cb6bb0a423ef93b1d54f6267976
-                  MATRIX: 628->36|802->115|830->118|843->124|882->126|914->132|962->153|990->154|1031->167|1091->200|1120->201|1152->206|1242->270|1293->312|1333->314|1369->323|3563->2490|3576->2494|3600->2497|3800->2670|3815->2676|3855->2695|3941->2751
+                  HASH: 07a7415753e83388525a500f67d6184b54201f79
+                  MATRIX: 628->36|802->115|830->118|843->124|882->126|914->132|962->153|990->154|1031->167|1091->200|1120->201|1152->206|1242->270|1293->312|1333->314|1369->323|3559->2486|3572->2490|3596->2493|3796->2666|3811->2672|3851->2691|3937->2747
                   LINES: 24->4|29->4|31->6|31->6|31->6|33->8|34->9|34->9|35->10|36->11|36->11|37->12|41->16|41->16|41->16|42->17|92->67|92->67|92->67|100->75|100->75|100->75|102->77
                   -- GENERATED --
               */
