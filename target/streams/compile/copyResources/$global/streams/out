@@ -1,6 +1,10 @@
 [debug] Copy resource mappings: 
 [debug] 	(/Users/tristangreeno/workspace/PlayProject/conf/application.conf,/Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/application.conf)
+[debug] 	(/Users/tristangreeno/workspace/PlayProject/conf/application.conf.dev,/Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/application.conf.dev)
+[debug] 	(/Users/tristangreeno/workspace/PlayProject/conf/application.conf.prod,/Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/application.conf.prod)
 [debug] 	(/Users/tristangreeno/workspace/PlayProject/conf/evolutions,/Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/evolutions)
+[debug] 	(/Users/tristangreeno/workspace/PlayProject/conf/recur-deploy-dev.sh,/Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/recur-deploy-dev.sh)
+[debug] 	(/Users/tristangreeno/workspace/PlayProject/conf/recur-deploy-prod.sh,/Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/recur-deploy-prod.sh)
 [debug] 	(/Users/tristangreeno/workspace/PlayProject/conf/routes,/Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/routes)
 [debug] 	(/Users/tristangreeno/workspace/PlayProject/conf/evolutions/default,/Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/evolutions/default)
 [debug] 	(/Users/tristangreeno/workspace/PlayProject/conf/evolutions/default/1.sql,/Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/evolutions/default/1.sql)

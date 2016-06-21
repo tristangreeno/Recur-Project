@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/Users/tristangreeno/workspace/PlayProject/conf/routes
-// @DATE:Fri Jun 17 15:20:00 CDT 2016
+// @DATE:Tue Jun 21 16:56:49 CDT 2016
 
 import play.api.routing.JavaScriptReverseRoute
 import play.api.mvc.{ QueryStringBindable, PathBindable, Call, JavascriptLiteral }
@@ -47,7 +47,7 @@ package controllers.javascript {
       "controllers.WSController.findCompaniesFromInput",
       """
         function(input0) {
-          return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "companies/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("input", encodeURIComponent(input0))})
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "companies/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("input", encodeURIComponent(input0))})
         }
       """
     )

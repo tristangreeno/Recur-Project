@@ -8,7 +8,7 @@ import play.api.db.slick._
 import play.api.libs.concurrent.Execution.Implicits.defaultContext
 import slick.driver.JdbcProfile
 /**
-  * Created by tristangreeno on 6/1/16.
+  * Manipulates the database via JDBC.
   */
 trait UsersComponent {
   self: HasDatabaseConfigProvider[JdbcProfile] => import driver.api._

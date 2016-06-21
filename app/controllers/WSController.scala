@@ -10,7 +10,7 @@ import scala.concurrent.duration._
 import scala.concurrent._
 
 /**
-  * Controls web service consumption. Used for the autocomplete API provided by Clearbit.
+  * Controls web service consumption. Used for the autocomplete API provided by Clearbit. Route returns a JSON.
   */
 class WSController @Inject()(ws: WSClient)(implicit context: ExecutionContext) extends Controller {
 
@@ -25,26 +25,3 @@ class WSController @Inject()(ws: WSClient)(implicit context: ExecutionContext) e
     Ok(Await.result(futureResult, 4.seconds))
   }
 }
-
-  /*
-  class CompanyList {
-     List[Company] companyList = ArrayList;
-   }
-
-
-
-    {  "companyList":
-      [
-      {
-      "domain": "stripe.com",
-      "logo": "https://logo.clearbit.com/stripe.com",
-      "name": "Stripe"
-      },
-      {
-      "domain": "stripesgroup.com",
-      "logo": "https://logo.clearbit.com/stripesgroup.com",
-      "name": "Stripes Group"
-      }
-      ]
-   }
-  */

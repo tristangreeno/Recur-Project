@@ -30,58 +30,76 @@ Seq[Any](format.raw/*4.81*/("""
 
 """),_display_(/*6.2*/noUser/*6.8*/ {_display_(Seq[Any](format.raw/*6.10*/("""
 
-    """),format.raw/*8.5*/("""<h1> Add a subscription </h1>
+    """),format.raw/*8.5*/("""<style>
+        body """),format.raw/*9.14*/("""{"""),format.raw/*9.15*/("""
+            """),format.raw/*10.13*/("""justify-content: center;
+        """),format.raw/*11.9*/("""}"""),format.raw/*11.10*/("""
+    """),format.raw/*12.5*/("""</style>
 
-    """),_display_(/*10.6*/form(routes.Application.save(user.userId))/*10.48*/ {_display_(Seq[Any](format.raw/*10.50*/("""
-        """),format.raw/*11.9*/("""<fieldset>
+    <h1 class="title"> Add a subscription </h1>
 
-            """),_display_(/*13.14*/inputDate(subscriptionForm("date"), '_label -> "Date of renewal")),format.raw/*13.79*/("""
-            """),_display_(/*14.14*/inputText(subscriptionForm("cost"), '_label -> "Cost of renewal (Must be an integer!)")),format.raw/*14.101*/("""
+    """),_display_(/*16.6*/form(routes.Application.save(user.userId))/*16.48*/ {_display_(Seq[Any](format.raw/*16.50*/("""
+        """),format.raw/*17.9*/("""<fieldset>
 
-            """),_display_(/*16.14*/inputText(subscriptionForm("name"), '_label -> "Name of the company")),format.raw/*16.83*/("""
+            <dl class="form-group">
+                <dt><label for="date">Date of renewal</label></dt>
 
-            """),format.raw/*53.25*/("""
+                <dd>
+                    <input type="date" class="form-control" id="date" name="date" value="" />
+                </dd>
+            </dl>
 
-            """),_display_(/*55.14*/select(
-                subscriptionForm("frequency"),
-                Seq(
-                    "7" -> "Every week",
-                    "14" -> "Every two weeks",
-                    "30" -> "Once a month",
-                    "90" -> "Every 3 months",
-                    "180" -> "Every 6 months",
-                    "365" -> "Every year",
-                    "730" -> "Every two years"
-                ),
-                '_label -> "Frequency",
-                '_default -> "-- Choose a frequency --",
-                '_showConstraints -> false
-            )),format.raw/*69.14*/("""
+            <dl class="form-group" id="cost">
+                <dt><label>Cost of Renewal</label></dt>
+                    <dd><input type="number" class="form-control" name="cost" placeholder="Cost of Renewal"/></dd>
+            </dl>
 
-            """),_display_(/*71.14*/select(
-                subscriptionForm("category"),
-                Seq(
-                    "entertainment" -> "Entertainment",
-                    "education" -> "Education",
-                    "business" -> "Business",
-                    "health" -> "Health"
-                ),
-                '_label -> "Category",
-                '_default -> "-- Choose a category --",
-                '_showConstraints -> false
-            )),format.raw/*82.14*/("""
+            <dl class="form-group">
+                <dt><label for="autocomplete">Subscription's Company Name</label></dt>
 
-            """),format.raw/*84.13*/("""<input type="hidden" name="userId" value=""""),_display_(/*84.56*/user/*84.60*/.id),format.raw/*84.63*/("""" />
+                <dd><select name='name' cla id='autocomplete' class="form-control" >
+                </select></dd>
+            </dl>
+
+
+            <dl class="form-group" id="frequency">
+                <dt><label for="frequency">Frequency of Renewal</label></dt>
+
+                <dd><select name="frequency" class="form-control">
+                    <option selected disabled>Select a frequency...</option>
+                    <option value="7">Every week</option>
+                    <option value="14">Every two weeks</option>
+                    <option value="30">Once a month</option>
+                    <option value="90">Every three months</option>
+                    <option value="180">Every six months</option>
+                    <option value="365">Every year</option>
+                    <option value="730">Every two years</option>
+                </select></dd>
+            </dl>
+
+            <dl class="form-group" id="category">
+                <dt><label for="category">Subscription Category</label></dt>
+
+                <dd><select name="category" class="form-control">
+                    <option selected disabled>Choose a category...</option>
+                    <option value="Business">Business</option>
+                    <option value="Education">Education</option>
+                    <option value="Entertainment">Entertainment</option>
+                    <option value="Health">Health</option>
+                </select></dd>
+            </dl>
+
+            <input type="hidden" name="userId" value=""""),_display_(/*67.56*/user/*67.60*/.id),format.raw/*67.63*/("""" />
 
         </fieldset>
 
 
 
         <div class="actions">
-            <input type="submit" value="Create this subscription" class="btn primary"/> or
-            <a href=""""),_display_(/*92.23*/routes/*92.29*/.Application.list()),format.raw/*92.48*/("""" class="btn">Cancel</a>
+            <input type="submit" value="Create this subscription" class="btn btn-success"/>
+            <a href=""""),_display_(/*75.23*/routes/*75.29*/.Application.list()),format.raw/*75.48*/("""" class="btn btn-danger">Cancel</a>
         </div>
-    """)))}),format.raw/*94.6*/("""
+    """)))}),format.raw/*77.6*/("""
 """)))}))
       }
     }
@@ -103,11 +121,11 @@ Seq[Any](format.raw/*4.81*/("""
 object createForm extends createForm_Scope0.createForm_Scope1.createForm
               /*
                   -- GENERATED --
-                  DATE: Fri Jun 17 16:14:39 CDT 2016
+                  DATE: Tue Jun 21 16:05:11 CDT 2016
                   SOURCE: /Users/tristangreeno/workspace/PlayProject/app/views/createForm.scala.html
-                  HASH: 01fddc33ced6ef2094cf0f36cf294c7ec1db9303
-                  MATRIX: 628->36|802->115|830->118|843->124|882->126|914->132|976->168|1027->210|1067->212|1103->221|1155->246|1241->311|1282->325|1391->412|1433->427|1523->496|1565->2081|1607->2096|2191->2659|2233->2674|2690->3110|2732->3124|2802->3167|2815->3171|2839->3174|3038->3346|3053->3352|3093->3371|3168->3416
-                  LINES: 24->4|29->4|31->6|31->6|31->6|33->8|35->10|35->10|35->10|36->11|38->13|38->13|39->14|39->14|41->16|41->16|43->53|45->55|59->69|61->71|72->82|74->84|74->84|74->84|74->84|82->92|82->92|82->92|84->94
+                  HASH: 99cf7a42b4010cb6bb0a423ef93b1d54f6267976
+                  MATRIX: 628->36|802->115|830->118|843->124|882->126|914->132|962->153|990->154|1031->167|1091->200|1120->201|1152->206|1242->270|1293->312|1333->314|1369->323|3563->2490|3576->2494|3600->2497|3800->2670|3815->2676|3855->2695|3941->2751
+                  LINES: 24->4|29->4|31->6|31->6|31->6|33->8|34->9|34->9|35->10|36->11|36->11|37->12|41->16|41->16|41->16|42->17|92->67|92->67|92->67|100->75|100->75|100->75|102->77
                   -- GENERATED --
               */
           

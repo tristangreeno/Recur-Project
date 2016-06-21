@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/Users/tristangreeno/workspace/PlayProject/conf/routes
-// @DATE:Fri Jun 17 15:20:00 CDT 2016
+// @DATE:Tue Jun 21 16:56:49 CDT 2016
 
 import play.api.mvc.{ QueryStringBindable, PathBindable, Call, JavascriptLiteral }
 import play.core.routing.{ HandlerDef, ReverseRouteContext, queryString, dynamicString }
@@ -37,7 +37,7 @@ package controllers {
     // @LINE:15
     def findCompaniesFromInput(input:String): Call = {
       import ReverseRouteContext.empty
-      Call("POST", _prefix + { _defaultPrefix } + "companies/" + implicitly[PathBindable[String]].unbind("input", dynamicString(input)))
+      Call("GET", _prefix + { _defaultPrefix } + "companies/" + implicitly[PathBindable[String]].unbind("input", dynamicString(input)))
     }
   
   }

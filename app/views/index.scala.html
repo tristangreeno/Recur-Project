@@ -6,17 +6,9 @@
 
     @main(title, maybeUser) {
         @if(maybeUser.isDefined) {
-            @defining(maybeUser.get) { user =>
 
-                <p>Hello @user.email</p>
-                <img src="@user.avatarUrl"/>
-            }
+            @routes.Application.list()
 
-
-            <p>
-                <a href="@controllers.routes.Application.list()">View Subscriptions</a>
-                <a href="@controllers.routes.AuthController.logOut()">Sign Out</a>
-            </p>
 
         }
     }

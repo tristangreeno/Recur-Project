@@ -35,8 +35,8 @@ class Application @Inject()(mailerClient: MailerClient, actionBuilder: ActionBui
   val subscriptionForm = Form(
     mapping(
       "id" -> optional(longNumber),
-      "date" -> sqlDate("yyyy-MM-dd"),
-      "cost" -> longNumber,
+      "date" -> sqlDate("mm-dd-yyyy"),
+      "cost" -> bigDecimal,
       "name" -> nonEmptyText,
       "frequency" -> number,
       "category" -> text,
@@ -63,7 +63,7 @@ class Application @Inject()(mailerClient: MailerClient, actionBuilder: ActionBui
         user = getCurrentUser(maybeUser.get.userId)
       }
 
-      Ok(views.html.index("Recur", user))
+      Home
     })
   }
 

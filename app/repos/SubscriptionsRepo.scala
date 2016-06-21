@@ -25,7 +25,7 @@ class SubscriptionsRepo @Inject()(protected val dbConfigProvider: DatabaseConfig
   class SubscriptionsTable(tag: Tag) extends Table[Subscription](tag, "subscriptions") {
     def id = column[Long]("id", O.PrimaryKey, O.AutoInc)
     def date = column[java.sql.Date]("date")
-    def cost = column[Long]("cost")
+    def cost = column[BigDecimal]("cost")
     def name = column[String]("name")
     def frequency = column[Int]("frequency")
     def category = column[String]("category")
