@@ -92,6 +92,8 @@
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/public/stylesheets/main.css
 [debug] 	router/Routes$$anonfun$router$Routes$$controllers_Application_save3_invoker$1.class
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/router/Routes$$anonfun$router$Routes$$controllers_Application_save3_invoker$1.class
+[debug] 	views/html/index_Scope0$index_Scope1$index$$anonfun$f$1$$anonfun$apply$1.class
+[debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/views/html/index_Scope0$index_Scope1$index$$anonfun$f$1$$anonfun$apply$1.class
 [debug] 	modules/CustomBindings.class
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/modules/CustomBindings.class
 [debug] 	views/html
@@ -228,8 +230,6 @@
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/repos/SubscriptionsRepo$$anonfun$findByUserId$1.class
 [debug] 	controllers/AuthController$$anonfun$2.class
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/controllers/AuthController$$anonfun$2.class
-[debug] 	views/html/index_Scope0$index_Scope1$index$$anonfun$apply$1.class
-[debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/views/html/index_Scope0$index_Scope1$index$$anonfun$apply$1.class
 [debug] 	views/html/editForm_Scope0$editForm$$anonfun$apply$1.class
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/views/html/editForm_Scope0$editForm$$anonfun$apply$1.class
 [debug] 	repos
@@ -340,8 +340,6 @@
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/router/Routes$$anonfun$router$Routes$$controllers_Application_list1_invoker$1.class
 [debug] 	repos/UsersComponent.class
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/repos/UsersComponent.class
-[debug] 	views/html/index_Scope0$index_Scope1$index$$anonfun$f$1$$anonfun$apply$2.class
-[debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/views/html/index_Scope0$index_Scope1$index$$anonfun$f$1$$anonfun$apply$2.class
 [debug] 	views/html/list_Scope0.class
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/views/html/list_Scope0.class
 [debug] 	security/MyDeadboltHandler$$anonfun$1.class
@@ -428,6 +426,8 @@
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/views/html/security/denied_Scope0.class
 [debug] 	controllers/javascript/ReverseApplication.class
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/controllers/javascript/ReverseApplication.class
+[debug] 	META-INF/resources/webjars/playproject/1.0/javascripts/autocomplete.js
+[debug] 	  /Users/tristangreeno/workspace/PlayProject/public/javascripts/autocomplete.js
 [debug] 	views/html/list.class
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/views/html/list.class
 [debug] 	router/Routes$$anonfun$router$Routes$$controllers_Application_delete7_invoker$1.class
