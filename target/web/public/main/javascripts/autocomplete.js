@@ -1,7 +1,7 @@
 $('#autocomplete').select2({
    ajax: {
        url: function (params) {
-           return '/companies/' + params.term;
+           return 'https://glacial-brook-71360.herokuapp.com/companies/' + params.term;
        },
        dataType: 'json',
        delay: 250,
