@@ -54,12 +54,9 @@ Seq[Any](format.raw/*4.81*/("""
                     <dd><input type="number" class="form-control" name="cost" placeholder="Cost of Renewal"/></dd>
             </dl>
 
-            <dl class="form-group" id="autocomplete">
-                <dt><label for="autocomplete">Subscription's Company Name</label></dt>
-
-                <dd><select name="name" id="autocomplete">
-                </select></dd>
-            </dl>
+                <label for="autocomplete">Subscription's Company Name</label>
+                <select name="name" id="autocomplete">
+                </select>
 
 
             <dl class="form-group" id="frequency">
@@ -89,7 +86,7 @@ Seq[Any](format.raw/*4.81*/("""
                 </select></dd>
             </dl>
 
-            <input type="hidden" name="userId" value=""""),_display_(/*67.56*/user/*67.60*/.id),format.raw/*67.63*/("""" />
+            <input type="hidden" name="userId" value=""""),_display_(/*64.56*/user/*64.60*/.id),format.raw/*64.63*/("""" />
 
         </fieldset>
 
@@ -97,9 +94,9 @@ Seq[Any](format.raw/*4.81*/("""
 
         <div class="actions">
             <input type="submit" value="Create this subscription" class="btn btn-success"/>
-            <a href=""""),_display_(/*75.23*/routes/*75.29*/.Application.list()),format.raw/*75.48*/("""" class="btn btn-danger">Cancel</a>
+            <a href=""""),_display_(/*72.23*/routes/*72.29*/.Application.list()),format.raw/*72.48*/("""" class="btn btn-danger">Cancel</a>
         </div>
-    """)))}),format.raw/*77.6*/("""
+    """)))}),format.raw/*74.6*/("""
 """)))}))
       }
     }
@@ -121,11 +118,11 @@ Seq[Any](format.raw/*4.81*/("""
 object createForm extends createForm_Scope0.createForm_Scope1.createForm
               /*
                   -- GENERATED --
-                  DATE: Tue Jun 21 17:42:29 CDT 2016
+                  DATE: Tue Jun 21 17:49:14 CDT 2016
                   SOURCE: /Users/tristangreeno/workspace/PlayProject/app/views/createForm.scala.html
-                  HASH: d905929d86b1b43f01554fba65efe3a77f6b9e0a
-                  MATRIX: 628->36|802->115|830->118|843->124|882->126|914->132|962->153|990->154|1031->167|1091->200|1120->201|1152->206|1242->270|1293->312|1333->314|1369->323|3555->2482|3568->2486|3592->2489|3792->2662|3807->2668|3847->2687|3933->2743
-                  LINES: 24->4|29->4|31->6|31->6|31->6|33->8|34->9|34->9|35->10|36->11|36->11|37->12|41->16|41->16|41->16|42->17|92->67|92->67|92->67|100->75|100->75|100->75|102->77
+                  HASH: 573e834600005a651e027a83a9ee597a872a4414
+                  MATRIX: 628->36|802->115|830->118|843->124|882->126|914->132|962->153|990->154|1031->167|1091->200|1120->201|1152->206|1242->270|1293->312|1333->314|1369->323|3464->2391|3477->2395|3501->2398|3701->2571|3716->2577|3756->2596|3842->2652
+                  LINES: 24->4|29->4|31->6|31->6|31->6|33->8|34->9|34->9|35->10|36->11|36->11|37->12|41->16|41->16|41->16|42->17|89->64|89->64|89->64|97->72|97->72|97->72|99->74
                   -- GENERATED --
               */
           
