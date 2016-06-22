@@ -28,35 +28,54 @@ Seq[Any](format.raw/*1.57*/("""
 <html lang="en">
 
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <title>Welcome to Recur</title>
+
         <style>
-        body """),format.raw/*12.14*/("""{"""),format.raw/*12.15*/("""
-            """),format.raw/*13.13*/("""background-color: black;
-        """),format.raw/*14.9*/("""}"""),format.raw/*14.10*/("""
-        """),format.raw/*15.9*/("""</style>
-        <title>Welcome</title>
+        body,html"""),format.raw/*13.18*/("""{"""),format.raw/*13.19*/("""padding:0;margin:0"""),format.raw/*13.37*/("""}"""),format.raw/*13.38*/(""".table"""),format.raw/*13.44*/("""{"""),format.raw/*13.45*/("""display:table;position:absolute;height:100%;width:100%;
+                                         background: #e8ebef linear-gradient(rgba(255, 255, 255, .3), rgba(255, 255, 255, 0));
+                                     """),format.raw/*15.38*/("""}"""),format.raw/*15.39*/("""  """),format.raw/*15.41*/(""".cell"""),format.raw/*15.46*/("""{"""),format.raw/*15.47*/("""display:table-cell;vertical-align:middle"""),format.raw/*15.87*/("""}"""),format.raw/*15.88*/("""  """),format.raw/*15.90*/(""".content"""),format.raw/*15.98*/("""{"""),format.raw/*15.99*/("""padding:25px 0;margin-left:auto;margin-right:auto;width:280px"""),format.raw/*15.160*/("""}"""),format.raw/*15.161*/("""
+        """),format.raw/*16.9*/("""</style>
     </head>
 
-    <body>
-        <div id="root">
-      Log-in area
+    <body class="container">
+        <div class="table">
+            <div class="cell">
+                <div class="content">
+                        <!-- WIDGET -->
+                    <div id="root"></div>
+                </div>
+            </div>
         </div>
-        <script src="https://cdn.auth0.com/js/lock-7.12.min.js"></script>
+
+            <!--[if IE 8]>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/ie8/0.2.5/ie8.js"></script>
+  <![endif]-->
+
+            <!--[if lte IE 9]>
+  <script src="https://cdn.auth0.com/js/base64.js"></script>
+  <script src="https://cdn.auth0.com/js/es5-shim.min.js"></script>
+  <![endif]-->
+
+        <script src="https://cdn.auth0.com/js/lock-9.1.js"></script>
         <script>
-            var lock = new Auth0Lock('"""),_display_(/*25.40*/clientId),format.raw/*25.48*/("""', '"""),_display_(/*25.53*/domain),format.raw/*25.59*/("""');
-            lock.show("""),format.raw/*26.23*/("""{"""),format.raw/*26.24*/("""
-                """),format.raw/*27.17*/("""container: 'root',
-                callbackURL: '"""),_display_(/*28.32*/redirectUri),format.raw/*28.43*/("""',
+            var lock = new Auth0Lock('"""),_display_(/*40.40*/clientId),format.raw/*40.48*/("""', '"""),_display_(/*40.53*/domain),format.raw/*40.59*/("""');
+            lock.show("""),format.raw/*41.23*/("""{"""),format.raw/*41.24*/("""
+                """),format.raw/*42.17*/("""container: 'root',
+                callbackURL: '"""),_display_(/*43.32*/redirectUri),format.raw/*43.43*/("""',
                 responseType: 'code',
-                authParams: """),format.raw/*30.29*/("""{"""),format.raw/*30.30*/("""scope: 'openid profile'"""),format.raw/*30.53*/("""}"""),format.raw/*30.54*/("""
-            """),format.raw/*31.13*/("""}"""),format.raw/*31.14*/(""");
+                authParams: """),format.raw/*45.29*/("""{"""),format.raw/*45.30*/("""scope: 'openid profile'"""),format.raw/*45.53*/("""}"""),format.raw/*45.54*/(""",
+                rememberLastLogin:  !prompt,
+                icon: 'https://s32.postimg.org/crvhtoazp/Recurlogo_300x300b.png'
+            """),format.raw/*48.13*/("""}"""),format.raw/*48.14*/(""");
     </script>
     </body>
 
-</html>"""))
+</html>
+
+"""))
       }
     }
   }
@@ -76,11 +95,11 @@ Seq[Any](format.raw/*1.57*/("""
 object login extends login_Scope0.login
               /*
                   -- GENERATED --
-                  DATE: Tue Jun 14 12:28:51 CDT 2016
+                  DATE: Wed Jun 22 15:18:10 CDT 2016
                   SOURCE: /Users/tristangreeno/workspace/PlayProject/app/views/security/login.scala.html
-                  HASH: 6db7d6c3f18cde91f9d02b0ffc894df5ed038c32
-                  MATRIX: 550->1|700->56|728->58|1076->378|1105->379|1146->392|1206->425|1235->426|1271->435|1549->686|1578->694|1610->699|1637->705|1691->731|1720->732|1765->749|1842->799|1874->810|1971->879|2000->880|2051->903|2080->904|2121->917|2150->918
-                  LINES: 20->1|25->1|27->3|36->12|36->12|37->13|38->14|38->14|39->15|49->25|49->25|49->25|49->25|50->26|50->26|51->27|52->28|52->28|54->30|54->30|54->30|54->30|55->31|55->31
+                  HASH: 424086e5d92ccd55613401ce4316c33c652f62fc
+                  MATRIX: 550->1|700->56|728->58|1086->388|1115->389|1161->407|1190->408|1224->414|1253->415|1501->635|1530->636|1560->638|1593->643|1622->644|1690->684|1719->685|1749->687|1785->695|1814->696|1904->757|1934->758|1970->767|2704->1474|2733->1482|2765->1487|2792->1493|2846->1519|2875->1520|2920->1537|2997->1587|3029->1598|3126->1667|3155->1668|3206->1691|3235->1692|3403->1832|3432->1833
+                  LINES: 20->1|25->1|27->3|37->13|37->13|37->13|37->13|37->13|37->13|39->15|39->15|39->15|39->15|39->15|39->15|39->15|39->15|39->15|39->15|39->15|39->15|40->16|64->40|64->40|64->40|64->40|65->41|65->41|66->42|67->43|67->43|69->45|69->45|69->45|69->45|72->48|72->48
                   -- GENERATED --
               */
           

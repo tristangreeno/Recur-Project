@@ -4,14 +4,9 @@
 @(subscriptionForm: Form[Subscription], user: User)(implicit messages: Messages)
 
 @noUser {
+    <div class="container-fluid">
 
-    <style>
-        body {
-            justify-content: center;
-        }
-    </style>
-
-    <h1 class="title"> Add a subscription </h1>
+    <h1 class="modal-header"> Add a Subscription </h1>
 
     @form(routes.Application.save(user.userId)) {
         <fieldset>
@@ -70,9 +65,10 @@
 
 
 
-        <div class="actions">
-            <input type="submit" value="Create this subscription" class="btn btn-success"/>
-            <a href="@routes.Application.list()" class="btn btn-danger">Cancel</a>
+        <div class="button-bar">
+            <input type="submit" value="Create subscription" class="btn btn-success" style="width: 14.85em">
+            <a href="@routes.Application.list()" class="btn btn-danger" style="width: 14.85em">Cancel</a>
         </div>
+    </div>
     }
 }

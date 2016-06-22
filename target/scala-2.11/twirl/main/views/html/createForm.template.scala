@@ -29,17 +29,12 @@ class createForm extends BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendable,
 Seq[Any](format.raw/*4.81*/("""
 
 """),_display_(/*6.2*/noUser/*6.8*/ {_display_(Seq[Any](format.raw/*6.10*/("""
+    """),format.raw/*7.5*/("""<div class="container-fluid">
 
-    """),format.raw/*8.5*/("""<style>
-        body """),format.raw/*9.14*/("""{"""),format.raw/*9.15*/("""
-            """),format.raw/*10.13*/("""justify-content: center;
-        """),format.raw/*11.9*/("""}"""),format.raw/*11.10*/("""
-    """),format.raw/*12.5*/("""</style>
+    <h1 class="modal-header"> Add a Subscription </h1>
 
-    <h1 class="title"> Add a subscription </h1>
-
-    """),_display_(/*16.6*/form(routes.Application.save(user.userId))/*16.48*/ {_display_(Seq[Any](format.raw/*16.50*/("""
-        """),format.raw/*17.9*/("""<fieldset>
+    """),_display_(/*11.6*/form(routes.Application.save(user.userId))/*11.48*/ {_display_(Seq[Any](format.raw/*11.50*/("""
+        """),format.raw/*12.9*/("""<fieldset>
 
             <dl class="form-group">
                 <dt><label for="date">Date of renewal</label></dt>
@@ -89,17 +84,18 @@ Seq[Any](format.raw/*4.81*/("""
                 </select></dd>
             </dl>
 
-            <input type="hidden" name="userId" value=""""),_display_(/*67.56*/user/*67.60*/.id),format.raw/*67.63*/("""" />
+            <input type="hidden" name="userId" value=""""),_display_(/*62.56*/user/*62.60*/.id),format.raw/*62.63*/("""" />
 
         </fieldset>
 
 
 
-        <div class="actions">
-            <input type="submit" value="Create this subscription" class="btn btn-success"/>
-            <a href=""""),_display_(/*75.23*/routes/*75.29*/.Application.list()),format.raw/*75.48*/("""" class="btn btn-danger">Cancel</a>
+        <div class="button-bar">
+            <input type="submit" value="Create subscription" class="btn btn-success" style="width: 14.85em">
+            <a href=""""),_display_(/*70.23*/routes/*70.29*/.Application.list()),format.raw/*70.48*/("""" class="btn btn-danger" style="width: 14.85em">Cancel</a>
         </div>
-    """)))}),format.raw/*77.6*/("""
+    </div>
+    """)))}),format.raw/*73.6*/("""
 """)))}))
       }
     }
@@ -121,11 +117,11 @@ Seq[Any](format.raw/*4.81*/("""
 object createForm extends createForm_Scope0.createForm_Scope1.createForm
               /*
                   -- GENERATED --
-                  DATE: Tue Jun 21 17:59:00 CDT 2016
+                  DATE: Wed Jun 22 14:27:04 CDT 2016
                   SOURCE: /Users/tristangreeno/workspace/PlayProject/app/views/createForm.scala.html
-                  HASH: ef3d65932dcfd6138d3ca9618a2d9d2245e37a36
-                  MATRIX: 628->36|802->115|830->118|843->124|882->126|914->132|962->153|990->154|1031->167|1091->200|1120->201|1152->206|1242->270|1293->312|1333->314|1369->323|3559->2486|3572->2490|3596->2493|3796->2666|3811->2672|3851->2691|3937->2747
-                  LINES: 24->4|29->4|31->6|31->6|31->6|33->8|34->9|34->9|35->10|36->11|36->11|37->12|41->16|41->16|41->16|42->17|92->67|92->67|92->67|100->75|100->75|100->75|102->77
+                  HASH: c84b065134e7d36ab0ebf4d4eb7f1706eb32cc62
+                  MATRIX: 628->36|802->115|830->118|843->124|882->126|913->131|1031->223|1082->265|1122->267|1158->276|3348->2439|3361->2443|3385->2446|3605->2639|3620->2645|3660->2664|3780->2754
+                  LINES: 24->4|29->4|31->6|31->6|31->6|32->7|36->11|36->11|36->11|37->12|87->62|87->62|87->62|95->70|95->70|95->70|98->73
                   -- GENERATED --
               */
           

@@ -4,32 +4,50 @@
 <html lang="en">
 
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <title>Welcome to Recur</title>
+
         <style>
-        body {
-            background-color: black;
-        }
+        body,html{padding:0;margin:0}.table{display:table;position:absolute;height:100%;width:100%;
+                                         background: #e8ebef linear-gradient(rgba(255, 255, 255, .3), rgba(255, 255, 255, 0));
+                                     }  .cell{display:table-cell;vertical-align:middle}  .content{padding:25px 0;margin-left:auto;margin-right:auto;width:280px}
         </style>
-        <title>Welcome</title>
     </head>
 
-    <body>
-        <div id="root">
-      Log-in area
+    <body class="container">
+        <div class="table">
+            <div class="cell">
+                <div class="content">
+                        <!-- WIDGET -->
+                    <div id="root"></div>
+                </div>
+            </div>
         </div>
-        <script src="https://cdn.auth0.com/js/lock-7.12.min.js"></script>
+
+            <!--[if IE 8]>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/ie8/0.2.5/ie8.js"></script>
+  <![endif]-->
+
+            <!--[if lte IE 9]>
+  <script src="https://cdn.auth0.com/js/base64.js"></script>
+  <script src="https://cdn.auth0.com/js/es5-shim.min.js"></script>
+  <![endif]-->
+
+        <script src="https://cdn.auth0.com/js/lock-9.1.js"></script>
         <script>
             var lock = new Auth0Lock('@clientId', '@domain');
             lock.show({
                 container: 'root',
                 callbackURL: '@redirectUri',
                 responseType: 'code',
-                authParams: {scope: 'openid profile'}
+                authParams: {scope: 'openid profile'},
+                rememberLastLogin:  !prompt,
+                icon: 'https://s32.postimg.org/crvhtoazp/Recurlogo_300x300b.png'
             });
     </script>
     </body>
 
 </html>
+

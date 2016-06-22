@@ -3,87 +3,73 @@
     @import helper._
 
     @noUser {
-
-        <h1>Edit Subscription</h1>
+    <div class="container-fluid">
+        <h1 class="modal-header">Edit Subscription</h1>
 
         @form(routes.Application.update(id)) {
 
-            <fieldset>
+        <fieldset>
 
-                @inputDate(subscriptionForm("date"), '_label -> "Date of renewal")
-                @inputText(subscriptionForm("cost"), '_label -> "Cost of renewal (Must be an integer!)")
+            <dl class="form-group">
+                <dt><label for="date">Date of renewal</label></dt>
 
-                <select name='name' type='text' id='autocomplete' style="min-width: 50%">
-                </select>
+                <dd>
+                    <input type="date" class="form-control" id="date" name="date" value="" />
+                </dd>
+            </dl>
 
-                @select(
-                    subscriptionForm("frequency"),
-                    Seq(
-                        "7" -> "Every week",
-                        "14" -> "Every two weeks",
-                        "30" -> "Once a month",
-                        "90" -> "Every 3 months",
-                        "180" -> "Every 6 months",
-                        "365" -> "Every year",
-                        "730" -> "Every two years"
-                    ),
-                    '_label -> "Frequency",
-                    '_default -> "-- Choose a frequency --",
-                    '_showConstraints -> false
-                )
+            <dl class="form-group" id="cost">
+                <dt><label>Cost of Renewal</label></dt>
+                <dd><input type="number" class="form-control" name="cost" placeholder="Cost of Renewal"/></dd>
+            </dl>
 
-                @select(
-                    subscriptionForm("category"),
-                    Seq(
-                        "entertainment" -> "Entertainment",
-                        "education" -> "Education",
-                        "business" -> "Business",
-                        "health" -> "Health"
-                    ),
-                    '_label -> "Category",
-                    '_default -> "-- Choose a category --",
-                    '_showConstraints -> false
-                )
+            <dl class="form-group">
+                <dt><label for="autocomplete">Subscription's Company Name</label></dt>
 
-                @select(
-                    subscriptionForm("frequency"),
-                    Seq(
-                        "7" -> "Every week",
-                        "14" -> "Every two weeks",
-                        "30" -> "Once a month",
-                        "90" -> "Every 3 months",
-                        "180" -> "Every 6 months",
-                        "365" -> "Every year",
-                        "730" -> "Every two years"
-                    ),
-                    '_label -> "Frequency",
-                    '_default -> "-- Choose a frequency --",
-                    '_showConstraints -> false
-                )
-                @select(
-                    subscriptionForm("category"),
-                    Seq(
-                        "entertainment" -> "Entertainment",
-                        "education" -> "Education",
-                        "business" -> "Business",
-                        "health" -> "Health"
-                    ),
-                    '_label -> "Category",
-                    '_default -> "-- Choose a category --",
-                    '_showConstraints -> false
-                )
+                <dd><select name="name" id="autocomplete" class="form-control" >
+                </select></dd>
+            </dl>
 
-            </fieldset>
 
-            <div class="actions">
-                <input type="submit" value="Save this subscription" class="btn primary"> or
-                <a href="@routes.Application.list()" class="btn">Cancel</a>
-            </div>
+            <dl class="form-group" id="frequency">
+                <dt><label for="frequency">Frequency of Renewal</label></dt>
+
+                <dd><select name="frequency" class="form-control">
+                    <option selected disabled>Select a frequency...</option>
+                    <option value="7">Every week</option>
+                    <option value="14">Every two weeks</option>
+                    <option value="30">Once a month</option>
+                    <option value="90">Every three months</option>
+                    <option value="180">Every six months</option>
+                    <option value="365">Every year</option>
+                    <option value="730">Every two years</option>
+                </select></dd>
+            </dl>
+
+            <dl class="form-group" id="category">
+                <dt><label for="category">Subscription Category</label></dt>
+
+                <dd><select name="category" class="form-control">
+                    <option selected disabled>Choose a category...</option>
+                    <option value="Business">Business</option>
+                    <option value="Education">Education</option>
+                    <option value="Entertainment">Entertainment</option>
+                    <option value="Health">Health</option>
+                </select></dd>
+            </dl>
+
+        </fieldset>
+
+        <div class="button-bar">
+            <input type="submit" value="Save subscription" class="btn btn-success" style="width: 14.85em">
+            <a href="@routes.Application.list()" class="btn btn-danger" style="width: 14.85em">Cancel</a>
 
         }
 
-        @form(routes.Application.delete(id), 'class -> "topRight") {
-            <input type="submit" value="Delete this subscription" class="btn danger">
+        @form(routes.Application.delete(id)) {
+            <input type="submit" value="Delete subscription" class="btn btn-warning" style="width: 30em">
         }
+    </div>
+    </div>
+}
 
-    }

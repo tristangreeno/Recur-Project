@@ -8,6 +8,8 @@
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/views/html/main_Scope0$main_Scope1$.class
 [debug] 	views/html/security/login_Scope0$login.class
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/views/html/security/login_Scope0$login.class
+[debug] 	controllers/EmailController$$anonfun$sendEmail$1$$anonfun$apply$3.class
+[debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/controllers/EmailController$$anonfun$sendEmail$1$$anonfun$apply$3.class
 [debug] 	router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$5.class
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$5.class
 [debug] 	repos/UsersComponent$class.class
@@ -90,6 +92,8 @@
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/controllers/WSController$$anonfun$1.class
 [debug] 	META-INF/resources/webjars/playproject/1.0/stylesheets/main.css
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/public/stylesheets/main.css
+[debug] 	controllers/EmailController$$anonfun$sendEmail$1$$anonfun$apply$1$$anonfun$apply$2$$anonfun$1.class
+[debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/controllers/EmailController$$anonfun$sendEmail$1$$anonfun$apply$1$$anonfun$apply$2$$anonfun$1.class
 [debug] 	router/Routes$$anonfun$router$Routes$$controllers_Application_save3_invoker$1.class
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/router/Routes$$anonfun$router$Routes$$controllers_Application_save3_invoker$1.class
 [debug] 	views/html/index_Scope0$index_Scope1$index$$anonfun$f$1$$anonfun$apply$1.class
@@ -344,8 +348,6 @@
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/views/html/list_Scope0$list$$anonfun$f$1$$anonfun$apply$9.class
 [debug] 	models/Company.class
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/models/Company.class
-[debug] 	controllers/EmailController$$anonfun$sendEmail$1$$anonfun$apply$1$$anonfun$2.class
-[debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/controllers/EmailController$$anonfun$sendEmail$1$$anonfun$apply$1$$anonfun$2.class
 [debug] 	router/Routes$$anonfun$router$Routes$$controllers_Application_list1_invoker$1.class
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/router/Routes$$anonfun$router$Routes$$controllers_Application_list1_invoker$1.class
 [debug] 	repos/UsersComponent.class
@@ -418,6 +420,8 @@
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/public/images
 [debug] 	router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$3.class
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$3.class
+[debug] 	controllers/EmailController$$anonfun$sendEmail$1$$anonfun$apply$1$$anonfun$apply$2.class
+[debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/controllers/EmailController$$anonfun$sendEmail$1$$anonfun$apply$1$$anonfun$apply$2.class
 [debug] 	router/Routes$$anonfun$router$Routes$$controllers_AuthController_logIn8_invoker$1.class
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/router/Routes$$anonfun$router$Routes$$controllers_AuthController_logIn8_invoker$1.class
 [debug] 	views/html/security/login.class
@@ -444,6 +448,8 @@
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/public/javascripts/autocomplete.js
 [debug] 	views/html/list.class
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/views/html/list.class
+[debug] 	controllers/EmailController$$anonfun$sendEmail$1$$anonfun$apply$1$$anonfun$apply$2$$anonfun$2.class
+[debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/controllers/EmailController$$anonfun$sendEmail$1$$anonfun$apply$1$$anonfun$apply$2$$anonfun$2.class
 [debug] 	router/Routes$$anonfun$router$Routes$$controllers_Application_delete7_invoker$1.class
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/router/Routes$$anonfun$router$Routes$$controllers_Application_delete7_invoker$1.class
 [debug] 	views/html/list_Scope0$list$$anonfun$apply$3$$anonfun$apply$4.class
@@ -490,8 +496,6 @@
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/security/AuthSupport$$anonfun$2.class
 [debug] 	repos/SubscriptionsRepo$$anonfun$listSubsAboutToRenew$2.class
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/repos/SubscriptionsRepo$$anonfun$listSubsAboutToRenew$2.class
-[debug] 	controllers/EmailController$$anonfun$sendEmail$1$$anonfun$apply$1$$anonfun$1.class
-[debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/controllers/EmailController$$anonfun$sendEmail$1$$anonfun$apply$1$$anonfun$1.class
 [debug] 	repos/SubscriptionsRepo$$anonfun$list$2.class
 [debug] 	  /Users/tristangreeno/workspace/PlayProject/target/scala-2.11/classes/repos/SubscriptionsRepo$$anonfun$list$2.class
 [debug] 	views/html/main_Scope0.class
