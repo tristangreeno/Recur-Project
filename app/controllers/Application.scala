@@ -35,8 +35,8 @@ class Application @Inject()(mailerClient: MailerClient, actionBuilder: ActionBui
   val subscriptionForm = Form(
     mapping(
       "id" -> optional(longNumber),
-      "date" -> sqlDate("mm-dd-yyyy"),
-      "cost" -> bigDecimal,
+      "date" -> sqlDate,
+      "cost" -> longNumber,
       "name" -> nonEmptyText,
       "frequency" -> number,
       "category" -> text,
@@ -84,21 +84,21 @@ class Application @Inject()(mailerClient: MailerClient, actionBuilder: ActionBui
     subscriptionGiven.map {
       case (subscription) =>
         subscription match {
-          case Some(s) => Ok(views.html.editForm(id, subscriptionForm))
+          case Some(s) => Ok(views.html.editForm(id, subscriptionForm, subscription.get))
           case None => NotFound
         }
     }
   }
 
-  def update(id: Long) =  Action { implicit request =>
-
+  def update(id: Long) =  Action.async { implicit request =>
+    subscriptionsRepo.findById(id).map(s =>
     subscriptionForm.bindFromRequest.fold(
-      formWithErrors => BadRequest(views.html.editForm(id, formWithErrors)),
+      formWithErrors => BadRequest(views.html.editForm(id, formWithErrors, s.get)),
       subscription => {
           subscriptionsRepo.update(id, subscription)
           Home.flashing("success" -> "Subscription updated")
       }
-    )
+    ))
   }
 
   def save(id: String) = Action { implicit request =>

@@ -175,8 +175,8 @@ class EmailController @Inject()(application: Application, mailerClient: MailerCl
                     <table cellspacing="0" cellpadding="0" border="0" width="100%">
                         <tr>
                             <td style="padding: 40px; font-family: sans-serif; font-size: 15px; mso-height-rule: exactly; line-height: 20px; color: #555555;">
-           |                ${renewList.items.map(s => s.name).toList.mkString("\n")}
-           |
+                            ${renewList.items.map(s => s).toList.mkString("\n")}
+
                                 <br><br>
                                 <!-- Button : Begin -->
                                 <table cellspacing="0" cellpadding="0" border="0" align="center" style="Margin: auto;">

@@ -1,8 +1,8 @@
-@(id: Long, subscriptionForm: Form[Subscription])(implicit messages: Messages)
+@(id: Long, subscriptionForm: Form[Subscription], subscription: Subscription)(implicit messages: Messages)
 
     @import helper._
 
-    @noUser {
+@noUser {
     <div class="container-fluid">
         <h1 class="modal-header">Edit Subscription</h1>
 
@@ -19,8 +19,8 @@
             </dl>
 
             <dl class="form-group" id="cost">
-                <dt><label>Cost of Renewal</label></dt>
-                <dd><input type="number" class="form-control" name="cost" placeholder="Cost of Renewal"/></dd>
+                <dt><label>Cost of renewal</label></dt>
+                <dd><input type="number" class="form-control" name="cost" placeholder="@subscription.cost"/></dd>
             </dl>
 
             <dl class="form-group">
@@ -35,7 +35,7 @@
                 <dt><label for="frequency">Frequency of Renewal</label></dt>
 
                 <dd><select name="frequency" class="form-control">
-                    <option selected disabled>Select a frequency...</option>
+                    <option selected value="@subscription.frequency">Every @subscription.frequency days</option>
                     <option value="7">Every week</option>
                     <option value="14">Every two weeks</option>
                     <option value="30">Once a month</option>
@@ -50,7 +50,7 @@
                 <dt><label for="category">Subscription Category</label></dt>
 
                 <dd><select name="category" class="form-control">
-                    <option selected disabled>Choose a category...</option>
+                    <option selected value="@subscription.category">@subscription.category</option>
                     <option value="Business">Business</option>
                     <option value="Education">Education</option>
                     <option value="Entertainment">Entertainment</option>
@@ -58,18 +58,20 @@
                 </select></dd>
             </dl>
 
+            <input type="hidden" name="userId" value="@subscription.userId" />
+
         </fieldset>
 
         <div class="button-bar">
             <input type="submit" value="Save subscription" class="btn btn-success" style="width: 14.85em">
             <a href="@routes.Application.list()" class="btn btn-danger" style="width: 14.85em">Cancel</a>
-
         }
+        </div>
 
         @form(routes.Application.delete(id)) {
             <input type="submit" value="Delete subscription" class="btn btn-warning" style="width: 30em">
         }
-    </div>
+
     </div>
 }
 

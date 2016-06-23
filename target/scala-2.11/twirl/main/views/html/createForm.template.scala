@@ -29,10 +29,10 @@ class createForm extends BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendable,
 Seq[Any](format.raw/*4.81*/("""
 
 """),_display_(/*6.2*/noUser/*6.8*/ {_display_(Seq[Any](format.raw/*6.10*/("""
-    """),format.raw/*7.5*/("""<div class="container-fluid">
 
-    <h1 class="modal-header"> Add a Subscription </h1>
+    """),format.raw/*8.5*/("""<h1 class="modal-header"> Add a subscription </h1>
 
+    <div class="container-fluid">
     """),_display_(/*11.6*/form(routes.Application.save(user.userId))/*11.48*/ {_display_(Seq[Any](format.raw/*11.50*/("""
         """),format.raw/*12.9*/("""<fieldset>
 
@@ -45,8 +45,8 @@ Seq[Any](format.raw/*4.81*/("""
             </dl>
 
             <dl class="form-group" id="cost">
-                <dt><label>Cost of Renewal</label></dt>
-                    <dd><input type="number" class="form-control" name="cost" placeholder="Cost of Renewal"/></dd>
+                <dt><label>Cost of renewal</label></dt>
+                    <dd><input type="number" class="form-control" name="cost" placeholder="Enter the cost of renewal"/></dd>
             </dl>
 
             <dl class="form-group">
@@ -117,11 +117,11 @@ Seq[Any](format.raw/*4.81*/("""
 object createForm extends createForm_Scope0.createForm_Scope1.createForm
               /*
                   -- GENERATED --
-                  DATE: Wed Jun 22 14:27:04 CDT 2016
+                  DATE: Thu Jun 23 13:26:23 CDT 2016
                   SOURCE: /Users/tristangreeno/workspace/PlayProject/app/views/createForm.scala.html
-                  HASH: c84b065134e7d36ab0ebf4d4eb7f1706eb32cc62
-                  MATRIX: 628->36|802->115|830->118|843->124|882->126|913->131|1031->223|1082->265|1122->267|1158->276|3348->2439|3361->2443|3385->2446|3605->2639|3620->2645|3660->2664|3780->2754
-                  LINES: 24->4|29->4|31->6|31->6|31->6|32->7|36->11|36->11|36->11|37->12|87->62|87->62|87->62|95->70|95->70|95->70|98->73
+                  HASH: f801323ca8dec69fa7ff75c61e298e71dd262354
+                  MATRIX: 628->36|802->115|830->118|843->124|882->126|914->132|1031->223|1082->265|1122->267|1158->276|3358->2449|3371->2453|3395->2456|3615->2649|3630->2655|3670->2674|3790->2764
+                  LINES: 24->4|29->4|31->6|31->6|31->6|33->8|36->11|36->11|36->11|37->12|87->62|87->62|87->62|95->70|95->70|95->70|98->73
                   -- GENERATED --
               */
           

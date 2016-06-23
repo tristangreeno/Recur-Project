@@ -4,10 +4,10 @@
 @(subscriptionForm: Form[Subscription], user: User)(implicit messages: Messages)
 
 @noUser {
+
+    <h1 class="modal-header"> Add a subscription </h1>
+
     <div class="container-fluid">
-
-    <h1 class="modal-header"> Add a Subscription </h1>
-
     @form(routes.Application.save(user.userId)) {
         <fieldset>
 
@@ -20,8 +20,8 @@
             </dl>
 
             <dl class="form-group" id="cost">
-                <dt><label>Cost of Renewal</label></dt>
-                    <dd><input type="number" class="form-control" name="cost" placeholder="Cost of Renewal"/></dd>
+                <dt><label>Cost of renewal</label></dt>
+                    <dd><input type="number" class="form-control" name="cost" placeholder="Enter the cost of renewal"/></dd>
             </dl>
 
             <dl class="form-group">
